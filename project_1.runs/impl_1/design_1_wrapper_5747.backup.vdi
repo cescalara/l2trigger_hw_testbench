@@ -1,0 +1,14 @@
+#-----------------------------------------------------------
+# Vivado v2016.2 (64-bit)
+# SW Build 1577090 on Thu Jun  2 16:32:35 MDT 2016
+# IP Build 1577682 on Fri Jun  3 12:00:54 MDT 2016
+# Start of session at: Tue Dec 27 18:40:55 2016
+# Process ID: 5747
+# Current directory: /home/alexander/xil_proj/pdm_zynq_board/current/project_1.runs/impl_1
+# Command line: vivado -log design_1_wrapper.vdi -applog -messageDb vivado.pb -mode batch -source design_1_wrapper.tcl -notrace
+# Log file: /home/alexander/xil_proj/pdm_zynq_board/current/project_1.runs/impl_1/design_1_wrapper.vdi
+# Journal file: /home/alexander/xil_proj/pdm_zynq_board/current/project_1.runs/impl_1/vivado.jou
+#-----------------------------------------------------------
+source design_1_wrapper.tcl -notrace
+Design is defaulting to srcset: sources_1
+Design is defaulting to constrset: constrs_1

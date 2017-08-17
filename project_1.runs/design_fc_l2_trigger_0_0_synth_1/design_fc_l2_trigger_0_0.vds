@@ -1,0 +1,944 @@
+#-----------------------------------------------------------
+# Vivado v2016.2 (64-bit)
+# SW Build 1577090 on Thu Jun  2 16:32:35 MDT 2016
+# IP Build 1577682 on Fri Jun  3 12:00:54 MDT 2016
+# Start of session at: Thu Jun  1 15:22:15 2017
+# Process ID: 13207
+# Current directory: /home/francesca/xil_proj/trig_testbench_F/project_1.runs/design_fc_l2_trigger_0_0_synth_1
+# Command line: vivado -log design_fc_l2_trigger_0_0.vds -mode batch -messageDb vivado.pb -notrace -source design_fc_l2_trigger_0_0.tcl
+# Log file: /home/francesca/xil_proj/trig_testbench_F/project_1.runs/design_fc_l2_trigger_0_0_synth_1/design_fc_l2_trigger_0_0.vds
+# Journal file: /home/francesca/xil_proj/trig_testbench_F/project_1.runs/design_fc_l2_trigger_0_0_synth_1/vivado.jou
+#-----------------------------------------------------------
+source design_fc_l2_trigger_0_0.tcl -notrace
+Command: synth_design -top design_fc_l2_trigger_0_0 -part xc7z030ffg676-2 -mode out_of_context
+Starting synth_design
+Attempting to get a license for feature 'Synthesis' and/or device 'xc7z030'
+INFO: [Common 17-349] Got license for feature 'Synthesis' and/or device 'xc7z030'
+INFO: Launching helper process for spawning children vivado processes
+INFO: Helper process launched with PID 13213 
+---------------------------------------------------------------------------------
+Starting RTL Elaboration : Time (s): cpu = 00:00:06 ; elapsed = 00:00:07 . Memory (MB): peak = 1029.383 ; gain = 139.137 ; free physical = 7929 ; free virtual = 15431
+---------------------------------------------------------------------------------
+INFO: [Synth 8-638] synthesizing module 'design_fc_l2_trigger_0_0' [/home/francesca/xil_proj/trig_testbench_F/project_1.srcs/sources_1/bd/design_fc/ip/design_fc_l2_trigger_0_0/synth/design_fc_l2_trigger_0_0.vhd:101]
+INFO: [Synth 8-3491] module 'l2_trigger' declared at '/home/francesca/xil_proj/trig_testbench_F/project_1.srcs/sources_1/bd/design_fc/ipshared/xilinx.com/l2_trigger_v1_0/hdl/vhdl/l2_trigger.vhd:12' bound to instance 'U0' of component 'l2_trigger' [/home/francesca/xil_proj/trig_testbench_F/project_1.srcs/sources_1/bd/design_fc/ip/design_fc_l2_trigger_0_0/synth/design_fc_l2_trigger_0_0.vhd:199]
+INFO: [Synth 8-638] synthesizing module 'l2_trigger' [/home/francesca/xil_proj/trig_testbench_F/project_1.srcs/sources_1/bd/design_fc/ipshared/xilinx.com/l2_trigger_v1_0/hdl/vhdl/l2_trigger.vhd:60]
+INFO: [Synth 8-5534] Detected attribute (* fsm_encoding = "none" *) [/home/francesca/xil_proj/trig_testbench_F/project_1.srcs/sources_1/bd/design_fc/ipshared/xilinx.com/l2_trigger_v1_0/hdl/vhdl/l2_trigger.vhd:191]
+INFO: [Synth 8-3491] module 'l2_trigger_CTRL_BUS_s_axi' declared at '/home/francesca/xil_proj/trig_testbench_F/project_1.srcs/sources_1/bd/design_fc/ipshared/xilinx.com/l2_trigger_v1_0/hdl/vhdl/l2_trigger_CTRL_BUS_s_axi.vhd:12' bound to instance 'l2_trigger_CTRL_BUS_s_axi_U' of component 'l2_trigger_CTRL_BUS_s_axi' [/home/francesca/xil_proj/trig_testbench_F/project_1.srcs/sources_1/bd/design_fc/ipshared/xilinx.com/l2_trigger_v1_0/hdl/vhdl/l2_trigger.vhd:592]
+INFO: [Synth 8-638] synthesizing module 'l2_trigger_CTRL_BUS_s_axi' [/home/francesca/xil_proj/trig_testbench_F/project_1.srcs/sources_1/bd/design_fc/ipshared/xilinx.com/l2_trigger_v1_0/hdl/vhdl/l2_trigger_CTRL_BUS_s_axi.vhd:73]
+INFO: [Synth 8-256] done synthesizing module 'l2_trigger_CTRL_BUS_s_axi' (1#1) [/home/francesca/xil_proj/trig_testbench_F/project_1.srcs/sources_1/bd/design_fc/ipshared/xilinx.com/l2_trigger_v1_0/hdl/vhdl/l2_trigger_CTRL_BUS_s_axi.vhd:73]
+INFO: [Synth 8-3491] module 'l2_trigger_sum_overP1' declared at '/home/francesca/xil_proj/trig_testbench_F/project_1.srcs/sources_1/bd/design_fc/ipshared/xilinx.com/l2_trigger_v1_0/hdl/vhdl/l2_trigger_sum_overP1.vhd:77' bound to instance 'sum_overP1_U' of component 'l2_trigger_sum_overP1' [/home/francesca/xil_proj/trig_testbench_F/project_1.srcs/sources_1/bd/design_fc/ipshared/xilinx.com/l2_trigger_v1_0/hdl/vhdl/l2_trigger.vhd:624]
+INFO: [Synth 8-638] synthesizing module 'l2_trigger_sum_overP1' [/home/francesca/xil_proj/trig_testbench_F/project_1.srcs/sources_1/bd/design_fc/ipshared/xilinx.com/l2_trigger_v1_0/hdl/vhdl/l2_trigger_sum_overP1.vhd:92]
+INFO: [Synth 8-3491] module 'l2_trigger_sum_overP1_ram' declared at '/home/francesca/xil_proj/trig_testbench_F/project_1.srcs/sources_1/bd/design_fc/ipshared/xilinx.com/l2_trigger_v1_0/hdl/vhdl/l2_trigger_sum_overP1.vhd:13' bound to instance 'l2_trigger_sum_overP1_ram_U' of component 'l2_trigger_sum_overP1_ram' [/home/francesca/xil_proj/trig_testbench_F/project_1.srcs/sources_1/bd/design_fc/ipshared/xilinx.com/l2_trigger_v1_0/hdl/vhdl/l2_trigger_sum_overP1.vhd:106]
+INFO: [Synth 8-638] synthesizing module 'l2_trigger_sum_overP1_ram' [/home/francesca/xil_proj/trig_testbench_F/project_1.srcs/sources_1/bd/design_fc/ipshared/xilinx.com/l2_trigger_v1_0/hdl/vhdl/l2_trigger_sum_overP1.vhd:31]
+INFO: [Synth 8-256] done synthesizing module 'l2_trigger_sum_overP1_ram' (2#1) [/home/francesca/xil_proj/trig_testbench_F/project_1.srcs/sources_1/bd/design_fc/ipshared/xilinx.com/l2_trigger_v1_0/hdl/vhdl/l2_trigger_sum_overP1.vhd:31]
+INFO: [Synth 8-256] done synthesizing module 'l2_trigger_sum_overP1' (3#1) [/home/francesca/xil_proj/trig_testbench_F/project_1.srcs/sources_1/bd/design_fc/ipshared/xilinx.com/l2_trigger_v1_0/hdl/vhdl/l2_trigger_sum_overP1.vhd:92]
+INFO: [Synth 8-3491] module 'l2_trigger_sum_overP1' declared at '/home/francesca/xil_proj/trig_testbench_F/project_1.srcs/sources_1/bd/design_fc/ipshared/xilinx.com/l2_trigger_v1_0/hdl/vhdl/l2_trigger_sum_overP1.vhd:77' bound to instance 'sum_overP2_U' of component 'l2_trigger_sum_overP1' [/home/francesca/xil_proj/trig_testbench_F/project_1.srcs/sources_1/bd/design_fc/ipshared/xilinx.com/l2_trigger_v1_0/hdl/vhdl/l2_trigger.vhd:638]
+INFO: [Synth 8-3491] module 'l2_trigger_sum_overP1' declared at '/home/francesca/xil_proj/trig_testbench_F/project_1.srcs/sources_1/bd/design_fc/ipshared/xilinx.com/l2_trigger_v1_0/hdl/vhdl/l2_trigger_sum_overP1.vhd:77' bound to instance 'sum_pix1_U' of component 'l2_trigger_sum_overP1' [/home/francesca/xil_proj/trig_testbench_F/project_1.srcs/sources_1/bd/design_fc/ipshared/xilinx.com/l2_trigger_v1_0/hdl/vhdl/l2_trigger.vhd:652]
+INFO: [Synth 8-3491] module 'l2_trigger_data_shift1' declared at '/home/francesca/xil_proj/trig_testbench_F/project_1.srcs/sources_1/bd/design_fc/ipshared/xilinx.com/l2_trigger_v1_0/hdl/vhdl/l2_trigger_data_shift1.vhd:77' bound to instance 'data_shift1_U' of component 'l2_trigger_data_shift1' [/home/francesca/xil_proj/trig_testbench_F/project_1.srcs/sources_1/bd/design_fc/ipshared/xilinx.com/l2_trigger_v1_0/hdl/vhdl/l2_trigger.vhd:666]
+INFO: [Synth 8-638] synthesizing module 'l2_trigger_data_shift1' [/home/francesca/xil_proj/trig_testbench_F/project_1.srcs/sources_1/bd/design_fc/ipshared/xilinx.com/l2_trigger_v1_0/hdl/vhdl/l2_trigger_data_shift1.vhd:92]
+INFO: [Synth 8-3491] module 'l2_trigger_data_shift1_ram' declared at '/home/francesca/xil_proj/trig_testbench_F/project_1.srcs/sources_1/bd/design_fc/ipshared/xilinx.com/l2_trigger_v1_0/hdl/vhdl/l2_trigger_data_shift1.vhd:13' bound to instance 'l2_trigger_data_shift1_ram_U' of component 'l2_trigger_data_shift1_ram' [/home/francesca/xil_proj/trig_testbench_F/project_1.srcs/sources_1/bd/design_fc/ipshared/xilinx.com/l2_trigger_v1_0/hdl/vhdl/l2_trigger_data_shift1.vhd:106]
+INFO: [Synth 8-638] synthesizing module 'l2_trigger_data_shift1_ram' [/home/francesca/xil_proj/trig_testbench_F/project_1.srcs/sources_1/bd/design_fc/ipshared/xilinx.com/l2_trigger_v1_0/hdl/vhdl/l2_trigger_data_shift1.vhd:31]
+INFO: [Synth 8-256] done synthesizing module 'l2_trigger_data_shift1_ram' (4#1) [/home/francesca/xil_proj/trig_testbench_F/project_1.srcs/sources_1/bd/design_fc/ipshared/xilinx.com/l2_trigger_v1_0/hdl/vhdl/l2_trigger_data_shift1.vhd:31]
+INFO: [Synth 8-256] done synthesizing module 'l2_trigger_data_shift1' (5#1) [/home/francesca/xil_proj/trig_testbench_F/project_1.srcs/sources_1/bd/design_fc/ipshared/xilinx.com/l2_trigger_v1_0/hdl/vhdl/l2_trigger_data_shift1.vhd:92]
+INFO: [Synth 8-3491] module 'l2_trigger_sum_overP1' declared at '/home/francesca/xil_proj/trig_testbench_F/project_1.srcs/sources_1/bd/design_fc/ipshared/xilinx.com/l2_trigger_v1_0/hdl/vhdl/l2_trigger_sum_overP1.vhd:77' bound to instance 'thresh1_U' of component 'l2_trigger_sum_overP1' [/home/francesca/xil_proj/trig_testbench_F/project_1.srcs/sources_1/bd/design_fc/ipshared/xilinx.com/l2_trigger_v1_0/hdl/vhdl/l2_trigger.vhd:680]
+INFO: [Synth 8-3491] module 'l2_trigger_sum_overP1' declared at '/home/francesca/xil_proj/trig_testbench_F/project_1.srcs/sources_1/bd/design_fc/ipshared/xilinx.com/l2_trigger_v1_0/hdl/vhdl/l2_trigger_sum_overP1.vhd:77' bound to instance 'sum_pix2_U' of component 'l2_trigger_sum_overP1' [/home/francesca/xil_proj/trig_testbench_F/project_1.srcs/sources_1/bd/design_fc/ipshared/xilinx.com/l2_trigger_v1_0/hdl/vhdl/l2_trigger.vhd:694]
+INFO: [Synth 8-3491] module 'l2_trigger_data_shift1' declared at '/home/francesca/xil_proj/trig_testbench_F/project_1.srcs/sources_1/bd/design_fc/ipshared/xilinx.com/l2_trigger_v1_0/hdl/vhdl/l2_trigger_data_shift1.vhd:77' bound to instance 'data_shift2_U' of component 'l2_trigger_data_shift1' [/home/francesca/xil_proj/trig_testbench_F/project_1.srcs/sources_1/bd/design_fc/ipshared/xilinx.com/l2_trigger_v1_0/hdl/vhdl/l2_trigger.vhd:708]
+INFO: [Synth 8-3491] module 'l2_trigger_sum_overP1' declared at '/home/francesca/xil_proj/trig_testbench_F/project_1.srcs/sources_1/bd/design_fc/ipshared/xilinx.com/l2_trigger_v1_0/hdl/vhdl/l2_trigger_sum_overP1.vhd:77' bound to instance 'thresh2_U' of component 'l2_trigger_sum_overP1' [/home/francesca/xil_proj/trig_testbench_F/project_1.srcs/sources_1/bd/design_fc/ipshared/xilinx.com/l2_trigger_v1_0/hdl/vhdl/l2_trigger.vhd:722]
+INFO: [Synth 8-3491] module 'l2_trigger_dadd_64ns_64ns_64_5_full_dsp' declared at '/home/francesca/xil_proj/trig_testbench_F/project_1.srcs/sources_1/bd/design_fc/ipshared/xilinx.com/l2_trigger_v1_0/hdl/vhdl/l2_trigger_dadd_64ns_64ns_64_5_full_dsp.vhd:11' bound to instance 'l2_trigger_dadd_64ns_64ns_64_5_full_dsp_U1' of component 'l2_trigger_dadd_64ns_64ns_64_5_full_dsp' [/home/francesca/xil_proj/trig_testbench_F/project_1.srcs/sources_1/bd/design_fc/ipshared/xilinx.com/l2_trigger_v1_0/hdl/vhdl/l2_trigger.vhd:736]
+INFO: [Synth 8-638] synthesizing module 'l2_trigger_dadd_64ns_64ns_64_5_full_dsp' [/home/francesca/xil_proj/trig_testbench_F/project_1.srcs/sources_1/bd/design_fc/ipshared/xilinx.com/l2_trigger_v1_0/hdl/vhdl/l2_trigger_dadd_64ns_64ns_64_5_full_dsp.vhd:29]
+INFO: [Synth 8-3491] module 'l2_trigger_ap_dadd_3_full_dsp_64' declared at '/home/francesca/xil_proj/trig_testbench_F/project_1.srcs/sources_1/bd/design_fc/ipshared/xilinx.com/l2_trigger_v1_0/hdl/ip/l2_trigger_ap_dadd_3_full_dsp_64.vhd:59' bound to instance 'l2_trigger_ap_dadd_3_full_dsp_64_u' of component 'l2_trigger_ap_dadd_3_full_dsp_64' [/home/francesca/xil_proj/trig_testbench_F/project_1.srcs/sources_1/bd/design_fc/ipshared/xilinx.com/l2_trigger_v1_0/hdl/vhdl/l2_trigger_dadd_64ns_64ns_64_5_full_dsp.vhd:56]
+INFO: [Synth 8-638] synthesizing module 'l2_trigger_ap_dadd_3_full_dsp_64' [/home/francesca/xil_proj/trig_testbench_F/project_1.srcs/sources_1/bd/design_fc/ipshared/xilinx.com/l2_trigger_v1_0/hdl/ip/l2_trigger_ap_dadd_3_full_dsp_64.vhd:72]
+INFO: [Synth 8-3491] module 'floating_point_v7_1_2' declared at '/home/francesca/xil_proj/trig_testbench_F/project_1.srcs/sources_1/bd/design_fc/ipshared/xilinx.com/floating_point_v7_1/hdl/floating_point_v7_1_vh_rfs.vhd:91604' bound to instance 'U0' of component 'floating_point_v7_1_2' [/home/francesca/xil_proj/trig_testbench_F/project_1.srcs/sources_1/bd/design_fc/ipshared/xilinx.com/l2_trigger_v1_0/hdl/ip/l2_trigger_ap_dadd_3_full_dsp_64.vhd:197]
+INFO: [Synth 8-256] done synthesizing module 'l2_trigger_ap_dadd_3_full_dsp_64' (32#1) [/home/francesca/xil_proj/trig_testbench_F/project_1.srcs/sources_1/bd/design_fc/ipshared/xilinx.com/l2_trigger_v1_0/hdl/ip/l2_trigger_ap_dadd_3_full_dsp_64.vhd:72]
+INFO: [Synth 8-256] done synthesizing module 'l2_trigger_dadd_64ns_64ns_64_5_full_dsp' (33#1) [/home/francesca/xil_proj/trig_testbench_F/project_1.srcs/sources_1/bd/design_fc/ipshared/xilinx.com/l2_trigger_v1_0/hdl/vhdl/l2_trigger_dadd_64ns_64ns_64_5_full_dsp.vhd:29]
+INFO: [Synth 8-3491] module 'l2_trigger_dadd_64ns_64ns_64_5_full_dsp' declared at '/home/francesca/xil_proj/trig_testbench_F/project_1.srcs/sources_1/bd/design_fc/ipshared/xilinx.com/l2_trigger_v1_0/hdl/vhdl/l2_trigger_dadd_64ns_64ns_64_5_full_dsp.vhd:11' bound to instance 'l2_trigger_dadd_64ns_64ns_64_5_full_dsp_U2' of component 'l2_trigger_dadd_64ns_64ns_64_5_full_dsp' [/home/francesca/xil_proj/trig_testbench_F/project_1.srcs/sources_1/bd/design_fc/ipshared/xilinx.com/l2_trigger_v1_0/hdl/vhdl/l2_trigger.vhd:751]
+INFO: [Synth 8-3491] module 'l2_trigger_dmul_64ns_64ns_64_5_max_dsp' declared at '/home/francesca/xil_proj/trig_testbench_F/project_1.srcs/sources_1/bd/design_fc/ipshared/xilinx.com/l2_trigger_v1_0/hdl/vhdl/l2_trigger_dmul_64ns_64ns_64_5_max_dsp.vhd:11' bound to instance 'l2_trigger_dmul_64ns_64ns_64_5_max_dsp_U3' of component 'l2_trigger_dmul_64ns_64ns_64_5_max_dsp' [/home/francesca/xil_proj/trig_testbench_F/project_1.srcs/sources_1/bd/design_fc/ipshared/xilinx.com/l2_trigger_v1_0/hdl/vhdl/l2_trigger.vhd:766]
+INFO: [Synth 8-638] synthesizing module 'l2_trigger_dmul_64ns_64ns_64_5_max_dsp' [/home/francesca/xil_proj/trig_testbench_F/project_1.srcs/sources_1/bd/design_fc/ipshared/xilinx.com/l2_trigger_v1_0/hdl/vhdl/l2_trigger_dmul_64ns_64ns_64_5_max_dsp.vhd:29]
+INFO: [Synth 8-3491] module 'l2_trigger_ap_dmul_3_max_dsp_64' declared at '/home/francesca/xil_proj/trig_testbench_F/project_1.srcs/sources_1/bd/design_fc/ipshared/xilinx.com/l2_trigger_v1_0/hdl/ip/l2_trigger_ap_dmul_3_max_dsp_64.vhd:59' bound to instance 'l2_trigger_ap_dmul_3_max_dsp_64_u' of component 'l2_trigger_ap_dmul_3_max_dsp_64' [/home/francesca/xil_proj/trig_testbench_F/project_1.srcs/sources_1/bd/design_fc/ipshared/xilinx.com/l2_trigger_v1_0/hdl/vhdl/l2_trigger_dmul_64ns_64ns_64_5_max_dsp.vhd:56]
+INFO: [Synth 8-638] synthesizing module 'l2_trigger_ap_dmul_3_max_dsp_64' [/home/francesca/xil_proj/trig_testbench_F/project_1.srcs/sources_1/bd/design_fc/ipshared/xilinx.com/l2_trigger_v1_0/hdl/ip/l2_trigger_ap_dmul_3_max_dsp_64.vhd:72]
+INFO: [Synth 8-3491] module 'floating_point_v7_1_2' declared at '/home/francesca/xil_proj/trig_testbench_F/project_1.srcs/sources_1/bd/design_fc/ipshared/xilinx.com/floating_point_v7_1/hdl/floating_point_v7_1_vh_rfs.vhd:91604' bound to instance 'U0' of component 'floating_point_v7_1_2' [/home/francesca/xil_proj/trig_testbench_F/project_1.srcs/sources_1/bd/design_fc/ipshared/xilinx.com/l2_trigger_v1_0/hdl/ip/l2_trigger_ap_dmul_3_max_dsp_64.vhd:197]
+INFO: [Synth 8-256] done synthesizing module 'l2_trigger_ap_dmul_3_max_dsp_64' (40#1) [/home/francesca/xil_proj/trig_testbench_F/project_1.srcs/sources_1/bd/design_fc/ipshared/xilinx.com/l2_trigger_v1_0/hdl/ip/l2_trigger_ap_dmul_3_max_dsp_64.vhd:72]
+INFO: [Synth 8-256] done synthesizing module 'l2_trigger_dmul_64ns_64ns_64_5_max_dsp' (41#1) [/home/francesca/xil_proj/trig_testbench_F/project_1.srcs/sources_1/bd/design_fc/ipshared/xilinx.com/l2_trigger_v1_0/hdl/vhdl/l2_trigger_dmul_64ns_64ns_64_5_max_dsp.vhd:29]
+INFO: [Synth 8-3491] module 'l2_trigger_dmul_64ns_64ns_64_5_max_dsp' declared at '/home/francesca/xil_proj/trig_testbench_F/project_1.srcs/sources_1/bd/design_fc/ipshared/xilinx.com/l2_trigger_v1_0/hdl/vhdl/l2_trigger_dmul_64ns_64ns_64_5_max_dsp.vhd:11' bound to instance 'l2_trigger_dmul_64ns_64ns_64_5_max_dsp_U4' of component 'l2_trigger_dmul_64ns_64ns_64_5_max_dsp' [/home/francesca/xil_proj/trig_testbench_F/project_1.srcs/sources_1/bd/design_fc/ipshared/xilinx.com/l2_trigger_v1_0/hdl/vhdl/l2_trigger.vhd:781]
+INFO: [Synth 8-3491] module 'l2_trigger_uitodp_32ns_64_5' declared at '/home/francesca/xil_proj/trig_testbench_F/project_1.srcs/sources_1/bd/design_fc/ipshared/xilinx.com/l2_trigger_v1_0/hdl/vhdl/l2_trigger_uitodp_32ns_64_5.vhd:11' bound to instance 'l2_trigger_uitodp_32ns_64_5_U5' of component 'l2_trigger_uitodp_32ns_64_5' [/home/francesca/xil_proj/trig_testbench_F/project_1.srcs/sources_1/bd/design_fc/ipshared/xilinx.com/l2_trigger_v1_0/hdl/vhdl/l2_trigger.vhd:796]
+INFO: [Synth 8-638] synthesizing module 'l2_trigger_uitodp_32ns_64_5' [/home/francesca/xil_proj/trig_testbench_F/project_1.srcs/sources_1/bd/design_fc/ipshared/xilinx.com/l2_trigger_v1_0/hdl/vhdl/l2_trigger_uitodp_32ns_64_5.vhd:27]
+INFO: [Synth 8-3491] module 'l2_trigger_ap_uitodp_3_no_dsp_32' declared at '/home/francesca/xil_proj/trig_testbench_F/project_1.srcs/sources_1/bd/design_fc/ipshared/xilinx.com/l2_trigger_v1_0/hdl/ip/l2_trigger_ap_uitodp_3_no_dsp_32.vhd:59' bound to instance 'l2_trigger_ap_uitodp_3_no_dsp_32_u' of component 'l2_trigger_ap_uitodp_3_no_dsp_32' [/home/francesca/xil_proj/trig_testbench_F/project_1.srcs/sources_1/bd/design_fc/ipshared/xilinx.com/l2_trigger_v1_0/hdl/vhdl/l2_trigger_uitodp_32ns_64_5.vhd:49]
+INFO: [Synth 8-638] synthesizing module 'l2_trigger_ap_uitodp_3_no_dsp_32' [/home/francesca/xil_proj/trig_testbench_F/project_1.srcs/sources_1/bd/design_fc/ipshared/xilinx.com/l2_trigger_v1_0/hdl/ip/l2_trigger_ap_uitodp_3_no_dsp_32.vhd:70]
+INFO: [Synth 8-3491] module 'floating_point_v7_1_2' declared at '/home/francesca/xil_proj/trig_testbench_F/project_1.srcs/sources_1/bd/design_fc/ipshared/xilinx.com/floating_point_v7_1/hdl/floating_point_v7_1_vh_rfs.vhd:91604' bound to instance 'U0' of component 'floating_point_v7_1_2' [/home/francesca/xil_proj/trig_testbench_F/project_1.srcs/sources_1/bd/design_fc/ipshared/xilinx.com/l2_trigger_v1_0/hdl/ip/l2_trigger_ap_uitodp_3_no_dsp_32.vhd:193]
+INFO: [Synth 8-256] done synthesizing module 'l2_trigger_ap_uitodp_3_no_dsp_32' (45#1) [/home/francesca/xil_proj/trig_testbench_F/project_1.srcs/sources_1/bd/design_fc/ipshared/xilinx.com/l2_trigger_v1_0/hdl/ip/l2_trigger_ap_uitodp_3_no_dsp_32.vhd:70]
+INFO: [Synth 8-256] done synthesizing module 'l2_trigger_uitodp_32ns_64_5' (46#1) [/home/francesca/xil_proj/trig_testbench_F/project_1.srcs/sources_1/bd/design_fc/ipshared/xilinx.com/l2_trigger_v1_0/hdl/vhdl/l2_trigger_uitodp_32ns_64_5.vhd:27]
+INFO: [Synth 8-3491] module 'l2_trigger_uitodp_32ns_64_5' declared at '/home/francesca/xil_proj/trig_testbench_F/project_1.srcs/sources_1/bd/design_fc/ipshared/xilinx.com/l2_trigger_v1_0/hdl/vhdl/l2_trigger_uitodp_32ns_64_5.vhd:11' bound to instance 'l2_trigger_uitodp_32ns_64_5_U6' of component 'l2_trigger_uitodp_32ns_64_5' [/home/francesca/xil_proj/trig_testbench_F/project_1.srcs/sources_1/bd/design_fc/ipshared/xilinx.com/l2_trigger_v1_0/hdl/vhdl/l2_trigger.vhd:809]
+INFO: [Synth 8-3491] module 'l2_trigger_dsqrt_64ns_64ns_64_30' declared at '/home/francesca/xil_proj/trig_testbench_F/project_1.srcs/sources_1/bd/design_fc/ipshared/xilinx.com/l2_trigger_v1_0/hdl/vhdl/l2_trigger_dsqrt_64ns_64ns_64_30.vhd:11' bound to instance 'l2_trigger_dsqrt_64ns_64ns_64_30_U7' of component 'l2_trigger_dsqrt_64ns_64ns_64_30' [/home/francesca/xil_proj/trig_testbench_F/project_1.srcs/sources_1/bd/design_fc/ipshared/xilinx.com/l2_trigger_v1_0/hdl/vhdl/l2_trigger.vhd:822]
+INFO: [Synth 8-638] synthesizing module 'l2_trigger_dsqrt_64ns_64ns_64_30' [/home/francesca/xil_proj/trig_testbench_F/project_1.srcs/sources_1/bd/design_fc/ipshared/xilinx.com/l2_trigger_v1_0/hdl/vhdl/l2_trigger_dsqrt_64ns_64ns_64_30.vhd:29]
+INFO: [Synth 8-3491] module 'l2_trigger_ap_dsqrt_28_no_dsp_64' declared at '/home/francesca/xil_proj/trig_testbench_F/project_1.srcs/sources_1/bd/design_fc/ipshared/xilinx.com/l2_trigger_v1_0/hdl/ip/l2_trigger_ap_dsqrt_28_no_dsp_64.vhd:59' bound to instance 'l2_trigger_ap_dsqrt_28_no_dsp_64_u' of component 'l2_trigger_ap_dsqrt_28_no_dsp_64' [/home/francesca/xil_proj/trig_testbench_F/project_1.srcs/sources_1/bd/design_fc/ipshared/xilinx.com/l2_trigger_v1_0/hdl/vhdl/l2_trigger_dsqrt_64ns_64ns_64_30.vhd:51]
+INFO: [Synth 8-638] synthesizing module 'l2_trigger_ap_dsqrt_28_no_dsp_64' [/home/francesca/xil_proj/trig_testbench_F/project_1.srcs/sources_1/bd/design_fc/ipshared/xilinx.com/l2_trigger_v1_0/hdl/ip/l2_trigger_ap_dsqrt_28_no_dsp_64.vhd:70]
+INFO: [Synth 8-3491] module 'floating_point_v7_1_2' declared at '/home/francesca/xil_proj/trig_testbench_F/project_1.srcs/sources_1/bd/design_fc/ipshared/xilinx.com/floating_point_v7_1/hdl/floating_point_v7_1_vh_rfs.vhd:91604' bound to instance 'U0' of component 'floating_point_v7_1_2' [/home/francesca/xil_proj/trig_testbench_F/project_1.srcs/sources_1/bd/design_fc/ipshared/xilinx.com/l2_trigger_v1_0/hdl/ip/l2_trigger_ap_dsqrt_28_no_dsp_64.vhd:193]
+INFO: [Synth 8-256] done synthesizing module 'l2_trigger_ap_dsqrt_28_no_dsp_64' (51#1) [/home/francesca/xil_proj/trig_testbench_F/project_1.srcs/sources_1/bd/design_fc/ipshared/xilinx.com/l2_trigger_v1_0/hdl/ip/l2_trigger_ap_dsqrt_28_no_dsp_64.vhd:70]
+INFO: [Synth 8-256] done synthesizing module 'l2_trigger_dsqrt_64ns_64ns_64_30' (52#1) [/home/francesca/xil_proj/trig_testbench_F/project_1.srcs/sources_1/bd/design_fc/ipshared/xilinx.com/l2_trigger_v1_0/hdl/vhdl/l2_trigger_dsqrt_64ns_64ns_64_30.vhd:29]
+INFO: [Synth 8-3491] module 'l2_trigger_dsqrt_64ns_64ns_64_30' declared at '/home/francesca/xil_proj/trig_testbench_F/project_1.srcs/sources_1/bd/design_fc/ipshared/xilinx.com/l2_trigger_v1_0/hdl/vhdl/l2_trigger_dsqrt_64ns_64ns_64_30.vhd:11' bound to instance 'l2_trigger_dsqrt_64ns_64ns_64_30_U8' of component 'l2_trigger_dsqrt_64ns_64ns_64_30' [/home/francesca/xil_proj/trig_testbench_F/project_1.srcs/sources_1/bd/design_fc/ipshared/xilinx.com/l2_trigger_v1_0/hdl/vhdl/l2_trigger.vhd:837]
+INFO: [Synth 8-256] done synthesizing module 'l2_trigger' (53#1) [/home/francesca/xil_proj/trig_testbench_F/project_1.srcs/sources_1/bd/design_fc/ipshared/xilinx.com/l2_trigger_v1_0/hdl/vhdl/l2_trigger.vhd:60]
+INFO: [Synth 8-256] done synthesizing module 'design_fc_l2_trigger_0_0' (54#1) [/home/francesca/xil_proj/trig_testbench_F/project_1.srcs/sources_1/bd/design_fc/ip/design_fc_l2_trigger_0_0/synth/design_fc_l2_trigger_0_0.vhd:101]
+WARNING: [Synth 8-3331] design xbip_pipe_v3_0_2_viv__parameterized1240 has unconnected port SCLR
+WARNING: [Synth 8-3331] design xbip_pipe_v3_0_2_viv__parameterized1240 has unconnected port SSET
+WARNING: [Synth 8-3331] design xbip_pipe_v3_0_2_viv__parameterized1240 has unconnected port SINIT
+WARNING: [Synth 8-3331] design flt_dec_op__parameterized1 has unconnected port DEC_OP_STATE[11]
+WARNING: [Synth 8-3331] design flt_dec_op__parameterized1 has unconnected port DEC_OP_STATE[10]
+WARNING: [Synth 8-3331] design flt_dec_op__parameterized1 has unconnected port DEC_OP_STATE[9]
+WARNING: [Synth 8-3331] design flt_dec_op__parameterized1 has unconnected port DEC_OP_STATE[8]
+WARNING: [Synth 8-3331] design flt_dec_op__parameterized1 has unconnected port DIVIDE_BY_ZERO_IN
+WARNING: [Synth 8-3331] design xbip_pipe_v3_0_2_viv__parameterized1238 has unconnected port CLK
+WARNING: [Synth 8-3331] design xbip_pipe_v3_0_2_viv__parameterized1238 has unconnected port CE
+WARNING: [Synth 8-3331] design xbip_pipe_v3_0_2_viv__parameterized1238 has unconnected port SCLR
+WARNING: [Synth 8-3331] design xbip_pipe_v3_0_2_viv__parameterized1238 has unconnected port SSET
+WARNING: [Synth 8-3331] design xbip_pipe_v3_0_2_viv__parameterized1238 has unconnected port SINIT
+WARNING: [Synth 8-3331] design carry_chain__parameterized78 has unconnected port B[26]
+WARNING: [Synth 8-3331] design xbip_pipe_v3_0_2_viv__parameterized1236 has unconnected port CLK
+WARNING: [Synth 8-3331] design xbip_pipe_v3_0_2_viv__parameterized1236 has unconnected port CE
+WARNING: [Synth 8-3331] design xbip_pipe_v3_0_2_viv__parameterized1236 has unconnected port SCLR
+WARNING: [Synth 8-3331] design xbip_pipe_v3_0_2_viv__parameterized1236 has unconnected port SSET
+WARNING: [Synth 8-3331] design xbip_pipe_v3_0_2_viv__parameterized1236 has unconnected port SINIT
+WARNING: [Synth 8-3331] design xbip_pipe_v3_0_2_viv__parameterized1226 has unconnected port CLK
+WARNING: [Synth 8-3331] design xbip_pipe_v3_0_2_viv__parameterized1226 has unconnected port CE
+WARNING: [Synth 8-3331] design xbip_pipe_v3_0_2_viv__parameterized1226 has unconnected port SCLR
+WARNING: [Synth 8-3331] design xbip_pipe_v3_0_2_viv__parameterized1226 has unconnected port SSET
+WARNING: [Synth 8-3331] design xbip_pipe_v3_0_2_viv__parameterized1226 has unconnected port SINIT
+WARNING: [Synth 8-3331] design xbip_pipe_v3_0_2_viv__parameterized1224 has unconnected port CLK
+WARNING: [Synth 8-3331] design xbip_pipe_v3_0_2_viv__parameterized1224 has unconnected port CE
+WARNING: [Synth 8-3331] design xbip_pipe_v3_0_2_viv__parameterized1224 has unconnected port SCLR
+WARNING: [Synth 8-3331] design xbip_pipe_v3_0_2_viv__parameterized1224 has unconnected port SSET
+WARNING: [Synth 8-3331] design xbip_pipe_v3_0_2_viv__parameterized1224 has unconnected port SINIT
+WARNING: [Synth 8-3331] design xbip_pipe_v3_0_2_viv__parameterized1222 has unconnected port CLK
+WARNING: [Synth 8-3331] design xbip_pipe_v3_0_2_viv__parameterized1222 has unconnected port CE
+WARNING: [Synth 8-3331] design xbip_pipe_v3_0_2_viv__parameterized1222 has unconnected port SCLR
+WARNING: [Synth 8-3331] design xbip_pipe_v3_0_2_viv__parameterized1222 has unconnected port SSET
+WARNING: [Synth 8-3331] design xbip_pipe_v3_0_2_viv__parameterized1222 has unconnected port SINIT
+WARNING: [Synth 8-3331] design xbip_pipe_v3_0_2_viv__parameterized1220 has unconnected port CLK
+WARNING: [Synth 8-3331] design xbip_pipe_v3_0_2_viv__parameterized1220 has unconnected port CE
+WARNING: [Synth 8-3331] design xbip_pipe_v3_0_2_viv__parameterized1220 has unconnected port SCLR
+WARNING: [Synth 8-3331] design xbip_pipe_v3_0_2_viv__parameterized1220 has unconnected port SSET
+WARNING: [Synth 8-3331] design xbip_pipe_v3_0_2_viv__parameterized1220 has unconnected port SINIT
+WARNING: [Synth 8-3331] design xbip_pipe_v3_0_2_viv__parameterized1234 has unconnected port CLK
+WARNING: [Synth 8-3331] design xbip_pipe_v3_0_2_viv__parameterized1234 has unconnected port CE
+WARNING: [Synth 8-3331] design xbip_pipe_v3_0_2_viv__parameterized1234 has unconnected port SCLR
+WARNING: [Synth 8-3331] design xbip_pipe_v3_0_2_viv__parameterized1234 has unconnected port SSET
+WARNING: [Synth 8-3331] design xbip_pipe_v3_0_2_viv__parameterized1234 has unconnected port SINIT
+WARNING: [Synth 8-3331] design xbip_pipe_v3_0_2_viv__parameterized169 has unconnected port CLK
+WARNING: [Synth 8-3331] design xbip_pipe_v3_0_2_viv__parameterized169 has unconnected port CE
+WARNING: [Synth 8-3331] design xbip_pipe_v3_0_2_viv__parameterized169 has unconnected port SCLR
+WARNING: [Synth 8-3331] design xbip_pipe_v3_0_2_viv__parameterized169 has unconnected port SSET
+WARNING: [Synth 8-3331] design xbip_pipe_v3_0_2_viv__parameterized169 has unconnected port SINIT
+WARNING: [Synth 8-3331] design flt_round_bit has unconnected port NORMALIZE[1]
+WARNING: [Synth 8-3331] design flt_round_bit has unconnected port FIXED_POINT
+WARNING: [Synth 8-3331] design flt_round_bit has unconnected port FIX_MANT_SIGN
+WARNING: [Synth 8-3331] design flt_round_bit has unconnected port SIGN
+WARNING: [Synth 8-3331] design xbip_pipe_v3_0_2_viv__parameterized1232 has unconnected port CLK
+WARNING: [Synth 8-3331] design xbip_pipe_v3_0_2_viv__parameterized1232 has unconnected port CE
+WARNING: [Synth 8-3331] design xbip_pipe_v3_0_2_viv__parameterized1232 has unconnected port SCLR
+WARNING: [Synth 8-3331] design xbip_pipe_v3_0_2_viv__parameterized1232 has unconnected port SSET
+WARNING: [Synth 8-3331] design xbip_pipe_v3_0_2_viv__parameterized1232 has unconnected port SINIT
+WARNING: [Synth 8-3331] design xbip_pipe_v3_0_2_viv__parameterized1230 has unconnected port CLK
+WARNING: [Synth 8-3331] design xbip_pipe_v3_0_2_viv__parameterized1230 has unconnected port CE
+WARNING: [Synth 8-3331] design xbip_pipe_v3_0_2_viv__parameterized1230 has unconnected port SCLR
+WARNING: [Synth 8-3331] design xbip_pipe_v3_0_2_viv__parameterized1230 has unconnected port SSET
+WARNING: [Synth 8-3331] design xbip_pipe_v3_0_2_viv__parameterized1230 has unconnected port SINIT
+WARNING: [Synth 8-3331] design xbip_pipe_v3_0_2_viv__parameterized1228 has unconnected port CLK
+WARNING: [Synth 8-3331] design xbip_pipe_v3_0_2_viv__parameterized1228 has unconnected port CE
+WARNING: [Synth 8-3331] design xbip_pipe_v3_0_2_viv__parameterized1228 has unconnected port SCLR
+WARNING: [Synth 8-3331] design xbip_pipe_v3_0_2_viv__parameterized1228 has unconnected port SSET
+WARNING: [Synth 8-3331] design xbip_pipe_v3_0_2_viv__parameterized1228 has unconnected port SINIT
+WARNING: [Synth 8-3331] design xbip_pipe_v3_0_2_viv__parameterized1218 has unconnected port CLK
+WARNING: [Synth 8-3331] design xbip_pipe_v3_0_2_viv__parameterized1218 has unconnected port CE
+WARNING: [Synth 8-3331] design xbip_pipe_v3_0_2_viv__parameterized1218 has unconnected port SCLR
+WARNING: [Synth 8-3331] design xbip_pipe_v3_0_2_viv__parameterized1218 has unconnected port SSET
+WARNING: [Synth 8-3331] design xbip_pipe_v3_0_2_viv__parameterized1218 has unconnected port SINIT
+WARNING: [Synth 8-3331] design xbip_pipe_v3_0_2_viv__parameterized1216 has unconnected port CLK
+WARNING: [Synth 8-3331] design xbip_pipe_v3_0_2_viv__parameterized1216 has unconnected port CE
+WARNING: [Synth 8-3331] design xbip_pipe_v3_0_2_viv__parameterized1216 has unconnected port SCLR
+WARNING: [Synth 8-3331] design xbip_pipe_v3_0_2_viv__parameterized1216 has unconnected port SSET
+WARNING: [Synth 8-3331] design xbip_pipe_v3_0_2_viv__parameterized1216 has unconnected port SINIT
+WARNING: [Synth 8-3331] design xbip_pipe_v3_0_2_viv__parameterized1214 has unconnected port CLK
+WARNING: [Synth 8-3331] design xbip_pipe_v3_0_2_viv__parameterized1214 has unconnected port CE
+WARNING: [Synth 8-3331] design xbip_pipe_v3_0_2_viv__parameterized1214 has unconnected port SCLR
+WARNING: [Synth 8-3331] design xbip_pipe_v3_0_2_viv__parameterized1214 has unconnected port SSET
+WARNING: [Synth 8-3331] design xbip_pipe_v3_0_2_viv__parameterized1214 has unconnected port SINIT
+WARNING: [Synth 8-3331] design xbip_pipe_v3_0_2_viv__parameterized1212 has unconnected port CLK
+WARNING: [Synth 8-3331] design xbip_pipe_v3_0_2_viv__parameterized1212 has unconnected port CE
+WARNING: [Synth 8-3331] design xbip_pipe_v3_0_2_viv__parameterized1212 has unconnected port SCLR
+WARNING: [Synth 8-3331] design xbip_pipe_v3_0_2_viv__parameterized1212 has unconnected port SSET
+WARNING: [Synth 8-3331] design xbip_pipe_v3_0_2_viv__parameterized1212 has unconnected port SINIT
+WARNING: [Synth 8-3331] design xbip_pipe_v3_0_2_viv__parameterized1210 has unconnected port CLK
+WARNING: [Synth 8-3331] design xbip_pipe_v3_0_2_viv__parameterized1210 has unconnected port CE
+WARNING: [Synth 8-3331] design xbip_pipe_v3_0_2_viv__parameterized1210 has unconnected port SCLR
+WARNING: [Synth 8-3331] design xbip_pipe_v3_0_2_viv__parameterized1210 has unconnected port SSET
+WARNING: [Synth 8-3331] design xbip_pipe_v3_0_2_viv__parameterized1210 has unconnected port SINIT
+WARNING: [Synth 8-3331] design xbip_pipe_v3_0_2_viv__parameterized1208 has unconnected port CLK
+WARNING: [Synth 8-3331] design xbip_pipe_v3_0_2_viv__parameterized1208 has unconnected port CE
+WARNING: [Synth 8-3331] design xbip_pipe_v3_0_2_viv__parameterized1208 has unconnected port SCLR
+WARNING: [Synth 8-3331] design xbip_pipe_v3_0_2_viv__parameterized1208 has unconnected port SSET
+WARNING: [Synth 8-3331] design xbip_pipe_v3_0_2_viv__parameterized1208 has unconnected port SINIT
+WARNING: [Synth 8-3331] design xbip_pipe_v3_0_2_viv__parameterized1206 has unconnected port CLK
+WARNING: [Synth 8-3331] design xbip_pipe_v3_0_2_viv__parameterized1206 has unconnected port CE
+INFO: [Common 17-14] Message 'Synth 8-3331' appears 100 times and further instances of the messages will be disabled. Use the Tcl command set_msg_config to change the current settings.
+---------------------------------------------------------------------------------
+Finished RTL Elaboration : Time (s): cpu = 00:00:26 ; elapsed = 00:00:27 . Memory (MB): peak = 1212.828 ; gain = 322.582 ; free physical = 7734 ; free virtual = 15243
+---------------------------------------------------------------------------------
+
+Report Check Netlist: 
++------+------------------+-------+---------+-------+------------------+
+|      |Item              |Errors |Warnings |Status |Description       |
++------+------------------+-------+---------+-------+------------------+
+|1     |multi_driven_nets |      0|        0|Passed |Multi driven nets |
++------+------------------+-------+---------+-------+------------------+
+---------------------------------------------------------------------------------
+Finished RTL Optimization Phase 1 : Time (s): cpu = 00:00:27 ; elapsed = 00:00:28 . Memory (MB): peak = 1212.828 ; gain = 322.582 ; free physical = 7734 ; free virtual = 15243
+---------------------------------------------------------------------------------
+INFO: [Netlist 29-17] Analyzing 8156 Unisim elements for replacement
+INFO: [Netlist 29-28] Unisim Transformation completed in 0 CPU seconds
+INFO: [Device 21-403] Loading part xc7z030ffg676-2
+INFO: [Project 1-570] Preparing netlist for logic optimization
+
+Processing XDC Constraints
+Initializing timing engine
+Parsing XDC File [/home/francesca/xil_proj/trig_testbench_F/project_1.srcs/sources_1/bd/design_fc/ip/design_fc_l2_trigger_0_0/constraints/l2_trigger_ooc.xdc] for cell 'U0'
+Finished Parsing XDC File [/home/francesca/xil_proj/trig_testbench_F/project_1.srcs/sources_1/bd/design_fc/ip/design_fc_l2_trigger_0_0/constraints/l2_trigger_ooc.xdc] for cell 'U0'
+Parsing XDC File [/home/francesca/xil_proj/trig_testbench_F/project_1.runs/design_fc_l2_trigger_0_0_synth_1/dont_touch.xdc]
+Finished Parsing XDC File [/home/francesca/xil_proj/trig_testbench_F/project_1.runs/design_fc_l2_trigger_0_0_synth_1/dont_touch.xdc]
+Completed Processing XDC Constraints
+
+INFO: [Project 1-111] Unisim Transformation Summary:
+  A total of 10 instances were transformed.
+  FDE => FDRE: 10 instances
+
+Constraint Validation Runtime : Time (s): cpu = 00:00:00.48 ; elapsed = 00:00:00.43 . Memory (MB): peak = 1570.730 ; gain = 5.000 ; free physical = 7450 ; free virtual = 15006
+---------------------------------------------------------------------------------
+Finished Constraint Validation : Time (s): cpu = 00:00:43 ; elapsed = 00:00:44 . Memory (MB): peak = 1570.734 ; gain = 680.488 ; free physical = 7448 ; free virtual = 15004
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Loading Part and Timing Information
+---------------------------------------------------------------------------------
+Loading part: xc7z030ffg676-2
+---------------------------------------------------------------------------------
+Finished Loading Part and Timing Information : Time (s): cpu = 00:00:43 ; elapsed = 00:00:44 . Memory (MB): peak = 1570.734 ; gain = 680.488 ; free physical = 7448 ; free virtual = 15004
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Applying 'set_property' XDC Constraints
+---------------------------------------------------------------------------------
+Applied set_property DONT_TOUCH = true for U0. (constraint file  auto generated constraint, line ).
+---------------------------------------------------------------------------------
+Finished applying 'set_property' XDC Constraints : Time (s): cpu = 00:00:43 ; elapsed = 00:00:45 . Memory (MB): peak = 1570.734 ; gain = 680.488 ; free physical = 7448 ; free virtual = 15004
+---------------------------------------------------------------------------------
+INFO: [Synth 8-5544] ROM "AWREADY_t" won't be mapped to Block RAM because address size (3) smaller than threshold (5)
+INFO: [Synth 8-5544] ROM "WREADY_t" won't be mapped to Block RAM because address size (3) smaller than threshold (5)
+INFO: [Synth 8-5544] ROM "BVALID" won't be mapped to Block RAM because address size (3) smaller than threshold (5)
+INFO: [Synth 8-5544] ROM "ARREADY_t" won't be mapped to Block RAM because address size (3) smaller than threshold (5)
+INFO: [Synth 8-5544] ROM "RVALID_t" won't be mapped to Block RAM because address size (3) smaller than threshold (5)
+INFO: [Synth 8-5544] ROM "enc_chunk" won't be mapped to Block RAM because address size (4) smaller than threshold (5)
+INFO: [Synth 8-5544] ROM "enc_chunk" won't be mapped to Block RAM because address size (4) smaller than threshold (5)
+INFO: [Synth 8-5544] ROM "enc_chunk" won't be mapped to Block RAM because address size (4) smaller than threshold (5)
+INFO: [Synth 8-5544] ROM "enc_chunk" won't be mapped to Block RAM because address size (4) smaller than threshold (5)
+INFO: [Synth 8-5544] ROM "enc_chunk" won't be mapped to Block RAM because address size (4) smaller than threshold (5)
+INFO: [Synth 8-5544] ROM "enc_chunk" won't be mapped to Block RAM because address size (4) smaller than threshold (5)
+INFO: [Synth 8-5544] ROM "enc_chunk" won't be mapped to Block RAM because address size (4) smaller than threshold (5)
+INFO: [Synth 8-5544] ROM "enc_chunk" won't be mapped to Block RAM because address size (4) smaller than threshold (5)
+INFO: [Synth 8-5544] ROM "enc_chunk" won't be mapped to Block RAM because address size (4) smaller than threshold (5)
+INFO: [Synth 8-5544] ROM "enc_chunk" won't be mapped to Block RAM because address size (4) smaller than threshold (5)
+INFO: [Synth 8-5544] ROM "enc_chunk" won't be mapped to Block RAM because address size (4) smaller than threshold (5)
+INFO: [Synth 8-5544] ROM "enc_chunk" won't be mapped to Block RAM because address size (4) smaller than threshold (5)
+INFO: [Synth 8-5544] ROM "enc_chunk" won't be mapped to Block RAM because address size (4) smaller than threshold (5)
+INFO: [Synth 8-5544] ROM "enc_chunk" won't be mapped to Block RAM because address size (4) smaller than threshold (5)
+INFO: [Synth 8-5544] ROM "enc_chunk" won't be mapped to Block RAM because address size (4) smaller than threshold (5)
+INFO: [Synth 8-5544] ROM "enc_chunk" won't be mapped to Block RAM because address size (4) smaller than threshold (5)
+INFO: [Synth 8-5546] ROM "exp_all_one_ip" won't be mapped to RAM because it is too sparse
+INFO: [Synth 8-5546] ROM "exp_all_zero_ip" won't be mapped to RAM because it is too sparse
+INFO: [Synth 8-5546] ROM "lrg_almost_over" won't be mapped to RAM because it is too sparse
+INFO: [Synth 8-5546] ROM "lrg_almost_over" won't be mapped to RAM because it is too sparse
+INFO: [Synth 8-5544] ROM "det_state" won't be mapped to Block RAM because address size (1) smaller than threshold (5)
+INFO: [Synth 8-5546] ROM "exp_all_one_ip" won't be mapped to RAM because it is too sparse
+INFO: [Synth 8-5546] ROM "exp_all_zero_ip" won't be mapped to RAM because it is too sparse
+INFO: [Synth 8-5546] ROM "exp_all_one_ip" won't be mapped to RAM because it is too sparse
+INFO: [Synth 8-5546] ROM "exp_all_zero_ip" won't be mapped to RAM because it is too sparse
+INFO: [Synth 8-5546] ROM "exp_just_over_sig" won't be mapped to RAM because it is too sparse
+INFO: [Synth 8-5546] ROM "flow_sig" won't be mapped to RAM because it is too sparse
+INFO: [Synth 8-5546] ROM "flow_sig" won't be mapped to RAM because it is too sparse
+INFO: [Synth 8-5546] ROM "exp_just_over_sig" won't be mapped to RAM because it is too sparse
+INFO: [Synth 8-5546] ROM "flow_sig" won't be mapped to RAM because it is too sparse
+INFO: [Synth 8-5546] ROM "flow_sig" won't be mapped to RAM because it is too sparse
+INFO: [Synth 8-5544] ROM "state_int_up" won't be mapped to Block RAM because address size (1) smaller than threshold (5)
+INFO: [Synth 8-5544] ROM "enc_chunk" won't be mapped to Block RAM because address size (4) smaller than threshold (5)
+INFO: [Synth 8-5544] ROM "enc_chunk" won't be mapped to Block RAM because address size (4) smaller than threshold (5)
+INFO: [Synth 8-5544] ROM "enc_chunk" won't be mapped to Block RAM because address size (4) smaller than threshold (5)
+INFO: [Synth 8-5544] ROM "enc_chunk" won't be mapped to Block RAM because address size (4) smaller than threshold (5)
+INFO: [Synth 8-5544] ROM "enc_chunk" won't be mapped to Block RAM because address size (4) smaller than threshold (5)
+INFO: [Synth 8-5544] ROM "enc_chunk" won't be mapped to Block RAM because address size (4) smaller than threshold (5)
+INFO: [Synth 8-5544] ROM "enc_chunk" won't be mapped to Block RAM because address size (4) smaller than threshold (5)
+INFO: [Synth 8-5544] ROM "enc_chunk" won't be mapped to Block RAM because address size (4) smaller than threshold (5)
+INFO: [Synth 8-5544] ROM "enc_chunk" won't be mapped to Block RAM because address size (4) smaller than threshold (5)
+INFO: [Synth 8-5544] ROM "enc_chunk" won't be mapped to Block RAM because address size (4) smaller than threshold (5)
+INFO: [Synth 8-5544] ROM "enc_chunk" won't be mapped to Block RAM because address size (4) smaller than threshold (5)
+INFO: [Synth 8-5544] ROM "enc_chunk" won't be mapped to Block RAM because address size (4) smaller than threshold (5)
+INFO: [Synth 8-5544] ROM "enc_chunk" won't be mapped to Block RAM because address size (4) smaller than threshold (5)
+INFO: [Synth 8-5544] ROM "enc_chunk" won't be mapped to Block RAM because address size (4) smaller than threshold (5)
+INFO: [Synth 8-5544] ROM "enc_chunk" won't be mapped to Block RAM because address size (4) smaller than threshold (5)
+INFO: [Synth 8-5544] ROM "enc_chunk" won't be mapped to Block RAM because address size (4) smaller than threshold (5)
+INFO: [Synth 8-5545] ROM "chunk_is_zero_ip" won't be mapped to RAM because address size (36) is larger than maximum supported(25)
+INFO: [Synth 8-5545] ROM "chunk_is_zero_ip" won't be mapped to RAM because address size (36) is larger than maximum supported(25)
+INFO: [Synth 8-5546] ROM "exp_all_one_ip" won't be mapped to RAM because it is too sparse
+INFO: [Synth 8-5546] ROM "exp_all_zero_ip" won't be mapped to RAM because it is too sparse
+INFO: [Synth 8-4471] merging register 'data_shift2_addr_1_reg_1436_reg[13:0]' into 'data_shift1_addr_1_reg_1431_reg[13:0]' [/home/francesca/xil_proj/trig_testbench_F/project_1.srcs/sources_1/bd/design_fc/ipshared/xilinx.com/l2_trigger_v1_0/hdl/vhdl/l2_trigger.vhd:1000]
+INFO: [Synth 8-4471] merging register 'sum_overP2_addr_reg_1466_reg[10:0]' into 'sum_overP1_addr_reg_1461_reg[10:0]' [/home/francesca/xil_proj/trig_testbench_F/project_1.srcs/sources_1/bd/design_fc/ipshared/xilinx.com/l2_trigger_v1_0/hdl/vhdl/l2_trigger.vhd:1003]
+INFO: [Synth 8-4471] merging register 'sum_pix2_addr_3_reg_1426_reg[10:0]' into 'sum_pix1_addr_3_reg_1421_reg[10:0]' [/home/francesca/xil_proj/trig_testbench_F/project_1.srcs/sources_1/bd/design_fc/ipshared/xilinx.com/l2_trigger_v1_0/hdl/vhdl/l2_trigger.vhd:1094]
+INFO: [Synth 8-5818] HDL ADVISOR - The operator resource <adder> is shared. To prevent sharing consider applying a KEEP on the output of the operator [/home/francesca/xil_proj/trig_testbench_F/project_1.srcs/sources_1/bd/design_fc/ipshared/xilinx.com/l2_trigger_v1_0/hdl/vhdl/l2_trigger.vhd:1809]
+WARNING: [Synth 8-3936] Found unconnected internal register 'tmp_48_reg_1484_reg' and it is trimmed from '15' to '14' bits. [/home/francesca/xil_proj/trig_testbench_F/project_1.srcs/sources_1/bd/design_fc/ipshared/xilinx.com/l2_trigger_v1_0/hdl/vhdl/l2_trigger.vhd:1047]
+INFO: [Synth 8-4490] FSM extraction disabled for register 'ap_CS_fsm_reg' through user attribute
+INFO: [Synth 8-5544] ROM "exitcond1_fu_699_p2" won't be mapped to Block RAM because address size (4) smaller than threshold (5)
+INFO: [Synth 8-5546] ROM "exitcond_fu_785_p2" won't be mapped to RAM because it is too sparse
+INFO: [Synth 8-5545] ROM "grp_fu_660_p2" won't be mapped to RAM because address size (32) is larger than maximum supported(25)
+INFO: [Synth 8-5544] ROM "exitcond1_fu_699_p2" won't be mapped to Block RAM because address size (4) smaller than threshold (5)
+INFO: [Synth 8-5546] ROM "exitcond_fu_785_p2" won't be mapped to RAM because it is too sparse
+INFO: [Synth 8-5545] ROM "grp_fu_660_p2" won't be mapped to RAM because address size (32) is larger than maximum supported(25)
+INFO: [Synth 8-5544] ROM "trig_data" won't be mapped to Block RAM because address size (1) smaller than threshold (5)
+INFO: [Synth 8-5544] ROM "ap_NS_fsm" won't be mapped to Block RAM because address size (1) smaller than threshold (5)
+INFO: [Synth 8-5544] ROM "ap_NS_fsm" won't be mapped to Block RAM because address size (1) smaller than threshold (5)
+INFO: [Synth 8-5544] ROM "ap_NS_fsm" won't be mapped to Block RAM because address size (1) smaller than threshold (5)
+INFO: [Synth 8-5544] ROM "ap_NS_fsm" won't be mapped to Block RAM because address size (1) smaller than threshold (5)
+INFO: [Synth 8-5544] ROM "ap_NS_fsm" won't be mapped to Block RAM because address size (1) smaller than threshold (5)
+INFO: [Synth 8-5544] ROM "ap_NS_fsm" won't be mapped to Block RAM because address size (1) smaller than threshold (5)
+INFO: [Synth 8-5544] ROM "ap_NS_fsm" won't be mapped to Block RAM because address size (1) smaller than threshold (5)
+INFO: [Synth 8-5544] ROM "ap_NS_fsm" won't be mapped to Block RAM because address size (1) smaller than threshold (5)
+INFO: [Synth 8-5544] ROM "ap_NS_fsm" won't be mapped to Block RAM because address size (1) smaller than threshold (5)
+INFO: [Synth 8-5544] ROM "ap_NS_fsm" won't be mapped to Block RAM because address size (1) smaller than threshold (5)
+INFO: [Synth 8-5544] ROM "ap_NS_fsm" won't be mapped to Block RAM because address size (1) smaller than threshold (5)
+INFO: [Synth 8-5544] ROM "ap_NS_fsm" won't be mapped to Block RAM because address size (1) smaller than threshold (5)
+INFO: [Synth 8-5544] ROM "ap_NS_fsm" won't be mapped to Block RAM because address size (1) smaller than threshold (5)
+INFO: [Synth 8-5544] ROM "ap_NS_fsm" won't be mapped to Block RAM because address size (1) smaller than threshold (5)
+---------------------------------------------------------------------------------
+Finished RTL Optimization Phase 2 : Time (s): cpu = 00:00:54 ; elapsed = 00:00:56 . Memory (MB): peak = 1570.734 ; gain = 680.488 ; free physical = 7463 ; free virtual = 15020
+---------------------------------------------------------------------------------
+
+Report RTL Partitions: 
++-+--------------+------------+----------+
+| |RTL Partition |Replication |Instances |
++-+--------------+------------+----------+
++-+--------------+------------+----------+
+---------------------------------------------------------------------------------
+Start RTL Component Statistics 
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished RTL Component Statistics 
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start RTL Hierarchical Component Statistics 
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished RTL Hierarchical Component Statistics
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Part Resource Summary
+---------------------------------------------------------------------------------
+Part Resources:
+DSPs: 400 (col length:80)
+BRAMs: 530 (col length: RAMB18 80 RAMB36 40)
+---------------------------------------------------------------------------------
+Finished Part Resource Summary
+---------------------------------------------------------------------------------
+Start Parallel Synthesis Optimization  : Time (s): cpu = 00:00:54 ; elapsed = 00:00:56 . Memory (MB): peak = 1570.734 ; gain = 680.488 ; free physical = 7463 ; free virtual = 15020
+---------------------------------------------------------------------------------
+Start Cross Boundary Optimization
+---------------------------------------------------------------------------------
+INFO: [Synth 8-5544] ROM "LZE/enc_chunk" won't be mapped to Block RAM because address size (4) smaller than threshold (5)
+INFO: [Synth 8-5544] ROM "LZE/enc_chunk" won't be mapped to Block RAM because address size (4) smaller than threshold (5)
+INFO: [Synth 8-5544] ROM "LZE/enc_chunk" won't be mapped to Block RAM because address size (4) smaller than threshold (5)
+INFO: [Synth 8-5544] ROM "LZE/enc_chunk" won't be mapped to Block RAM because address size (4) smaller than threshold (5)
+INFO: [Synth 8-5544] ROM "LZE/enc_chunk" won't be mapped to Block RAM because address size (4) smaller than threshold (5)
+INFO: [Synth 8-5544] ROM "LZE/enc_chunk" won't be mapped to Block RAM because address size (4) smaller than threshold (5)
+INFO: [Synth 8-5544] ROM "LZE/enc_chunk" won't be mapped to Block RAM because address size (4) smaller than threshold (5)
+INFO: [Synth 8-5544] ROM "LZE/enc_chunk" won't be mapped to Block RAM because address size (4) smaller than threshold (5)
+INFO: [Synth 8-5544] ROM "LZE/enc_chunk" won't be mapped to Block RAM because address size (4) smaller than threshold (5)
+INFO: [Synth 8-5544] ROM "LZE/enc_chunk" won't be mapped to Block RAM because address size (4) smaller than threshold (5)
+INFO: [Synth 8-5544] ROM "LZE/enc_chunk" won't be mapped to Block RAM because address size (4) smaller than threshold (5)
+INFO: [Synth 8-5544] ROM "LZE/enc_chunk" won't be mapped to Block RAM because address size (4) smaller than threshold (5)
+INFO: [Synth 8-5544] ROM "LZE/enc_chunk" won't be mapped to Block RAM because address size (4) smaller than threshold (5)
+INFO: [Synth 8-5544] ROM "LZE/enc_chunk" won't be mapped to Block RAM because address size (4) smaller than threshold (5)
+INFO: [Synth 8-5544] ROM "LZE/enc_chunk" won't be mapped to Block RAM because address size (4) smaller than threshold (5)
+INFO: [Synth 8-5544] ROM "LZE/enc_chunk" won't be mapped to Block RAM because address size (4) smaller than threshold (5)
+INFO: [Synth 8-5546] ROM "COND_DET_A/exp_all_one_ip" won't be mapped to RAM because it is too sparse
+INFO: [Synth 8-5546] ROM "COND_DET_A/exp_all_zero_ip" won't be mapped to RAM because it is too sparse
+INFO: [Synth 8-5546] ROM "COND_DET_B/exp_all_one_ip" won't be mapped to RAM because it is too sparse
+INFO: [Synth 8-5546] ROM "COND_DET_B/exp_all_zero_ip" won't be mapped to RAM because it is too sparse
+INFO: [Synth 8-5546] ROM "lrg_almost_over" won't be mapped to RAM because it is too sparse
+INFO: [Synth 8-5544] ROM "LZE/enc_chunk" won't be mapped to Block RAM because address size (4) smaller than threshold (5)
+INFO: [Synth 8-5544] ROM "LZE/enc_chunk" won't be mapped to Block RAM because address size (4) smaller than threshold (5)
+INFO: [Synth 8-5544] ROM "LZE/enc_chunk" won't be mapped to Block RAM because address size (4) smaller than threshold (5)
+INFO: [Synth 8-5544] ROM "LZE/enc_chunk" won't be mapped to Block RAM because address size (4) smaller than threshold (5)
+INFO: [Synth 8-5544] ROM "LZE/enc_chunk" won't be mapped to Block RAM because address size (4) smaller than threshold (5)
+INFO: [Synth 8-5544] ROM "LZE/enc_chunk" won't be mapped to Block RAM because address size (4) smaller than threshold (5)
+INFO: [Synth 8-5544] ROM "LZE/enc_chunk" won't be mapped to Block RAM because address size (4) smaller than threshold (5)
+INFO: [Synth 8-5544] ROM "LZE/enc_chunk" won't be mapped to Block RAM because address size (4) smaller than threshold (5)
+INFO: [Synth 8-5544] ROM "LZE/enc_chunk" won't be mapped to Block RAM because address size (4) smaller than threshold (5)
+INFO: [Synth 8-5544] ROM "LZE/enc_chunk" won't be mapped to Block RAM because address size (4) smaller than threshold (5)
+INFO: [Synth 8-5544] ROM "LZE/enc_chunk" won't be mapped to Block RAM because address size (4) smaller than threshold (5)
+INFO: [Synth 8-5544] ROM "LZE/enc_chunk" won't be mapped to Block RAM because address size (4) smaller than threshold (5)
+INFO: [Synth 8-5544] ROM "LZE/enc_chunk" won't be mapped to Block RAM because address size (4) smaller than threshold (5)
+INFO: [Synth 8-5544] ROM "LZE/enc_chunk" won't be mapped to Block RAM because address size (4) smaller than threshold (5)
+INFO: [Synth 8-5544] ROM "LZE/enc_chunk" won't be mapped to Block RAM because address size (4) smaller than threshold (5)
+INFO: [Synth 8-5544] ROM "LZE/enc_chunk" won't be mapped to Block RAM because address size (4) smaller than threshold (5)
+INFO: [Synth 8-5546] ROM "COND_DET_A/exp_all_one_ip" won't be mapped to RAM because it is too sparse
+INFO: [Synth 8-5546] ROM "COND_DET_A/exp_all_zero_ip" won't be mapped to RAM because it is too sparse
+INFO: [Synth 8-5546] ROM "COND_DET_B/exp_all_one_ip" won't be mapped to RAM because it is too sparse
+INFO: [Synth 8-5546] ROM "COND_DET_B/exp_all_zero_ip" won't be mapped to RAM because it is too sparse
+INFO: [Synth 8-5546] ROM "lrg_almost_over" won't be mapped to RAM because it is too sparse
+INFO: [Synth 8-5546] ROM "MULT.OP/EXP/COND_DET_A/exp_all_one_ip" won't be mapped to RAM because it is too sparse
+INFO: [Synth 8-5546] ROM "MULT.OP/EXP/COND_DET_A/exp_all_zero_ip" won't be mapped to RAM because it is too sparse
+INFO: [Synth 8-5546] ROM "MULT.OP/EXP/COND_DET_B/exp_all_one_ip" won't be mapped to RAM because it is too sparse
+INFO: [Synth 8-5546] ROM "MULT.OP/EXP/COND_DET_B/exp_all_zero_ip" won't be mapped to RAM because it is too sparse
+INFO: [Synth 8-5546] ROM "MULT.OP/EXP/exp_just_over_sig" won't be mapped to RAM because it is too sparse
+INFO: [Synth 8-5546] ROM "MULT.OP/EXP/flow_sig" won't be mapped to RAM because it is too sparse
+INFO: [Synth 8-5546] ROM "MULT.OP/EXP/flow_sig" won't be mapped to RAM because it is too sparse
+INFO: [Synth 8-5546] ROM "MULT.OP/EXP/COND_DET_A/exp_all_one_ip" won't be mapped to RAM because it is too sparse
+INFO: [Synth 8-5546] ROM "MULT.OP/EXP/COND_DET_A/exp_all_zero_ip" won't be mapped to RAM because it is too sparse
+INFO: [Synth 8-5546] ROM "MULT.OP/EXP/COND_DET_B/exp_all_one_ip" won't be mapped to RAM because it is too sparse
+INFO: [Synth 8-5546] ROM "MULT.OP/EXP/COND_DET_B/exp_all_zero_ip" won't be mapped to RAM because it is too sparse
+INFO: [Synth 8-5546] ROM "MULT.OP/EXP/exp_just_over_sig" won't be mapped to RAM because it is too sparse
+INFO: [Synth 8-5546] ROM "MULT.OP/EXP/flow_sig" won't be mapped to RAM because it is too sparse
+INFO: [Synth 8-5546] ROM "MULT.OP/EXP/flow_sig" won't be mapped to RAM because it is too sparse
+INFO: [Synth 8-5544] ROM "FIX_TO_FLT_OP.SPD.OP/LZE/enc_chunk" won't be mapped to Block RAM because address size (4) smaller than threshold (5)
+INFO: [Synth 8-5544] ROM "FIX_TO_FLT_OP.SPD.OP/LZE/enc_chunk" won't be mapped to Block RAM because address size (4) smaller than threshold (5)
+INFO: [Synth 8-5544] ROM "FIX_TO_FLT_OP.SPD.OP/LZE/enc_chunk" won't be mapped to Block RAM because address size (4) smaller than threshold (5)
+INFO: [Synth 8-5544] ROM "FIX_TO_FLT_OP.SPD.OP/LZE/enc_chunk" won't be mapped to Block RAM because address size (4) smaller than threshold (5)
+INFO: [Synth 8-5544] ROM "FIX_TO_FLT_OP.SPD.OP/LZE/enc_chunk" won't be mapped to Block RAM because address size (4) smaller than threshold (5)
+INFO: [Synth 8-5544] ROM "FIX_TO_FLT_OP.SPD.OP/LZE/enc_chunk" won't be mapped to Block RAM because address size (4) smaller than threshold (5)
+INFO: [Synth 8-5544] ROM "FIX_TO_FLT_OP.SPD.OP/LZE/enc_chunk" won't be mapped to Block RAM because address size (4) smaller than threshold (5)
+INFO: [Synth 8-5544] ROM "FIX_TO_FLT_OP.SPD.OP/LZE/enc_chunk" won't be mapped to Block RAM because address size (4) smaller than threshold (5)
+INFO: [Synth 8-5544] ROM "FIX_TO_FLT_OP.SPD.OP/LZE/enc_chunk" won't be mapped to Block RAM because address size (4) smaller than threshold (5)
+INFO: [Synth 8-5544] ROM "FIX_TO_FLT_OP.SPD.OP/LZE/enc_chunk" won't be mapped to Block RAM because address size (4) smaller than threshold (5)
+INFO: [Synth 8-5544] ROM "FIX_TO_FLT_OP.SPD.OP/LZE/enc_chunk" won't be mapped to Block RAM because address size (4) smaller than threshold (5)
+INFO: [Synth 8-5544] ROM "FIX_TO_FLT_OP.SPD.OP/LZE/enc_chunk" won't be mapped to Block RAM because address size (4) smaller than threshold (5)
+INFO: [Common 17-14] Message 'Synth 8-5544' appears 100 times and further instances of the messages will be disabled. Use the Tcl command set_msg_config to change the current settings.
+INFO: [Synth 8-5546] ROM "SQRT_OP.SPD.OP/i_mant_calc.EXP/COND_DET_A/exp_all_one_ip" won't be mapped to RAM because it is too sparse
+INFO: [Synth 8-5546] ROM "SQRT_OP.SPD.OP/i_mant_calc.EXP/COND_DET_A/exp_all_zero_ip" won't be mapped to RAM because it is too sparse
+INFO: [Synth 8-5546] ROM "SQRT_OP.SPD.OP/i_mant_calc.EXP/COND_DET_A/exp_all_one_ip" won't be mapped to RAM because it is too sparse
+INFO: [Synth 8-5546] ROM "SQRT_OP.SPD.OP/i_mant_calc.EXP/COND_DET_A/exp_all_zero_ip" won't be mapped to RAM because it is too sparse
+INFO: [Synth 8-4471] merging register 'l2_trigger_dmul_64ns_64ns_64_5_max_dsp_U4/din1_buf1_reg[63:0]' into 'l2_trigger_dmul_64ns_64ns_64_5_max_dsp_U3/din1_buf1_reg[63:0]' [/home/francesca/xil_proj/trig_testbench_F/project_1.srcs/sources_1/bd/design_fc/ipshared/xilinx.com/l2_trigger_v1_0/hdl/vhdl/l2_trigger_dmul_64ns_64ns_64_5_max_dsp.vhd:74]
+INFO: [Synth 8-4471] merging register 'l2_trigger_dsqrt_64ns_64ns_64_30_U7/din1_buf1_reg[63:0]' into 'l2_trigger_dadd_64ns_64ns_64_5_full_dsp_U1/din0_buf1_reg[63:0]' [/home/francesca/xil_proj/trig_testbench_F/project_1.srcs/sources_1/bd/design_fc/ipshared/xilinx.com/l2_trigger_v1_0/hdl/vhdl/l2_trigger_dsqrt_64ns_64ns_64_30.vhd:65]
+INFO: [Synth 8-4471] merging register 'l2_trigger_dsqrt_64ns_64ns_64_30_U8/din1_buf1_reg[63:0]' into 'l2_trigger_dadd_64ns_64ns_64_5_full_dsp_U2/din0_buf1_reg[63:0]' [/home/francesca/xil_proj/trig_testbench_F/project_1.srcs/sources_1/bd/design_fc/ipshared/xilinx.com/l2_trigger_v1_0/hdl/vhdl/l2_trigger_dsqrt_64ns_64ns_64_30.vhd:65]
+INFO: [Synth 8-5545] ROM "grp_fu_660_p2" won't be mapped to RAM because address size (32) is larger than maximum supported(25)
+---------------------------------------------------------------------------------
+Finished Cross Boundary Optimization : Time (s): cpu = 00:00:59 ; elapsed = 00:01:01 . Memory (MB): peak = 1570.734 ; gain = 680.488 ; free physical = 7464 ; free virtual = 15020
+---------------------------------------------------------------------------------
+Finished Parallel Reinference  : Time (s): cpu = 00:00:59 ; elapsed = 00:01:01 . Memory (MB): peak = 1570.734 ; gain = 680.488 ; free physical = 7464 ; free virtual = 15020
+
+Report RTL Partitions: 
++-+--------------+------------+----------+
+| |RTL Partition |Replication |Instances |
++-+--------------+------------+----------+
++-+--------------+------------+----------+
+---------------------------------------------------------------------------------
+Start Area Optimization
+---------------------------------------------------------------------------------
+INFO: [Synth 8-3333] propagating constant 0 across sequential element (U0/\l2_trigger_uitodp_32ns_64_5_U5/din0_buf1_reg[0] )
+INFO: [Synth 8-3333] propagating constant 0 across sequential element (U0/\l2_trigger_uitodp_32ns_64_5_U5/din0_buf1_reg[1] )
+INFO: [Synth 8-3333] propagating constant 0 across sequential element (U0/\l2_trigger_uitodp_32ns_64_5_U5/din0_buf1_reg[2] )
+INFO: [Synth 8-3333] propagating constant 0 across sequential element (U0/\l2_trigger_uitodp_32ns_64_5_U5/din0_buf1_reg[28] )
+INFO: [Synth 8-3333] propagating constant 0 across sequential element (U0/\l2_trigger_uitodp_32ns_64_5_U5/din0_buf1_reg[29] )
+INFO: [Synth 8-3333] propagating constant 0 across sequential element (U0/\l2_trigger_uitodp_32ns_64_5_U5/din0_buf1_reg[30] )
+INFO: [Synth 8-3333] propagating constant 0 across sequential element (U0/\l2_trigger_uitodp_32ns_64_5_U5/din0_buf1_reg[31] )
+INFO: [Synth 8-3333] propagating constant 0 across sequential element (U0/\l2_trigger_dmul_64ns_64ns_64_5_max_dsp_U3/din1_buf1_reg[0] )
+INFO: [Synth 8-3333] propagating constant 0 across sequential element (U0/\l2_trigger_dmul_64ns_64ns_64_5_max_dsp_U3/din1_buf1_reg[1] )
+INFO: [Synth 8-3333] propagating constant 0 across sequential element (U0/\l2_trigger_dmul_64ns_64ns_64_5_max_dsp_U3/din1_buf1_reg[2] )
+INFO: [Synth 8-3333] propagating constant 0 across sequential element (U0/\l2_trigger_dmul_64ns_64ns_64_5_max_dsp_U3/din1_buf1_reg[3] )
+INFO: [Synth 8-3333] propagating constant 0 across sequential element (U0/\l2_trigger_dmul_64ns_64ns_64_5_max_dsp_U3/din1_buf1_reg[4] )
+INFO: [Synth 8-3333] propagating constant 0 across sequential element (U0/\l2_trigger_dmul_64ns_64ns_64_5_max_dsp_U3/din1_buf1_reg[5] )
+INFO: [Synth 8-3333] propagating constant 0 across sequential element (U0/\l2_trigger_dmul_64ns_64ns_64_5_max_dsp_U3/din1_buf1_reg[6] )
+INFO: [Synth 8-3333] propagating constant 0 across sequential element (U0/\l2_trigger_dmul_64ns_64ns_64_5_max_dsp_U3/din1_buf1_reg[7] )
+INFO: [Synth 8-3333] propagating constant 0 across sequential element (U0/\l2_trigger_dmul_64ns_64ns_64_5_max_dsp_U3/din1_buf1_reg[8] )
+INFO: [Synth 8-3333] propagating constant 0 across sequential element (U0/\l2_trigger_dmul_64ns_64ns_64_5_max_dsp_U3/din1_buf1_reg[9] )
+INFO: [Synth 8-3333] propagating constant 0 across sequential element (U0/\l2_trigger_dmul_64ns_64ns_64_5_max_dsp_U3/din1_buf1_reg[10] )
+INFO: [Synth 8-3333] propagating constant 0 across sequential element (U0/\l2_trigger_dmul_64ns_64ns_64_5_max_dsp_U3/din1_buf1_reg[11] )
+INFO: [Synth 8-3333] propagating constant 0 across sequential element (U0/\l2_trigger_dmul_64ns_64ns_64_5_max_dsp_U3/din1_buf1_reg[12] )
+INFO: [Synth 8-3333] propagating constant 0 across sequential element (U0/\l2_trigger_dmul_64ns_64ns_64_5_max_dsp_U3/din1_buf1_reg[13] )
+INFO: [Synth 8-3333] propagating constant 0 across sequential element (U0/\l2_trigger_dmul_64ns_64ns_64_5_max_dsp_U3/din1_buf1_reg[14] )
+INFO: [Synth 8-3333] propagating constant 0 across sequential element (U0/\l2_trigger_dmul_64ns_64ns_64_5_max_dsp_U3/din1_buf1_reg[15] )
+INFO: [Synth 8-3333] propagating constant 0 across sequential element (U0/\l2_trigger_dmul_64ns_64ns_64_5_max_dsp_U3/din1_buf1_reg[16] )
+INFO: [Synth 8-3333] propagating constant 0 across sequential element (U0/\l2_trigger_dmul_64ns_64ns_64_5_max_dsp_U3/din1_buf1_reg[17] )
+INFO: [Synth 8-3333] propagating constant 0 across sequential element (U0/\l2_trigger_dmul_64ns_64ns_64_5_max_dsp_U3/din1_buf1_reg[18] )
+INFO: [Synth 8-3333] propagating constant 0 across sequential element (U0/\l2_trigger_dmul_64ns_64ns_64_5_max_dsp_U3/din1_buf1_reg[19] )
+INFO: [Synth 8-3333] propagating constant 0 across sequential element (U0/\l2_trigger_dmul_64ns_64ns_64_5_max_dsp_U3/din1_buf1_reg[20] )
+INFO: [Synth 8-3333] propagating constant 0 across sequential element (U0/\l2_trigger_dmul_64ns_64ns_64_5_max_dsp_U3/din1_buf1_reg[21] )
+INFO: [Synth 8-3333] propagating constant 0 across sequential element (U0/\l2_trigger_dmul_64ns_64ns_64_5_max_dsp_U3/din1_buf1_reg[22] )
+INFO: [Synth 8-3333] propagating constant 0 across sequential element (U0/\l2_trigger_dmul_64ns_64ns_64_5_max_dsp_U3/din1_buf1_reg[23] )
+INFO: [Synth 8-3333] propagating constant 0 across sequential element (U0/\l2_trigger_dmul_64ns_64ns_64_5_max_dsp_U3/din1_buf1_reg[24] )
+INFO: [Synth 8-3333] propagating constant 0 across sequential element (U0/\l2_trigger_dmul_64ns_64ns_64_5_max_dsp_U3/din1_buf1_reg[25] )
+INFO: [Synth 8-3333] propagating constant 0 across sequential element (U0/\l2_trigger_dmul_64ns_64ns_64_5_max_dsp_U3/din1_buf1_reg[26] )
+INFO: [Synth 8-3333] propagating constant 0 across sequential element (U0/\l2_trigger_dmul_64ns_64ns_64_5_max_dsp_U3/din1_buf1_reg[27] )
+INFO: [Synth 8-3333] propagating constant 0 across sequential element (U0/\l2_trigger_dmul_64ns_64ns_64_5_max_dsp_U3/din1_buf1_reg[28] )
+INFO: [Synth 8-3333] propagating constant 0 across sequential element (U0/\l2_trigger_dmul_64ns_64ns_64_5_max_dsp_U3/din1_buf1_reg[29] )
+INFO: [Synth 8-3333] propagating constant 0 across sequential element (U0/\l2_trigger_dmul_64ns_64ns_64_5_max_dsp_U3/din1_buf1_reg[30] )
+INFO: [Synth 8-3333] propagating constant 0 across sequential element (U0/\l2_trigger_dmul_64ns_64ns_64_5_max_dsp_U3/din1_buf1_reg[31] )
+INFO: [Synth 8-3333] propagating constant 0 across sequential element (U0/\l2_trigger_dmul_64ns_64ns_64_5_max_dsp_U3/din1_buf1_reg[32] )
+INFO: [Synth 8-3333] propagating constant 0 across sequential element (U0/\l2_trigger_dmul_64ns_64ns_64_5_max_dsp_U3/din1_buf1_reg[33] )
+INFO: [Synth 8-3333] propagating constant 0 across sequential element (U0/\l2_trigger_dmul_64ns_64ns_64_5_max_dsp_U3/din1_buf1_reg[34] )
+INFO: [Synth 8-3333] propagating constant 0 across sequential element (U0/\l2_trigger_dmul_64ns_64ns_64_5_max_dsp_U3/din1_buf1_reg[35] )
+INFO: [Synth 8-3333] propagating constant 0 across sequential element (U0/\l2_trigger_dmul_64ns_64ns_64_5_max_dsp_U3/din1_buf1_reg[36] )
+INFO: [Synth 8-3333] propagating constant 0 across sequential element (U0/\l2_trigger_dmul_64ns_64ns_64_5_max_dsp_U3/din1_buf1_reg[37] )
+INFO: [Synth 8-3333] propagating constant 0 across sequential element (U0/\l2_trigger_dmul_64ns_64ns_64_5_max_dsp_U3/din1_buf1_reg[38] )
+INFO: [Synth 8-3333] propagating constant 0 across sequential element (U0/\l2_trigger_dmul_64ns_64ns_64_5_max_dsp_U3/din1_buf1_reg[39] )
+INFO: [Synth 8-3333] propagating constant 0 across sequential element (U0/\l2_trigger_dmul_64ns_64ns_64_5_max_dsp_U3/din1_buf1_reg[40] )
+INFO: [Synth 8-3333] propagating constant 0 across sequential element (U0/\l2_trigger_dmul_64ns_64ns_64_5_max_dsp_U3/din1_buf1_reg[41] )
+INFO: [Synth 8-3333] propagating constant 0 across sequential element (U0/\l2_trigger_dmul_64ns_64ns_64_5_max_dsp_U3/din1_buf1_reg[42] )
+INFO: [Synth 8-3333] propagating constant 0 across sequential element (U0/\l2_trigger_dmul_64ns_64ns_64_5_max_dsp_U3/din1_buf1_reg[43] )
+INFO: [Synth 8-3333] propagating constant 0 across sequential element (U0/\l2_trigger_dmul_64ns_64ns_64_5_max_dsp_U3/din1_buf1_reg[44] )
+INFO: [Synth 8-3333] propagating constant 0 across sequential element (U0/\l2_trigger_dmul_64ns_64ns_64_5_max_dsp_U3/din1_buf1_reg[45] )
+INFO: [Synth 8-3333] propagating constant 0 across sequential element (U0/\l2_trigger_dmul_64ns_64ns_64_5_max_dsp_U3/din1_buf1_reg[46] )
+INFO: [Synth 8-3333] propagating constant 0 across sequential element (U0/\l2_trigger_dmul_64ns_64ns_64_5_max_dsp_U3/din1_buf1_reg[47] )
+INFO: [Synth 8-3333] propagating constant 0 across sequential element (U0/\l2_trigger_dmul_64ns_64ns_64_5_max_dsp_U3/din1_buf1_reg[48] )
+INFO: [Synth 8-3333] propagating constant 0 across sequential element (U0/\l2_trigger_dmul_64ns_64ns_64_5_max_dsp_U3/din1_buf1_reg[49] )
+INFO: [Synth 8-3333] propagating constant 0 across sequential element (U0/\l2_trigger_dmul_64ns_64ns_64_5_max_dsp_U3/din1_buf1_reg[50] )
+INFO: [Synth 8-3333] propagating constant 1 across sequential element (U0/\l2_trigger_dmul_64ns_64ns_64_5_max_dsp_U3/din1_buf1_reg[51] )
+INFO: [Synth 8-3333] propagating constant 1 across sequential element (U0/\l2_trigger_dmul_64ns_64ns_64_5_max_dsp_U3/din1_buf1_reg[52] )
+INFO: [Synth 8-3333] propagating constant 0 across sequential element (U0/\l2_trigger_dmul_64ns_64ns_64_5_max_dsp_U3/din1_buf1_reg[53] )
+INFO: [Synth 8-3333] propagating constant 0 across sequential element (U0/\l2_trigger_dmul_64ns_64ns_64_5_max_dsp_U3/din1_buf1_reg[54] )
+INFO: [Synth 8-3333] propagating constant 0 across sequential element (U0/\l2_trigger_dmul_64ns_64ns_64_5_max_dsp_U3/din1_buf1_reg[55] )
+INFO: [Synth 8-3333] propagating constant 0 across sequential element (U0/\l2_trigger_dmul_64ns_64ns_64_5_max_dsp_U3/din1_buf1_reg[56] )
+INFO: [Synth 8-3333] propagating constant 0 across sequential element (U0/\l2_trigger_dmul_64ns_64ns_64_5_max_dsp_U3/din1_buf1_reg[57] )
+INFO: [Synth 8-3333] propagating constant 0 across sequential element (U0/\l2_trigger_dmul_64ns_64ns_64_5_max_dsp_U3/din1_buf1_reg[58] )
+INFO: [Synth 8-3333] propagating constant 0 across sequential element (U0/\l2_trigger_dmul_64ns_64ns_64_5_max_dsp_U3/din1_buf1_reg[59] )
+INFO: [Synth 8-3333] propagating constant 0 across sequential element (U0/\l2_trigger_dmul_64ns_64ns_64_5_max_dsp_U3/din1_buf1_reg[60] )
+INFO: [Synth 8-3333] propagating constant 0 across sequential element (U0/\l2_trigger_dmul_64ns_64ns_64_5_max_dsp_U3/din1_buf1_reg[61] )
+INFO: [Synth 8-3333] propagating constant 1 across sequential element (U0/\l2_trigger_dmul_64ns_64ns_64_5_max_dsp_U3/din1_buf1_reg[62] )
+INFO: [Synth 8-3333] propagating constant 0 across sequential element (U0/\l2_trigger_dmul_64ns_64ns_64_5_max_dsp_U3/din1_buf1_reg[63] )
+INFO: [Synth 8-3333] propagating constant 0 across sequential element (U0/\l2_trigger_uitodp_32ns_64_5_U6/din0_buf1_reg[0] )
+INFO: [Synth 8-3333] propagating constant 0 across sequential element (U0/\l2_trigger_uitodp_32ns_64_5_U6/din0_buf1_reg[1] )
+INFO: [Synth 8-3333] propagating constant 0 across sequential element (U0/\l2_trigger_uitodp_32ns_64_5_U6/din0_buf1_reg[2] )
+INFO: [Synth 8-3333] propagating constant 0 across sequential element (U0/\l2_trigger_uitodp_32ns_64_5_U6/din0_buf1_reg[28] )
+INFO: [Synth 8-3333] propagating constant 0 across sequential element (U0/\l2_trigger_uitodp_32ns_64_5_U6/din0_buf1_reg[29] )
+INFO: [Synth 8-3333] propagating constant 0 across sequential element (U0/\l2_trigger_uitodp_32ns_64_5_U6/din0_buf1_reg[30] )
+INFO: [Synth 8-3333] propagating constant 0 across sequential element (U0/\l2_trigger_uitodp_32ns_64_5_U6/din0_buf1_reg[31] )
+INFO: [Synth 8-3886] merging instance 'U0/phitmp_reg_1446_reg[0]' (FDE) to 'U0/tmp_26_reg_1456_reg[0]'
+INFO: [Synth 8-3886] merging instance 'U0/phitmp_reg_1446_reg[1]' (FDE) to 'U0/tmp_26_reg_1456_reg[1]'
+INFO: [Synth 8-3886] merging instance 'U0/phitmp_reg_1446_reg[2]' (FDE) to 'U0/tmp_26_reg_1456_reg[2]'
+INFO: [Synth 8-3886] merging instance 'U0/phitmp_reg_1446_reg[3]' (FDE) to 'U0/tmp_26_reg_1456_reg[3]'
+INFO: [Synth 8-3886] merging instance 'U0/phitmp_reg_1446_reg[4]' (FDE) to 'U0/tmp_26_reg_1456_reg[4]'
+INFO: [Synth 8-3886] merging instance 'U0/phitmp_reg_1446_reg[5]' (FDE) to 'U0/tmp_26_reg_1456_reg[5]'
+INFO: [Synth 8-3886] merging instance 'U0/phitmp_reg_1446_reg[6]' (FDE) to 'U0/tmp_26_reg_1456_reg[6]'
+INFO: [Synth 8-3886] merging instance 'U0/phitmp_reg_1446_reg[7]' (FDE) to 'U0/tmp_26_reg_1456_reg[7]'
+INFO: [Synth 8-3886] merging instance 'U0/phitmp_reg_1446_reg[8]' (FDE) to 'U0/tmp_26_reg_1456_reg[8]'
+INFO: [Synth 8-3886] merging instance 'U0/phitmp_reg_1446_reg[9]' (FDE) to 'U0/tmp_26_reg_1456_reg[9]'
+INFO: [Synth 8-3886] merging instance 'U0/phitmp_reg_1446_reg[10]' (FDE) to 'U0/tmp_26_reg_1456_reg[10]'
+INFO: [Synth 8-3886] merging instance 'U0/phitmp_reg_1446_reg[11]' (FDE) to 'U0/tmp_26_reg_1456_reg[11]'
+INFO: [Synth 8-3886] merging instance 'U0/phitmp_reg_1446_reg[12]' (FDE) to 'U0/tmp_26_reg_1456_reg[12]'
+INFO: [Synth 8-3886] merging instance 'U0/phitmp_reg_1446_reg[13]' (FDE) to 'U0/tmp_26_reg_1456_reg[13]'
+INFO: [Synth 8-3886] merging instance 'U0/phitmp_reg_1446_reg[14]' (FDE) to 'U0/tmp_26_reg_1456_reg[14]'
+INFO: [Synth 8-3886] merging instance 'U0/phitmp_reg_1446_reg[15]' (FDE) to 'U0/tmp_26_reg_1456_reg[31]'
+INFO: [Synth 8-3886] merging instance 'U0/tmp_39_reg_1441_reg[0]' (FDE) to 'U0/tmp_24_reg_1451_reg[0]'
+INFO: [Synth 8-3886] merging instance 'U0/tmp_39_reg_1441_reg[1]' (FDE) to 'U0/tmp_24_reg_1451_reg[1]'
+INFO: [Synth 8-3886] merging instance 'U0/tmp_39_reg_1441_reg[2]' (FDE) to 'U0/tmp_24_reg_1451_reg[2]'
+INFO: [Synth 8-3886] merging instance 'U0/tmp_39_reg_1441_reg[3]' (FDE) to 'U0/tmp_24_reg_1451_reg[3]'
+INFO: [Synth 8-3886] merging instance 'U0/tmp_39_reg_1441_reg[4]' (FDE) to 'U0/tmp_24_reg_1451_reg[4]'
+INFO: [Synth 8-3886] merging instance 'U0/tmp_39_reg_1441_reg[5]' (FDE) to 'U0/tmp_24_reg_1451_reg[5]'
+INFO: [Synth 8-3886] merging instance 'U0/tmp_39_reg_1441_reg[6]' (FDE) to 'U0/tmp_24_reg_1451_reg[6]'
+INFO: [Synth 8-3886] merging instance 'U0/tmp_39_reg_1441_reg[7]' (FDE) to 'U0/tmp_24_reg_1451_reg[7]'
+INFO: [Synth 8-3886] merging instance 'U0/tmp_39_reg_1441_reg[8]' (FDE) to 'U0/tmp_24_reg_1451_reg[8]'
+INFO: [Synth 8-3886] merging instance 'U0/tmp_39_reg_1441_reg[9]' (FDE) to 'U0/tmp_24_reg_1451_reg[9]'
+INFO: [Synth 8-3886] merging instance 'U0/tmp_39_reg_1441_reg[10]' (FDE) to 'U0/tmp_24_reg_1451_reg[10]'
+INFO: [Synth 8-3886] merging instance 'U0/tmp_39_reg_1441_reg[11]' (FDE) to 'U0/tmp_24_reg_1451_reg[11]'
+INFO: [Synth 8-3886] merging instance 'U0/tmp_39_reg_1441_reg[12]' (FDE) to 'U0/tmp_24_reg_1451_reg[12]'
+INFO: [Synth 8-3886] merging instance 'U0/tmp_39_reg_1441_reg[13]' (FDE) to 'U0/tmp_24_reg_1451_reg[13]'
+INFO: [Synth 8-3886] merging instance 'U0/tmp_39_reg_1441_reg[14]' (FDE) to 'U0/tmp_24_reg_1451_reg[14]'
+INFO: [Synth 8-3886] merging instance 'U0/tmp_39_reg_1441_reg[15]' (FDE) to 'U0/tmp_24_reg_1451_reg[15]'
+INFO: [Synth 8-3886] merging instance 'U0/data_shift1_addr_1_reg_1431_reg[0]' (FDE) to 'U0/sum_overP1_addr_reg_1461_reg[0]'
+INFO: [Synth 8-3886] merging instance 'U0/data_shift1_addr_1_reg_1431_reg[1]' (FDE) to 'U0/sum_overP1_addr_reg_1461_reg[1]'
+INFO: [Synth 8-3886] merging instance 'U0/data_shift1_addr_1_reg_1431_reg[2]' (FDE) to 'U0/sum_overP1_addr_reg_1461_reg[2]'
+INFO: [Synth 8-3886] merging instance 'U0/data_shift1_addr_1_reg_1431_reg[3]' (FDE) to 'U0/sum_overP1_addr_reg_1461_reg[3]'
+INFO: [Synth 8-3886] merging instance 'U0/data_shift1_addr_1_reg_1431_reg[4]' (FDE) to 'U0/sum_overP1_addr_reg_1461_reg[4]'
+INFO: [Synth 8-3886] merging instance 'U0/data_shift1_addr_1_reg_1431_reg[5]' (FDE) to 'U0/sum_overP1_addr_reg_1461_reg[5]'
+INFO: [Synth 8-3886] merging instance 'U0/data_shift1_addr_1_reg_1431_reg[6]' (FDE) to 'U0/sum_overP1_addr_reg_1461_reg[6]'
+INFO: [Synth 8-3886] merging instance 'U0/data_shift1_addr_1_reg_1431_reg[7]' (FDE) to 'U0/sum_overP1_addr_reg_1461_reg[7]'
+INFO: [Synth 8-3886] merging instance 'U0/data_shift1_addr_1_reg_1431_reg[8]' (FDE) to 'U0/sum_overP1_addr_reg_1461_reg[8]'
+INFO: [Synth 8-3886] merging instance 'U0/data_shift1_addr_1_reg_1431_reg[9]' (FDE) to 'U0/sum_overP1_addr_reg_1461_reg[9]'
+INFO: [Synth 8-3886] merging instance 'U0/data_shift1_addr_1_reg_1431_reg[10]' (FDE) to 'U0/sum_overP1_addr_reg_1461_reg[10]'
+INFO: [Synth 8-3886] merging instance 'U0/tmp_6_reg_1343_reg[0]' (FDE) to 'U0/n_pixels_in_bus_read_reg_1330_reg[1]'
+INFO: [Synth 8-3886] merging instance 'U0/tmp_6_reg_1343_reg[1]' (FDE) to 'U0/n_pixels_in_bus_read_reg_1330_reg[2]'
+INFO: [Synth 8-3886] merging instance 'U0/tmp_6_reg_1343_reg[2]' (FDE) to 'U0/n_pixels_in_bus_read_reg_1330_reg[3]'
+INFO: [Synth 8-3886] merging instance 'U0/tmp_6_reg_1343_reg[3]' (FDE) to 'U0/n_pixels_in_bus_read_reg_1330_reg[4]'
+INFO: [Synth 8-3886] merging instance 'U0/tmp_6_reg_1343_reg[4]' (FDE) to 'U0/n_pixels_in_bus_read_reg_1330_reg[5]'
+INFO: [Synth 8-3886] merging instance 'U0/tmp_6_reg_1343_reg[5]' (FDE) to 'U0/n_pixels_in_bus_read_reg_1330_reg[6]'
+INFO: [Synth 8-3886] merging instance 'U0/tmp_6_reg_1343_reg[6]' (FDE) to 'U0/n_pixels_in_bus_read_reg_1330_reg[7]'
+INFO: [Synth 8-3886] merging instance 'U0/tmp_6_reg_1343_reg[7]' (FDE) to 'U0/n_pixels_in_bus_read_reg_1330_reg[8]'
+INFO: [Synth 8-3886] merging instance 'U0/tmp_6_reg_1343_reg[8]' (FDE) to 'U0/n_pixels_in_bus_read_reg_1330_reg[9]'
+INFO: [Synth 8-3886] merging instance 'U0/tmp_6_reg_1343_reg[9]' (FDE) to 'U0/n_pixels_in_bus_read_reg_1330_reg[10]'
+INFO: [Synth 8-3886] merging instance 'U0/tmp_6_reg_1343_reg[10]' (FDE) to 'U0/n_pixels_in_bus_read_reg_1330_reg[11]'
+INFO: [Synth 8-3886] merging instance 'U0/tmp_6_reg_1343_reg[11]' (FDE) to 'U0/n_pixels_in_bus_read_reg_1330_reg[12]'
+INFO: [Synth 8-3886] merging instance 'U0/tmp_6_reg_1343_reg[12]' (FDE) to 'U0/n_pixels_in_bus_read_reg_1330_reg[13]'
+INFO: [Synth 8-3886] merging instance 'U0/tmp_6_reg_1343_reg[13]' (FDE) to 'U0/n_pixels_in_bus_read_reg_1330_reg[14]'
+INFO: [Synth 8-3886] merging instance 'U0/tmp_6_reg_1343_reg[14]' (FDE) to 'U0/n_pixels_in_bus_read_reg_1330_reg[15]'
+INFO: [Synth 8-3886] merging instance 'U0/n_pixels_in_bus_read_reg_1330_reg[1]' (FDE) to 'U0/tmp_1_reg_1335_reg[0]'
+INFO: [Synth 8-3886] merging instance 'U0/n_pixels_in_bus_read_reg_1330_reg[2]' (FDE) to 'U0/tmp_1_reg_1335_reg[1]'
+INFO: [Synth 8-3886] merging instance 'U0/tmp_1_reg_1335_reg[2]' (FDE) to 'U0/n_pixels_in_bus_read_reg_1330_reg[3]'
+INFO: [Synth 8-3886] merging instance 'U0/tmp_18_reg_1411_reg[0]' (FDE) to 'U0/sum_pix1_addr_3_reg_1421_reg[0]'
+INFO: [Synth 8-3886] merging instance 'U0/tmp_18_reg_1411_reg[1]' (FDE) to 'U0/sum_pix1_addr_3_reg_1421_reg[1]'
+INFO: [Synth 8-3886] merging instance 'U0/tmp_18_reg_1411_reg[2]' (FDE) to 'U0/sum_pix1_addr_3_reg_1421_reg[2]'
+INFO: [Synth 8-3886] merging instance 'U0/tmp_18_reg_1411_reg[3]' (FDE) to 'U0/sum_pix1_addr_3_reg_1421_reg[3]'
+INFO: [Synth 8-3886] merging instance 'U0/tmp_18_reg_1411_reg[4]' (FDE) to 'U0/sum_pix1_addr_3_reg_1421_reg[4]'
+INFO: [Synth 8-3886] merging instance 'U0/tmp_18_reg_1411_reg[5]' (FDE) to 'U0/sum_pix1_addr_3_reg_1421_reg[5]'
+INFO: [Synth 8-3886] merging instance 'U0/tmp_18_reg_1411_reg[6]' (FDE) to 'U0/sum_pix1_addr_3_reg_1421_reg[6]'
+INFO: [Synth 8-3886] merging instance 'U0/tmp_18_reg_1411_reg[7]' (FDE) to 'U0/sum_pix1_addr_3_reg_1421_reg[7]'
+INFO: [Synth 8-3886] merging instance 'U0/tmp_18_reg_1411_reg[8]' (FDE) to 'U0/sum_pix1_addr_3_reg_1421_reg[8]'
+INFO: [Synth 8-3886] merging instance 'U0/tmp_18_reg_1411_reg[9]' (FDE) to 'U0/sum_pix1_addr_3_reg_1421_reg[9]'
+INFO: [Synth 8-3886] merging instance 'U0/tmp_18_reg_1411_reg[10]' (FDE) to 'U0/sum_pix1_addr_3_reg_1421_reg[10]'
+INFO: [Synth 8-3886] merging instance 'U0/tmp_26_reg_1456_reg[15]' (FDE) to 'U0/tmp_26_reg_1456_reg[31]'
+INFO: [Synth 8-3886] merging instance 'U0/tmp_26_reg_1456_reg[16]' (FDE) to 'U0/tmp_26_reg_1456_reg[31]'
+INFO: [Synth 8-3886] merging instance 'U0/tmp_26_reg_1456_reg[17]' (FDE) to 'U0/tmp_26_reg_1456_reg[31]'
+INFO: [Synth 8-3886] merging instance 'U0/tmp_26_reg_1456_reg[18]' (FDE) to 'U0/tmp_26_reg_1456_reg[31]'
+INFO: [Synth 8-3886] merging instance 'U0/tmp_26_reg_1456_reg[19]' (FDE) to 'U0/tmp_26_reg_1456_reg[31]'
+INFO: [Synth 8-3886] merging instance 'U0/tmp_26_reg_1456_reg[20]' (FDE) to 'U0/tmp_26_reg_1456_reg[31]'
+INFO: [Synth 8-3886] merging instance 'U0/tmp_26_reg_1456_reg[21]' (FDE) to 'U0/tmp_26_reg_1456_reg[31]'
+INFO: [Synth 8-3886] merging instance 'U0/tmp_26_reg_1456_reg[22]' (FDE) to 'U0/tmp_26_reg_1456_reg[31]'
+INFO: [Synth 8-3886] merging instance 'U0/tmp_26_reg_1456_reg[23]' (FDE) to 'U0/tmp_26_reg_1456_reg[31]'
+INFO: [Synth 8-3886] merging instance 'U0/tmp_26_reg_1456_reg[24]' (FDE) to 'U0/tmp_26_reg_1456_reg[31]'
+INFO: [Synth 8-3886] merging instance 'U0/tmp_26_reg_1456_reg[25]' (FDE) to 'U0/tmp_26_reg_1456_reg[31]'
+INFO: [Synth 8-3886] merging instance 'U0/tmp_26_reg_1456_reg[26]' (FDE) to 'U0/tmp_26_reg_1456_reg[31]'
+INFO: [Synth 8-3886] merging instance 'U0/tmp_26_reg_1456_reg[27]' (FDE) to 'U0/tmp_26_reg_1456_reg[31]'
+INFO: [Synth 8-3886] merging instance 'U0/tmp_26_reg_1456_reg[28]' (FDE) to 'U0/tmp_26_reg_1456_reg[31]'
+INFO: [Synth 8-3886] merging instance 'U0/tmp_26_reg_1456_reg[29]' (FDE) to 'U0/tmp_26_reg_1456_reg[31]'
+INFO: [Synth 8-3886] merging instance 'U0/tmp_26_reg_1456_reg[30]' (FDE) to 'U0/tmp_26_reg_1456_reg[31]'
+INFO: [Synth 8-3886] merging instance 'U0/tmp_24_reg_1451_reg[15]' (FDE) to 'U0/tmp_24_reg_1451_reg[16]'
+INFO: [Synth 8-3886] merging instance 'U0/tmp_24_reg_1451_reg[16]' (FDE) to 'U0/tmp_24_reg_1451_reg[17]'
+INFO: [Synth 8-3886] merging instance 'U0/tmp_24_reg_1451_reg[17]' (FDE) to 'U0/tmp_24_reg_1451_reg[18]'
+INFO: [Synth 8-3886] merging instance 'U0/tmp_24_reg_1451_reg[18]' (FDE) to 'U0/tmp_24_reg_1451_reg[19]'
+INFO: [Synth 8-3886] merging instance 'U0/tmp_24_reg_1451_reg[19]' (FDE) to 'U0/tmp_24_reg_1451_reg[20]'
+INFO: [Synth 8-3886] merging instance 'U0/tmp_24_reg_1451_reg[20]' (FDE) to 'U0/tmp_24_reg_1451_reg[21]'
+INFO: [Synth 8-3886] merging instance 'U0/tmp_24_reg_1451_reg[21]' (FDE) to 'U0/tmp_24_reg_1451_reg[22]'
+INFO: [Synth 8-3886] merging instance 'U0/tmp_24_reg_1451_reg[22]' (FDE) to 'U0/tmp_24_reg_1451_reg[23]'
+INFO: [Synth 8-3886] merging instance 'U0/tmp_24_reg_1451_reg[23]' (FDE) to 'U0/tmp_24_reg_1451_reg[24]'
+INFO: [Synth 8-3886] merging instance 'U0/tmp_24_reg_1451_reg[24]' (FDE) to 'U0/tmp_24_reg_1451_reg[25]'
+INFO: [Synth 8-3886] merging instance 'U0/tmp_24_reg_1451_reg[25]' (FDE) to 'U0/tmp_24_reg_1451_reg[26]'
+INFO: [Synth 8-3886] merging instance 'U0/tmp_24_reg_1451_reg[26]' (FDE) to 'U0/tmp_24_reg_1451_reg[27]'
+INFO: [Common 17-14] Message 'Synth 8-3886' appears 100 times and further instances of the messages will be disabled. Use the Tcl command set_msg_config to change the current settings.
+INFO: [Synth 8-3333] propagating constant 0 across sequential element (U0/\l2_trigger_CTRL_BUS_s_axi_U/rdata_data_reg[31] )
+INFO: [Synth 8-3333] propagating constant 0 across sequential element (U0/\l2_trigger_CTRL_BUS_s_axi_U/wstate_reg[2] )
+WARNING: [Synth 8-3332] Sequential element (l2_trigger_CTRL_BUS_s_axi_U/wstate_reg[2]) is unused and will be removed from module l2_trigger.
+WARNING: [Synth 8-3332] Sequential element (l2_trigger_CTRL_BUS_s_axi_U/rstate_reg[1]) is unused and will be removed from module l2_trigger.
+WARNING: [Synth 8-3332] Sequential element (l2_trigger_CTRL_BUS_s_axi_U/rdata_data_reg[31]) is unused and will be removed from module l2_trigger.
+WARNING: [Synth 8-3332] Sequential element (l2_trigger_CTRL_BUS_s_axi_U/rdata_data_reg[30]) is unused and will be removed from module l2_trigger.
+WARNING: [Synth 8-3332] Sequential element (l2_trigger_CTRL_BUS_s_axi_U/rdata_data_reg[29]) is unused and will be removed from module l2_trigger.
+WARNING: [Synth 8-3332] Sequential element (l2_trigger_CTRL_BUS_s_axi_U/rdata_data_reg[28]) is unused and will be removed from module l2_trigger.
+WARNING: [Synth 8-3332] Sequential element (l2_trigger_CTRL_BUS_s_axi_U/rdata_data_reg[27]) is unused and will be removed from module l2_trigger.
+WARNING: [Synth 8-3332] Sequential element (l2_trigger_CTRL_BUS_s_axi_U/rdata_data_reg[26]) is unused and will be removed from module l2_trigger.
+WARNING: [Synth 8-3332] Sequential element (l2_trigger_CTRL_BUS_s_axi_U/rdata_data_reg[25]) is unused and will be removed from module l2_trigger.
+WARNING: [Synth 8-3332] Sequential element (l2_trigger_CTRL_BUS_s_axi_U/rdata_data_reg[24]) is unused and will be removed from module l2_trigger.
+WARNING: [Synth 8-3332] Sequential element (l2_trigger_CTRL_BUS_s_axi_U/rdata_data_reg[23]) is unused and will be removed from module l2_trigger.
+WARNING: [Synth 8-3332] Sequential element (l2_trigger_CTRL_BUS_s_axi_U/rdata_data_reg[22]) is unused and will be removed from module l2_trigger.
+WARNING: [Synth 8-3332] Sequential element (l2_trigger_CTRL_BUS_s_axi_U/rdata_data_reg[21]) is unused and will be removed from module l2_trigger.
+WARNING: [Synth 8-3332] Sequential element (l2_trigger_CTRL_BUS_s_axi_U/rdata_data_reg[20]) is unused and will be removed from module l2_trigger.
+WARNING: [Synth 8-3332] Sequential element (l2_trigger_CTRL_BUS_s_axi_U/rdata_data_reg[19]) is unused and will be removed from module l2_trigger.
+WARNING: [Synth 8-3332] Sequential element (l2_trigger_CTRL_BUS_s_axi_U/rdata_data_reg[18]) is unused and will be removed from module l2_trigger.
+WARNING: [Synth 8-3332] Sequential element (l2_trigger_CTRL_BUS_s_axi_U/rdata_data_reg[17]) is unused and will be removed from module l2_trigger.
+WARNING: [Synth 8-3332] Sequential element (l2_trigger_CTRL_BUS_s_axi_U/rdata_data_reg[16]) is unused and will be removed from module l2_trigger.
+WARNING: [Synth 8-3332] Sequential element (tmp_18_reg_1411_reg[14]) is unused and will be removed from module l2_trigger.
+WARNING: [Synth 8-3332] Sequential element (tmp_9_reg_1533_reg[14]) is unused and will be removed from module l2_trigger.
+WARNING: [Synth 8-3332] Sequential element (tmp_9_reg_1533_reg[13]) is unused and will be removed from module l2_trigger.
+WARNING: [Synth 8-3332] Sequential element (tmp_9_reg_1533_reg[12]) is unused and will be removed from module l2_trigger.
+WARNING: [Synth 8-3332] Sequential element (tmp_9_reg_1533_reg[11]) is unused and will be removed from module l2_trigger.
+WARNING: [Synth 8-3332] Sequential element (tmp_7_reg_1364_reg[14]) is unused and will be removed from module l2_trigger.
+WARNING: [Synth 8-3332] Sequential element (l2_trigger_dmul_64ns_64ns_64_5_max_dsp_U3/din1_buf1_reg[63]) is unused and will be removed from module l2_trigger.
+WARNING: [Synth 8-3332] Sequential element (l2_trigger_dmul_64ns_64ns_64_5_max_dsp_U3/din1_buf1_reg[62]) is unused and will be removed from module l2_trigger.
+WARNING: [Synth 8-3332] Sequential element (l2_trigger_dmul_64ns_64ns_64_5_max_dsp_U3/din1_buf1_reg[61]) is unused and will be removed from module l2_trigger.
+WARNING: [Synth 8-3332] Sequential element (l2_trigger_dmul_64ns_64ns_64_5_max_dsp_U3/din1_buf1_reg[60]) is unused and will be removed from module l2_trigger.
+WARNING: [Synth 8-3332] Sequential element (l2_trigger_dmul_64ns_64ns_64_5_max_dsp_U3/din1_buf1_reg[59]) is unused and will be removed from module l2_trigger.
+WARNING: [Synth 8-3332] Sequential element (l2_trigger_dmul_64ns_64ns_64_5_max_dsp_U3/din1_buf1_reg[58]) is unused and will be removed from module l2_trigger.
+WARNING: [Synth 8-3332] Sequential element (l2_trigger_dmul_64ns_64ns_64_5_max_dsp_U3/din1_buf1_reg[57]) is unused and will be removed from module l2_trigger.
+WARNING: [Synth 8-3332] Sequential element (l2_trigger_dmul_64ns_64ns_64_5_max_dsp_U3/din1_buf1_reg[56]) is unused and will be removed from module l2_trigger.
+WARNING: [Synth 8-3332] Sequential element (l2_trigger_dmul_64ns_64ns_64_5_max_dsp_U3/din1_buf1_reg[55]) is unused and will be removed from module l2_trigger.
+WARNING: [Synth 8-3332] Sequential element (l2_trigger_dmul_64ns_64ns_64_5_max_dsp_U3/din1_buf1_reg[54]) is unused and will be removed from module l2_trigger.
+WARNING: [Synth 8-3332] Sequential element (l2_trigger_dmul_64ns_64ns_64_5_max_dsp_U3/din1_buf1_reg[53]) is unused and will be removed from module l2_trigger.
+WARNING: [Synth 8-3332] Sequential element (l2_trigger_dmul_64ns_64ns_64_5_max_dsp_U3/din1_buf1_reg[52]) is unused and will be removed from module l2_trigger.
+WARNING: [Synth 8-3332] Sequential element (l2_trigger_dmul_64ns_64ns_64_5_max_dsp_U3/din1_buf1_reg[51]) is unused and will be removed from module l2_trigger.
+WARNING: [Synth 8-3332] Sequential element (l2_trigger_dmul_64ns_64ns_64_5_max_dsp_U3/din1_buf1_reg[50]) is unused and will be removed from module l2_trigger.
+WARNING: [Synth 8-3332] Sequential element (l2_trigger_dmul_64ns_64ns_64_5_max_dsp_U3/din1_buf1_reg[49]) is unused and will be removed from module l2_trigger.
+WARNING: [Synth 8-3332] Sequential element (l2_trigger_dmul_64ns_64ns_64_5_max_dsp_U3/din1_buf1_reg[48]) is unused and will be removed from module l2_trigger.
+WARNING: [Synth 8-3332] Sequential element (l2_trigger_dmul_64ns_64ns_64_5_max_dsp_U3/din1_buf1_reg[47]) is unused and will be removed from module l2_trigger.
+WARNING: [Synth 8-3332] Sequential element (l2_trigger_dmul_64ns_64ns_64_5_max_dsp_U3/din1_buf1_reg[46]) is unused and will be removed from module l2_trigger.
+WARNING: [Synth 8-3332] Sequential element (l2_trigger_dmul_64ns_64ns_64_5_max_dsp_U3/din1_buf1_reg[45]) is unused and will be removed from module l2_trigger.
+WARNING: [Synth 8-3332] Sequential element (l2_trigger_dmul_64ns_64ns_64_5_max_dsp_U3/din1_buf1_reg[44]) is unused and will be removed from module l2_trigger.
+WARNING: [Synth 8-3332] Sequential element (l2_trigger_dmul_64ns_64ns_64_5_max_dsp_U3/din1_buf1_reg[43]) is unused and will be removed from module l2_trigger.
+WARNING: [Synth 8-3332] Sequential element (l2_trigger_dmul_64ns_64ns_64_5_max_dsp_U3/din1_buf1_reg[42]) is unused and will be removed from module l2_trigger.
+WARNING: [Synth 8-3332] Sequential element (l2_trigger_dmul_64ns_64ns_64_5_max_dsp_U3/din1_buf1_reg[41]) is unused and will be removed from module l2_trigger.
+WARNING: [Synth 8-3332] Sequential element (l2_trigger_dmul_64ns_64ns_64_5_max_dsp_U3/din1_buf1_reg[40]) is unused and will be removed from module l2_trigger.
+WARNING: [Synth 8-3332] Sequential element (l2_trigger_dmul_64ns_64ns_64_5_max_dsp_U3/din1_buf1_reg[39]) is unused and will be removed from module l2_trigger.
+WARNING: [Synth 8-3332] Sequential element (l2_trigger_dmul_64ns_64ns_64_5_max_dsp_U3/din1_buf1_reg[38]) is unused and will be removed from module l2_trigger.
+WARNING: [Synth 8-3332] Sequential element (l2_trigger_dmul_64ns_64ns_64_5_max_dsp_U3/din1_buf1_reg[37]) is unused and will be removed from module l2_trigger.
+WARNING: [Synth 8-3332] Sequential element (l2_trigger_dmul_64ns_64ns_64_5_max_dsp_U3/din1_buf1_reg[36]) is unused and will be removed from module l2_trigger.
+WARNING: [Synth 8-3332] Sequential element (l2_trigger_dmul_64ns_64ns_64_5_max_dsp_U3/din1_buf1_reg[35]) is unused and will be removed from module l2_trigger.
+WARNING: [Synth 8-3332] Sequential element (l2_trigger_dmul_64ns_64ns_64_5_max_dsp_U3/din1_buf1_reg[34]) is unused and will be removed from module l2_trigger.
+WARNING: [Synth 8-3332] Sequential element (l2_trigger_dmul_64ns_64ns_64_5_max_dsp_U3/din1_buf1_reg[33]) is unused and will be removed from module l2_trigger.
+WARNING: [Synth 8-3332] Sequential element (l2_trigger_dmul_64ns_64ns_64_5_max_dsp_U3/din1_buf1_reg[32]) is unused and will be removed from module l2_trigger.
+WARNING: [Synth 8-3332] Sequential element (l2_trigger_dmul_64ns_64ns_64_5_max_dsp_U3/din1_buf1_reg[31]) is unused and will be removed from module l2_trigger.
+WARNING: [Synth 8-3332] Sequential element (l2_trigger_dmul_64ns_64ns_64_5_max_dsp_U3/din1_buf1_reg[30]) is unused and will be removed from module l2_trigger.
+WARNING: [Synth 8-3332] Sequential element (l2_trigger_dmul_64ns_64ns_64_5_max_dsp_U3/din1_buf1_reg[29]) is unused and will be removed from module l2_trigger.
+WARNING: [Synth 8-3332] Sequential element (l2_trigger_dmul_64ns_64ns_64_5_max_dsp_U3/din1_buf1_reg[28]) is unused and will be removed from module l2_trigger.
+WARNING: [Synth 8-3332] Sequential element (l2_trigger_dmul_64ns_64ns_64_5_max_dsp_U3/din1_buf1_reg[27]) is unused and will be removed from module l2_trigger.
+WARNING: [Synth 8-3332] Sequential element (l2_trigger_dmul_64ns_64ns_64_5_max_dsp_U3/din1_buf1_reg[26]) is unused and will be removed from module l2_trigger.
+WARNING: [Synth 8-3332] Sequential element (l2_trigger_dmul_64ns_64ns_64_5_max_dsp_U3/din1_buf1_reg[25]) is unused and will be removed from module l2_trigger.
+WARNING: [Synth 8-3332] Sequential element (l2_trigger_dmul_64ns_64ns_64_5_max_dsp_U3/din1_buf1_reg[24]) is unused and will be removed from module l2_trigger.
+WARNING: [Synth 8-3332] Sequential element (l2_trigger_dmul_64ns_64ns_64_5_max_dsp_U3/din1_buf1_reg[23]) is unused and will be removed from module l2_trigger.
+WARNING: [Synth 8-3332] Sequential element (l2_trigger_dmul_64ns_64ns_64_5_max_dsp_U3/din1_buf1_reg[22]) is unused and will be removed from module l2_trigger.
+WARNING: [Synth 8-3332] Sequential element (l2_trigger_dmul_64ns_64ns_64_5_max_dsp_U3/din1_buf1_reg[21]) is unused and will be removed from module l2_trigger.
+WARNING: [Synth 8-3332] Sequential element (l2_trigger_dmul_64ns_64ns_64_5_max_dsp_U3/din1_buf1_reg[20]) is unused and will be removed from module l2_trigger.
+WARNING: [Synth 8-3332] Sequential element (l2_trigger_dmul_64ns_64ns_64_5_max_dsp_U3/din1_buf1_reg[19]) is unused and will be removed from module l2_trigger.
+WARNING: [Synth 8-3332] Sequential element (l2_trigger_dmul_64ns_64ns_64_5_max_dsp_U3/din1_buf1_reg[18]) is unused and will be removed from module l2_trigger.
+WARNING: [Synth 8-3332] Sequential element (l2_trigger_dmul_64ns_64ns_64_5_max_dsp_U3/din1_buf1_reg[17]) is unused and will be removed from module l2_trigger.
+WARNING: [Synth 8-3332] Sequential element (l2_trigger_dmul_64ns_64ns_64_5_max_dsp_U3/din1_buf1_reg[16]) is unused and will be removed from module l2_trigger.
+WARNING: [Synth 8-3332] Sequential element (l2_trigger_dmul_64ns_64ns_64_5_max_dsp_U3/din1_buf1_reg[15]) is unused and will be removed from module l2_trigger.
+WARNING: [Synth 8-3332] Sequential element (l2_trigger_dmul_64ns_64ns_64_5_max_dsp_U3/din1_buf1_reg[14]) is unused and will be removed from module l2_trigger.
+WARNING: [Synth 8-3332] Sequential element (l2_trigger_dmul_64ns_64ns_64_5_max_dsp_U3/din1_buf1_reg[13]) is unused and will be removed from module l2_trigger.
+WARNING: [Synth 8-3332] Sequential element (l2_trigger_dmul_64ns_64ns_64_5_max_dsp_U3/din1_buf1_reg[12]) is unused and will be removed from module l2_trigger.
+WARNING: [Synth 8-3332] Sequential element (l2_trigger_dmul_64ns_64ns_64_5_max_dsp_U3/din1_buf1_reg[11]) is unused and will be removed from module l2_trigger.
+WARNING: [Synth 8-3332] Sequential element (l2_trigger_dmul_64ns_64ns_64_5_max_dsp_U3/din1_buf1_reg[10]) is unused and will be removed from module l2_trigger.
+WARNING: [Synth 8-3332] Sequential element (l2_trigger_dmul_64ns_64ns_64_5_max_dsp_U3/din1_buf1_reg[9]) is unused and will be removed from module l2_trigger.
+WARNING: [Synth 8-3332] Sequential element (l2_trigger_dmul_64ns_64ns_64_5_max_dsp_U3/din1_buf1_reg[8]) is unused and will be removed from module l2_trigger.
+WARNING: [Synth 8-3332] Sequential element (l2_trigger_dmul_64ns_64ns_64_5_max_dsp_U3/din1_buf1_reg[7]) is unused and will be removed from module l2_trigger.
+WARNING: [Synth 8-3332] Sequential element (l2_trigger_dmul_64ns_64ns_64_5_max_dsp_U3/din1_buf1_reg[6]) is unused and will be removed from module l2_trigger.
+WARNING: [Synth 8-3332] Sequential element (l2_trigger_dmul_64ns_64ns_64_5_max_dsp_U3/din1_buf1_reg[5]) is unused and will be removed from module l2_trigger.
+WARNING: [Synth 8-3332] Sequential element (l2_trigger_dmul_64ns_64ns_64_5_max_dsp_U3/din1_buf1_reg[4]) is unused and will be removed from module l2_trigger.
+WARNING: [Synth 8-3332] Sequential element (l2_trigger_dmul_64ns_64ns_64_5_max_dsp_U3/din1_buf1_reg[3]) is unused and will be removed from module l2_trigger.
+WARNING: [Synth 8-3332] Sequential element (l2_trigger_dmul_64ns_64ns_64_5_max_dsp_U3/din1_buf1_reg[2]) is unused and will be removed from module l2_trigger.
+WARNING: [Synth 8-3332] Sequential element (l2_trigger_dmul_64ns_64ns_64_5_max_dsp_U3/din1_buf1_reg[1]) is unused and will be removed from module l2_trigger.
+WARNING: [Synth 8-3332] Sequential element (l2_trigger_dmul_64ns_64ns_64_5_max_dsp_U3/din1_buf1_reg[0]) is unused and will be removed from module l2_trigger.
+WARNING: [Synth 8-3332] Sequential element (l2_trigger_uitodp_32ns_64_5_U5/din0_buf1_reg[31]) is unused and will be removed from module l2_trigger.
+WARNING: [Synth 8-3332] Sequential element (l2_trigger_uitodp_32ns_64_5_U5/din0_buf1_reg[30]) is unused and will be removed from module l2_trigger.
+WARNING: [Synth 8-3332] Sequential element (l2_trigger_uitodp_32ns_64_5_U5/din0_buf1_reg[29]) is unused and will be removed from module l2_trigger.
+WARNING: [Synth 8-3332] Sequential element (l2_trigger_uitodp_32ns_64_5_U5/din0_buf1_reg[28]) is unused and will be removed from module l2_trigger.
+WARNING: [Synth 8-3332] Sequential element (l2_trigger_uitodp_32ns_64_5_U5/din0_buf1_reg[2]) is unused and will be removed from module l2_trigger.
+WARNING: [Synth 8-3332] Sequential element (l2_trigger_uitodp_32ns_64_5_U5/din0_buf1_reg[1]) is unused and will be removed from module l2_trigger.
+WARNING: [Synth 8-3332] Sequential element (l2_trigger_uitodp_32ns_64_5_U5/din0_buf1_reg[0]) is unused and will be removed from module l2_trigger.
+WARNING: [Synth 8-3332] Sequential element (l2_trigger_uitodp_32ns_64_5_U6/din0_buf1_reg[31]) is unused and will be removed from module l2_trigger.
+WARNING: [Synth 8-3332] Sequential element (l2_trigger_uitodp_32ns_64_5_U6/din0_buf1_reg[30]) is unused and will be removed from module l2_trigger.
+WARNING: [Synth 8-3332] Sequential element (l2_trigger_uitodp_32ns_64_5_U6/din0_buf1_reg[29]) is unused and will be removed from module l2_trigger.
+WARNING: [Synth 8-3332] Sequential element (l2_trigger_uitodp_32ns_64_5_U6/din0_buf1_reg[28]) is unused and will be removed from module l2_trigger.
+WARNING: [Synth 8-3332] Sequential element (l2_trigger_uitodp_32ns_64_5_U6/din0_buf1_reg[2]) is unused and will be removed from module l2_trigger.
+INFO: [Common 17-14] Message 'Synth 8-3332' appears 100 times and further instances of the messages will be disabled. Use the Tcl command set_msg_config to change the current settings.
+INFO: [Synth 8-3333] propagating constant 0 across sequential element (U0/\l2_trigger_dsqrt_64ns_64ns_64_30_U7/l2_trigger_ap_dsqrt_28_no_dsp_64_u/U0 /i_synth/\SQRT_OP.SPD.OP/i_mant_calc.MANT_SQRT /\RT[1].MA_DEL.MANT_DEL/i_pipe/opt_has_pipe.first_q_reg[0] )
+INFO: [Synth 8-3333] propagating constant 0 across sequential element (U0/\l2_trigger_dsqrt_64ns_64ns_64_30_U7/l2_trigger_ap_dsqrt_28_no_dsp_64_u/U0 /i_synth/\SQRT_OP.SPD.OP/i_mant_calc.MANT_SQRT /\RT[1].MA_DEL.MANT_DEL/i_pipe/opt_has_pipe.first_q_reg[1] )
+INFO: [Synth 8-3333] propagating constant 0 across sequential element (U0/\l2_trigger_dsqrt_64ns_64ns_64_30_U7/l2_trigger_ap_dsqrt_28_no_dsp_64_u/U0 /i_synth/\SQRT_OP.SPD.OP/i_mant_calc.MANT_SQRT /\RT[3].Q_DEL/i_pipe/opt_has_pipe.first_q_reg[3] )
+INFO: [Synth 8-3333] propagating constant 0 across sequential element (U0/\l2_trigger_dsqrt_64ns_64ns_64_30_U7/l2_trigger_ap_dsqrt_28_no_dsp_64_u/U0 /i_synth/\SQRT_OP.SPD.OP/i_mant_calc.MANT_SQRT /\RT[3].Q_DEL/i_pipe/opt_has_pipe.first_q_reg[4] )
+INFO: [Synth 8-3333] propagating constant 0 across sequential element (U0/\l2_trigger_dsqrt_64ns_64ns_64_30_U7/l2_trigger_ap_dsqrt_28_no_dsp_64_u/U0 /i_synth/\SQRT_OP.SPD.OP/i_mant_calc.MANT_SQRT /\RT[3].MA_DEL.MANT_DEL/i_pipe/opt_has_pipe.first_q_reg[0] )
+INFO: [Synth 8-3333] propagating constant 0 across sequential element (U0/\l2_trigger_dsqrt_64ns_64ns_64_30_U7/l2_trigger_ap_dsqrt_28_no_dsp_64_u/U0 /i_synth/\SQRT_OP.SPD.OP/i_mant_calc.MANT_SQRT /\RT[3].MA_DEL.MANT_DEL/i_pipe/opt_has_pipe.first_q_reg[1] )
+INFO: [Synth 8-3333] propagating constant 0 across sequential element (U0/\l2_trigger_dsqrt_64ns_64ns_64_30_U7/l2_trigger_ap_dsqrt_28_no_dsp_64_u/U0 /i_synth/\SQRT_OP.SPD.OP/i_mant_calc.MANT_SQRT /\RT[5].Q_DEL/i_pipe/opt_has_pipe.first_q_reg[5] )
+INFO: [Synth 8-3333] propagating constant 0 across sequential element (U0/\l2_trigger_dsqrt_64ns_64ns_64_30_U7/l2_trigger_ap_dsqrt_28_no_dsp_64_u/U0 /i_synth/\SQRT_OP.SPD.OP/i_mant_calc.MANT_SQRT /\RT[5].Q_DEL/i_pipe/opt_has_pipe.first_q_reg[6] )
+INFO: [Synth 8-3333] propagating constant 0 across sequential element (U0/\l2_trigger_dsqrt_64ns_64ns_64_30_U7/l2_trigger_ap_dsqrt_28_no_dsp_64_u/U0 /i_synth/\SQRT_OP.SPD.OP/i_mant_calc.MANT_SQRT /\RT[5].MA_DEL.MANT_DEL/i_pipe/opt_has_pipe.first_q_reg[0] )
+INFO: [Synth 8-3333] propagating constant 0 across sequential element (U0/\l2_trigger_dsqrt_64ns_64ns_64_30_U7/l2_trigger_ap_dsqrt_28_no_dsp_64_u/U0 /i_synth/\SQRT_OP.SPD.OP/i_mant_calc.MANT_SQRT /\RT[5].MA_DEL.MANT_DEL/i_pipe/opt_has_pipe.first_q_reg[1] )
+INFO: [Synth 8-3333] propagating constant 0 across sequential element (U0/\l2_trigger_dsqrt_64ns_64ns_64_30_U7/l2_trigger_ap_dsqrt_28_no_dsp_64_u/U0 /i_synth/\SQRT_OP.SPD.OP/i_mant_calc.MANT_SQRT /\RT[7].Q_DEL/i_pipe/opt_has_pipe.first_q_reg[7] )
+INFO: [Synth 8-3333] propagating constant 0 across sequential element (U0/\l2_trigger_dsqrt_64ns_64ns_64_30_U7/l2_trigger_ap_dsqrt_28_no_dsp_64_u/U0 /i_synth/\SQRT_OP.SPD.OP/i_mant_calc.MANT_SQRT /\RT[7].Q_DEL/i_pipe/opt_has_pipe.first_q_reg[8] )
+INFO: [Synth 8-3333] propagating constant 0 across sequential element (U0/\l2_trigger_dsqrt_64ns_64ns_64_30_U7/l2_trigger_ap_dsqrt_28_no_dsp_64_u/U0 /i_synth/\SQRT_OP.SPD.OP/i_mant_calc.MANT_SQRT /\RT[7].MA_DEL.MANT_DEL/i_pipe/opt_has_pipe.first_q_reg[0] )
+INFO: [Synth 8-3333] propagating constant 0 across sequential element (U0/\l2_trigger_dsqrt_64ns_64ns_64_30_U7/l2_trigger_ap_dsqrt_28_no_dsp_64_u/U0 /i_synth/\SQRT_OP.SPD.OP/i_mant_calc.MANT_SQRT /\RT[7].MA_DEL.MANT_DEL/i_pipe/opt_has_pipe.first_q_reg[1] )
+INFO: [Synth 8-3333] propagating constant 0 across sequential element (U0/\l2_trigger_dsqrt_64ns_64ns_64_30_U7/l2_trigger_ap_dsqrt_28_no_dsp_64_u/U0 /i_synth/\SQRT_OP.SPD.OP/i_mant_calc.MANT_SQRT /\RT[9].Q_DEL/i_pipe/opt_has_pipe.first_q_reg[9] )
+INFO: [Synth 8-3333] propagating constant 0 across sequential element (U0/\l2_trigger_dsqrt_64ns_64ns_64_30_U7/l2_trigger_ap_dsqrt_28_no_dsp_64_u/U0 /i_synth/\SQRT_OP.SPD.OP/i_mant_calc.MANT_SQRT /\RT[9].Q_DEL/i_pipe/opt_has_pipe.first_q_reg[10] )
+INFO: [Synth 8-3333] propagating constant 0 across sequential element (U0/\l2_trigger_dsqrt_64ns_64ns_64_30_U7/l2_trigger_ap_dsqrt_28_no_dsp_64_u/U0 /i_synth/\SQRT_OP.SPD.OP/i_mant_calc.MANT_SQRT /\RT[9].MA_DEL.MANT_DEL/i_pipe/opt_has_pipe.first_q_reg[0] )
+INFO: [Synth 8-3333] propagating constant 0 across sequential element (U0/\l2_trigger_dsqrt_64ns_64ns_64_30_U7/l2_trigger_ap_dsqrt_28_no_dsp_64_u/U0 /i_synth/\SQRT_OP.SPD.OP/i_mant_calc.MANT_SQRT /\RT[9].MA_DEL.MANT_DEL/i_pipe/opt_has_pipe.first_q_reg[1] )
+INFO: [Synth 8-3333] propagating constant 0 across sequential element (U0/\l2_trigger_dsqrt_64ns_64ns_64_30_U7/l2_trigger_ap_dsqrt_28_no_dsp_64_u/U0 /i_synth/\SQRT_OP.SPD.OP/i_mant_calc.MANT_SQRT /\RT[11].Q_DEL/i_pipe/opt_has_pipe.first_q_reg[11] )
+INFO: [Synth 8-3333] propagating constant 0 across sequential element (U0/\l2_trigger_dsqrt_64ns_64ns_64_30_U7/l2_trigger_ap_dsqrt_28_no_dsp_64_u/U0 /i_synth/\SQRT_OP.SPD.OP/i_mant_calc.MANT_SQRT /\RT[11].Q_DEL/i_pipe/opt_has_pipe.first_q_reg[12] )
+INFO: [Common 17-14] Message 'Synth 8-3333' appears 100 times and further instances of the messages will be disabled. Use the Tcl command set_msg_config to change the current settings.
+---------------------------------------------------------------------------------
+Finished Area Optimization : Time (s): cpu = 00:01:20 ; elapsed = 00:01:23 . Memory (MB): peak = 1570.738 ; gain = 680.492 ; free physical = 7421 ; free virtual = 14980
+---------------------------------------------------------------------------------
+Finished Parallel Area Optimization  : Time (s): cpu = 00:01:20 ; elapsed = 00:01:23 . Memory (MB): peak = 1570.738 ; gain = 680.492 ; free physical = 7421 ; free virtual = 14980
+
+Report RTL Partitions: 
++-+--------------+------------+----------+
+| |RTL Partition |Replication |Instances |
++-+--------------+------------+----------+
++-+--------------+------------+----------+
+---------------------------------------------------------------------------------
+Start Timing Optimization
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Applying XDC Timing Constraints
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Applying XDC Timing Constraints : Time (s): cpu = 00:01:30 ; elapsed = 00:01:33 . Memory (MB): peak = 1588.730 ; gain = 698.484 ; free physical = 7342 ; free virtual = 14908
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Timing Optimization : Time (s): cpu = 00:01:34 ; elapsed = 00:01:37 . Memory (MB): peak = 1609.730 ; gain = 719.484 ; free physical = 7321 ; free virtual = 14887
+---------------------------------------------------------------------------------
+
+Report RTL Partitions: 
++-+--------------+------------+----------+
+| |RTL Partition |Replication |Instances |
++-+--------------+------------+----------+
++-+--------------+------------+----------+
+---------------------------------------------------------------------------------
+Start Technology Mapping
+---------------------------------------------------------------------------------
+INFO: [Synth 8-4480] The timing for the instance sum_overP1_U/l2_trigger_sum_overP1_ram_U/ram_reg_0 (implemented as a block RAM) might be sub-optimal as no optional output register could be merged into the block ram. Providing additional output register may help in improving timing.
+INFO: [Synth 8-4480] The timing for the instance sum_overP1_U/l2_trigger_sum_overP1_ram_U/ram_reg_1 (implemented as a block RAM) might be sub-optimal as no optional output register could be merged into the block ram. Providing additional output register may help in improving timing.
+INFO: [Synth 8-4480] The timing for the instance sum_overP2_U/l2_trigger_sum_overP1_ram_U/ram_reg_0 (implemented as a block RAM) might be sub-optimal as no optional output register could be merged into the block ram. Providing additional output register may help in improving timing.
+INFO: [Synth 8-4480] The timing for the instance sum_overP2_U/l2_trigger_sum_overP1_ram_U/ram_reg_1 (implemented as a block RAM) might be sub-optimal as no optional output register could be merged into the block ram. Providing additional output register may help in improving timing.
+INFO: [Synth 8-4480] The timing for the instance sum_pix1_U/l2_trigger_sum_overP1_ram_U/ram_reg_0 (implemented as a block RAM) might be sub-optimal as no optional output register could be merged into the block ram. Providing additional output register may help in improving timing.
+INFO: [Synth 8-4480] The timing for the instance sum_pix1_U/l2_trigger_sum_overP1_ram_U/ram_reg_1 (implemented as a block RAM) might be sub-optimal as no optional output register could be merged into the block ram. Providing additional output register may help in improving timing.
+INFO: [Synth 8-4480] The timing for the instance data_shift1_U/l2_trigger_data_shift1_ram_U/ram_reg_0 (implemented as a block RAM) might be sub-optimal as no optional output register could be merged into the block ram. Providing additional output register may help in improving timing.
+INFO: [Synth 8-4480] The timing for the instance data_shift1_U/l2_trigger_data_shift1_ram_U/ram_reg_1 (implemented as a block RAM) might be sub-optimal as no optional output register could be merged into the block ram. Providing additional output register may help in improving timing.
+INFO: [Synth 8-4480] The timing for the instance data_shift1_U/l2_trigger_data_shift1_ram_U/ram_reg_2 (implemented as a block RAM) might be sub-optimal as no optional output register could be merged into the block ram. Providing additional output register may help in improving timing.
+INFO: [Synth 8-4480] The timing for the instance data_shift1_U/l2_trigger_data_shift1_ram_U/ram_reg_3 (implemented as a block RAM) might be sub-optimal as no optional output register could be merged into the block ram. Providing additional output register may help in improving timing.
+INFO: [Synth 8-4480] The timing for the instance data_shift1_U/l2_trigger_data_shift1_ram_U/ram_reg_4 (implemented as a block RAM) might be sub-optimal as no optional output register could be merged into the block ram. Providing additional output register may help in improving timing.
+INFO: [Synth 8-4480] The timing for the instance data_shift1_U/l2_trigger_data_shift1_ram_U/ram_reg_5 (implemented as a block RAM) might be sub-optimal as no optional output register could be merged into the block ram. Providing additional output register may help in improving timing.
+INFO: [Synth 8-4480] The timing for the instance data_shift1_U/l2_trigger_data_shift1_ram_U/ram_reg_6 (implemented as a block RAM) might be sub-optimal as no optional output register could be merged into the block ram. Providing additional output register may help in improving timing.
+INFO: [Synth 8-4480] The timing for the instance data_shift1_U/l2_trigger_data_shift1_ram_U/ram_reg_7 (implemented as a block RAM) might be sub-optimal as no optional output register could be merged into the block ram. Providing additional output register may help in improving timing.
+INFO: [Synth 8-4480] The timing for the instance data_shift1_U/l2_trigger_data_shift1_ram_U/ram_reg_8 (implemented as a block RAM) might be sub-optimal as no optional output register could be merged into the block ram. Providing additional output register may help in improving timing.
+INFO: [Synth 8-4480] The timing for the instance thresh1_U/l2_trigger_sum_overP1_ram_U/ram_reg_0 (implemented as a block RAM) might be sub-optimal as no optional output register could be merged into the block ram. Providing additional output register may help in improving timing.
+INFO: [Synth 8-4480] The timing for the instance thresh1_U/l2_trigger_sum_overP1_ram_U/ram_reg_1 (implemented as a block RAM) might be sub-optimal as no optional output register could be merged into the block ram. Providing additional output register may help in improving timing.
+INFO: [Synth 8-4480] The timing for the instance sum_pix2_U/l2_trigger_sum_overP1_ram_U/ram_reg_0 (implemented as a block RAM) might be sub-optimal as no optional output register could be merged into the block ram. Providing additional output register may help in improving timing.
+INFO: [Synth 8-4480] The timing for the instance sum_pix2_U/l2_trigger_sum_overP1_ram_U/ram_reg_1 (implemented as a block RAM) might be sub-optimal as no optional output register could be merged into the block ram. Providing additional output register may help in improving timing.
+INFO: [Synth 8-4480] The timing for the instance data_shift2_U/l2_trigger_data_shift1_ram_U/ram_reg_0 (implemented as a block RAM) might be sub-optimal as no optional output register could be merged into the block ram. Providing additional output register may help in improving timing.
+INFO: [Synth 8-4480] The timing for the instance data_shift2_U/l2_trigger_data_shift1_ram_U/ram_reg_1 (implemented as a block RAM) might be sub-optimal as no optional output register could be merged into the block ram. Providing additional output register may help in improving timing.
+INFO: [Synth 8-4480] The timing for the instance data_shift2_U/l2_trigger_data_shift1_ram_U/ram_reg_2 (implemented as a block RAM) might be sub-optimal as no optional output register could be merged into the block ram. Providing additional output register may help in improving timing.
+INFO: [Synth 8-4480] The timing for the instance data_shift2_U/l2_trigger_data_shift1_ram_U/ram_reg_3 (implemented as a block RAM) might be sub-optimal as no optional output register could be merged into the block ram. Providing additional output register may help in improving timing.
+INFO: [Synth 8-4480] The timing for the instance data_shift2_U/l2_trigger_data_shift1_ram_U/ram_reg_4 (implemented as a block RAM) might be sub-optimal as no optional output register could be merged into the block ram. Providing additional output register may help in improving timing.
+INFO: [Synth 8-4480] The timing for the instance data_shift2_U/l2_trigger_data_shift1_ram_U/ram_reg_5 (implemented as a block RAM) might be sub-optimal as no optional output register could be merged into the block ram. Providing additional output register may help in improving timing.
+INFO: [Synth 8-4480] The timing for the instance data_shift2_U/l2_trigger_data_shift1_ram_U/ram_reg_6 (implemented as a block RAM) might be sub-optimal as no optional output register could be merged into the block ram. Providing additional output register may help in improving timing.
+INFO: [Synth 8-4480] The timing for the instance data_shift2_U/l2_trigger_data_shift1_ram_U/ram_reg_7 (implemented as a block RAM) might be sub-optimal as no optional output register could be merged into the block ram. Providing additional output register may help in improving timing.
+INFO: [Synth 8-4480] The timing for the instance data_shift2_U/l2_trigger_data_shift1_ram_U/ram_reg_8 (implemented as a block RAM) might be sub-optimal as no optional output register could be merged into the block ram. Providing additional output register may help in improving timing.
+INFO: [Synth 8-4480] The timing for the instance thresh2_U/l2_trigger_sum_overP1_ram_U/ram_reg_0 (implemented as a block RAM) might be sub-optimal as no optional output register could be merged into the block ram. Providing additional output register may help in improving timing.
+INFO: [Synth 8-4480] The timing for the instance thresh2_U/l2_trigger_sum_overP1_ram_U/ram_reg_1 (implemented as a block RAM) might be sub-optimal as no optional output register could be merged into the block ram. Providing additional output register may help in improving timing.
+---------------------------------------------------------------------------------
+Finished Technology Mapping : Time (s): cpu = 00:01:44 ; elapsed = 00:01:47 . Memory (MB): peak = 1644.395 ; gain = 754.148 ; free physical = 7271 ; free virtual = 14840
+---------------------------------------------------------------------------------
+Finished Parallel Technology Mapping Optimization  : Time (s): cpu = 00:01:44 ; elapsed = 00:01:47 . Memory (MB): peak = 1644.395 ; gain = 754.148 ; free physical = 7271 ; free virtual = 14840
+
+Report RTL Partitions: 
++-+--------------+------------+----------+
+| |RTL Partition |Replication |Instances |
++-+--------------+------------+----------+
++-+--------------+------------+----------+
+Finished Parallel Synthesis Optimization  : Time (s): cpu = 00:01:44 ; elapsed = 00:01:47 . Memory (MB): peak = 1644.395 ; gain = 754.148 ; free physical = 7271 ; free virtual = 14840
+---------------------------------------------------------------------------------
+Start IO Insertion
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Flattening Before IO Insertion
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Flattening Before IO Insertion
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Final Netlist Cleanup
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Final Netlist Cleanup
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished IO Insertion : Time (s): cpu = 00:01:45 ; elapsed = 00:01:49 . Memory (MB): peak = 1644.395 ; gain = 754.148 ; free physical = 7256 ; free virtual = 14838
+---------------------------------------------------------------------------------
+
+Report Check Netlist: 
++------+------------------+-------+---------+-------+------------------+
+|      |Item              |Errors |Warnings |Status |Description       |
++------+------------------+-------+---------+-------+------------------+
+|1     |multi_driven_nets |      0|        0|Passed |Multi driven nets |
++------+------------------+-------+---------+-------+------------------+
+---------------------------------------------------------------------------------
+Start Renaming Generated Instances
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Renaming Generated Instances : Time (s): cpu = 00:01:46 ; elapsed = 00:01:49 . Memory (MB): peak = 1644.395 ; gain = 754.148 ; free physical = 7256 ; free virtual = 14838
+---------------------------------------------------------------------------------
+
+Report RTL Partitions: 
++-+--------------+------------+----------+
+| |RTL Partition |Replication |Instances |
++-+--------------+------------+----------+
++-+--------------+------------+----------+
+---------------------------------------------------------------------------------
+Start Rebuilding User Hierarchy
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Rebuilding User Hierarchy : Time (s): cpu = 00:01:49 ; elapsed = 00:01:53 . Memory (MB): peak = 1644.395 ; gain = 754.148 ; free physical = 7254 ; free virtual = 14837
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Renaming Generated Ports
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Renaming Generated Ports : Time (s): cpu = 00:01:50 ; elapsed = 00:01:53 . Memory (MB): peak = 1644.395 ; gain = 754.148 ; free physical = 7254 ; free virtual = 14837
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Handling Custom Attributes
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Handling Custom Attributes : Time (s): cpu = 00:01:50 ; elapsed = 00:01:53 . Memory (MB): peak = 1644.395 ; gain = 754.148 ; free physical = 7254 ; free virtual = 14838
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Renaming Generated Nets
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Renaming Generated Nets : Time (s): cpu = 00:01:50 ; elapsed = 00:01:54 . Memory (MB): peak = 1644.395 ; gain = 754.148 ; free physical = 7255 ; free virtual = 14838
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Writing Synthesis Report
+---------------------------------------------------------------------------------
+
+Report BlackBoxes: 
++-+--------------+----------+
+| |BlackBox name |Instances |
++-+--------------+----------+
++-+--------------+----------+
+
+Report Cell Usage: 
++------+-----------+------+
+|      |Cell       |Count |
++------+-----------+------+
+|1     |CARRY4     |   130|
+|2     |DSP48E1    |     6|
+|3     |DSP48E1_1  |     2|
+|4     |DSP48E1_10 |     2|
+|5     |DSP48E1_2  |     4|
+|6     |DSP48E1_3  |     2|
+|7     |DSP48E1_4  |     2|
+|8     |DSP48E1_5  |     2|
+|9     |DSP48E1_6  |     2|
+|10    |DSP48E1_7  |     2|
+|11    |DSP48E1_8  |     2|
+|12    |DSP48E1_9  |     2|
+|13    |LUT1       |   303|
+|14    |LUT2       |   786|
+|15    |LUT3       |  3511|
+|16    |LUT4       |   674|
+|17    |LUT5       |   552|
+|18    |LUT6       |  1438|
+|19    |MUXCY      |  4096|
+|20    |MUXF7      |    28|
+|21    |MUXF8      |     2|
+|22    |RAMB18E1   |     2|
+|23    |RAMB36E1   |    12|
+|24    |RAMB36E1_1 |    16|
+|25    |SRL16E     |    86|
+|26    |SRLC32E    |    30|
+|27    |XORCY      |  3864|
+|28    |FDE        |    10|
+|29    |FDRE       |  6165|
+|30    |FDSE       |     5|
++------+-----------+------+
+---------------------------------------------------------------------------------
+Finished Writing Synthesis Report : Time (s): cpu = 00:01:50 ; elapsed = 00:01:54 . Memory (MB): peak = 1644.395 ; gain = 754.148 ; free physical = 7255 ; free virtual = 14838
+---------------------------------------------------------------------------------
+Synthesis finished with 0 errors, 0 critical warnings and 1371 warnings.
+Synthesis Optimization Runtime : Time (s): cpu = 00:01:37 ; elapsed = 00:01:40 . Memory (MB): peak = 1644.395 ; gain = 309.102 ; free physical = 7255 ; free virtual = 14839
+Synthesis Optimization Complete : Time (s): cpu = 00:01:51 ; elapsed = 00:01:54 . Memory (MB): peak = 1644.402 ; gain = 754.156 ; free physical = 7255 ; free virtual = 14839
+INFO: [Project 1-571] Translating synthesized netlist
+INFO: [Netlist 29-17] Analyzing 8158 Unisim elements for replacement
+INFO: [Netlist 29-28] Unisim Transformation completed in 0 CPU seconds
+INFO: [Project 1-570] Preparing netlist for logic optimization
+Parsing XDC File [/home/francesca/xil_proj/trig_testbench_F/project_1.srcs/sources_1/bd/design_fc/ip/design_fc_l2_trigger_0_0/constraints/l2_trigger_ooc.xdc] for cell 'U0'
+INFO: [Vivado 12-4761] HD.CLK_SRC property is set on port ap_clk. The net connecting to the port drives either clock PIN or hierarchical black box. Use the create_clock constraint to create a clock on this port prior to setting HD.CLK_SRC.  [/home/francesca/xil_proj/trig_testbench_F/project_1.srcs/sources_1/bd/design_fc/ip/design_fc_l2_trigger_0_0/constraints/l2_trigger_ooc.xdc:6]
+Finished Parsing XDC File [/home/francesca/xil_proj/trig_testbench_F/project_1.srcs/sources_1/bd/design_fc/ip/design_fc_l2_trigger_0_0/constraints/l2_trigger_ooc.xdc] for cell 'U0'
+INFO: [Opt 31-138] Pushed 0 inverter(s) to 0 load pin(s).
+INFO: [Project 1-111] Unisim Transformation Summary:
+  A total of 1152 instances were transformed.
+  (MUXCY,XORCY) => CARRY4: 1142 instances
+  FDE => FDRE: 10 instances
+
+INFO: [Common 17-83] Releasing license: Synthesis
+467 Infos, 201 Warnings, 0 Critical Warnings and 0 Errors encountered.
+synth_design completed successfully
+synth_design: Time (s): cpu = 00:02:00 ; elapsed = 00:02:03 . Memory (MB): peak = 1651.848 ; gain = 687.043 ; free physical = 7247 ; free virtual = 14832
+INFO: [Coretcl 2-1174] Renamed 932 cell refs.
+report_utilization: Time (s): cpu = 00:00:00.17 ; elapsed = 00:00:00.22 . Memory (MB): peak = 1683.867 ; gain = 0.000 ; free physical = 7242 ; free virtual = 14831
+INFO: [Common 17-206] Exiting Vivado at Thu Jun  1 15:24:35 2017...

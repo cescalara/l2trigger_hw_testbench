@@ -1,0 +1,171 @@
+<?xml version="1.0"?>
+<Runs Version="1" Minor="0">
+	<Run Id="design_1_xbar_2_synth_1" LaunchDir="/home/alx/xil_proj/pdm_zynq_board/current/project_1.runs/design_1_xbar_2_synth_1" FlowId="Vivado_Synthesis" FromStepId="vivado" ToStepId="vivado"/>
+	<Run Id="design_1_axi_dma_0_0_synth_1" LaunchDir="/home/alx/xil_proj/pdm_zynq_board/current/project_1.runs/design_1_axi_dma_0_0_synth_1" FlowId="Vivado_Synthesis" FromStepId="vivado" ToStepId="vivado"/>
+	<Run Id="design_1_xbar_1_synth_1" LaunchDir="/home/alx/xil_proj/pdm_zynq_board/current/project_1.runs/design_1_xbar_1_synth_1" FlowId="Vivado_Synthesis" FromStepId="vivado" ToStepId="vivado"/>
+	<Run Id="design_1_xbar_0_synth_1" LaunchDir="/home/alx/xil_proj/pdm_zynq_board/current/project_1.runs/design_1_xbar_0_synth_1" FlowId="Vivado_Synthesis" FromStepId="vivado" ToStepId="vivado"/>
+	<Run Id="design_1_xbar_3_synth_1" LaunchDir="/home/alx/xil_proj/pdm_zynq_board/current/project_1.runs/design_1_xbar_3_synth_1" FlowId="Vivado_Synthesis" FromStepId="vivado" ToStepId="vivado"/>
+	<Run Id="design_1_auto_ss_u_8_synth_1" LaunchDir="/home/alx/xil_proj/pdm_zynq_board/current/project_1.runs/design_1_auto_ss_u_8_synth_1" FlowId="Vivado_Synthesis" FromStepId="vivado" ToStepId="vivado"/>
+	<Run Id="design_1_auto_ss_k_9_synth_1" LaunchDir="/home/alx/xil_proj/pdm_zynq_board/current/project_1.runs/design_1_auto_ss_k_9_synth_1" FlowId="Vivado_Synthesis" FromStepId="vivado" ToStepId="vivado"/>
+	<Run Id="design_1_auto_ss_u_7_synth_1" LaunchDir="/home/alx/xil_proj/pdm_zynq_board/current/project_1.runs/design_1_auto_ss_u_7_synth_1" FlowId="Vivado_Synthesis" FromStepId="vivado" ToStepId="vivado"/>
+	<Run Id="design_1_auto_ss_slid_7_synth_1" LaunchDir="/home/alx/xil_proj/pdm_zynq_board/current/project_1.runs/design_1_auto_ss_slid_7_synth_1" FlowId="Vivado_Synthesis" FromStepId="vivado" ToStepId="vivado"/>
+	<Run Id="design_1_auto_ss_slid_8_synth_1" LaunchDir="/home/alx/xil_proj/pdm_zynq_board/current/project_1.runs/design_1_auto_ss_slid_8_synth_1" FlowId="Vivado_Synthesis" FromStepId="vivado" ToStepId="vivado"/>
+	<Run Id="design_1_auto_us_0_synth_1" LaunchDir="/home/alx/xil_proj/pdm_zynq_board/current/project_1.runs/design_1_auto_us_0_synth_1" FlowId="Vivado_Synthesis" FromStepId="vivado" ToStepId="vivado"/>
+	<Run Id="design_1_s_arb_req_suppress_concat_0_synth_1" LaunchDir="/home/alx/xil_proj/pdm_zynq_board/current/project_1.runs/design_1_s_arb_req_suppress_concat_0_synth_1" FlowId="Vivado_Synthesis" FromStepId="vivado" ToStepId="vivado"/>
+	<Run Id="design_1_auto_ss_k_6_synth_1" LaunchDir="/home/alx/xil_proj/pdm_zynq_board/current/project_1.runs/design_1_auto_ss_k_6_synth_1" FlowId="Vivado_Synthesis" FromStepId="vivado" ToStepId="vivado"/>
+	<Run Id="design_1_auto_ss_slid_5_synth_1" LaunchDir="/home/alx/xil_proj/pdm_zynq_board/current/project_1.runs/design_1_auto_ss_slid_5_synth_1" FlowId="Vivado_Synthesis" FromStepId="vivado" ToStepId="vivado"/>
+	<Run Id="design_1_auto_ss_k_7_synth_1" LaunchDir="/home/alx/xil_proj/pdm_zynq_board/current/project_1.runs/design_1_auto_ss_k_7_synth_1" FlowId="Vivado_Synthesis" FromStepId="vivado" ToStepId="vivado"/>
+	<Run Id="design_1_auto_ss_slid_6_synth_1" LaunchDir="/home/alx/xil_proj/pdm_zynq_board/current/project_1.runs/design_1_auto_ss_slid_6_synth_1" FlowId="Vivado_Synthesis" FromStepId="vivado" ToStepId="vivado"/>
+	<Run Id="design_1_auto_ss_u_5_synth_1" LaunchDir="/home/alx/xil_proj/pdm_zynq_board/current/project_1.runs/design_1_auto_ss_u_5_synth_1" FlowId="Vivado_Synthesis" FromStepId="vivado" ToStepId="vivado"/>
+	<Run Id="design_1_tier2_xbar_0_0_synth_1" LaunchDir="/home/alx/xil_proj/pdm_zynq_board/current/project_1.runs/design_1_tier2_xbar_0_0_synth_1" FlowId="Vivado_Synthesis" FromStepId="vivado" ToStepId="vivado"/>
+	<Run Id="design_1_auto_pc_4_synth_1" LaunchDir="/home/alx/xil_proj/pdm_zynq_board/current/project_1.runs/design_1_auto_pc_4_synth_1" FlowId="Vivado_Synthesis" FromStepId="vivado" ToStepId="vivado"/>
+	<Run Id="design_1_xlconstant_0_0_synth_1" LaunchDir="/home/alx/xil_proj/pdm_zynq_board/current/project_1.runs/design_1_xlconstant_0_0_synth_1" FlowId="Vivado_Synthesis" FromStepId="vivado" ToStepId="vivado"/>
+	<Run Id="design_1_auto_pc_0_synth_1" LaunchDir="/home/alx/xil_proj/pdm_zynq_board/current/project_1.runs/design_1_auto_pc_0_synth_1" FlowId="Vivado_Synthesis" FromStepId="vivado" ToStepId="vivado"/>
+	<Run Id="design_1_tier2_xbar_1_0_synth_1" LaunchDir="/home/alx/xil_proj/pdm_zynq_board/current/project_1.runs/design_1_tier2_xbar_1_0_synth_1" FlowId="Vivado_Synthesis" FromStepId="vivado" ToStepId="vivado"/>
+	<Run Id="design_1_auto_pc_3_synth_1" LaunchDir="/home/alx/xil_proj/pdm_zynq_board/current/project_1.runs/design_1_auto_pc_3_synth_1" FlowId="Vivado_Synthesis" FromStepId="vivado" ToStepId="vivado"/>
+	<Run Id="design_1_auto_pc_1_synth_1" LaunchDir="/home/alx/xil_proj/pdm_zynq_board/current/project_1.runs/design_1_auto_pc_1_synth_1" FlowId="Vivado_Synthesis" FromStepId="vivado" ToStepId="vivado"/>
+	<Run Id="design_1_auto_ss_u_6_synth_1" LaunchDir="/home/alx/xil_proj/pdm_zynq_board/current/project_1.runs/design_1_auto_ss_u_6_synth_1" FlowId="Vivado_Synthesis" FromStepId="vivado" ToStepId="vivado"/>
+	<Run Id="design_1_auto_ss_k_8_synth_1" LaunchDir="/home/alx/xil_proj/pdm_zynq_board/current/project_1.runs/design_1_auto_ss_k_8_synth_1" FlowId="Vivado_Synthesis" FromStepId="vivado" ToStepId="vivado"/>
+	<Run Id="design_1_auto_pc_2_synth_1" LaunchDir="/home/alx/xil_proj/pdm_zynq_board/current/project_1.runs/design_1_auto_pc_2_synth_1" FlowId="Vivado_Synthesis" FromStepId="vivado" ToStepId="vivado"/>
+	<Run Id="design_1_auto_ss_k_10_synth_1" LaunchDir="/home/alx/xil_proj/pdm_zynq_board/current/project_1.runs/design_1_auto_ss_k_10_synth_1" FlowId="Vivado_Synthesis" FromStepId="vivado" ToStepId="vivado"/>
+	<Run Id="design_1_auto_ss_slid_9_synth_1" LaunchDir="/home/alx/xil_proj/pdm_zynq_board/current/project_1.runs/design_1_auto_ss_slid_9_synth_1" FlowId="Vivado_Synthesis" FromStepId="vivado" ToStepId="vivado"/>
+	<Run Id="design_1_auto_ss_u_9_synth_1" LaunchDir="/home/alx/xil_proj/pdm_zynq_board/current/project_1.runs/design_1_auto_ss_u_9_synth_1" FlowId="Vivado_Synthesis" FromStepId="vivado" ToStepId="vivado"/>
+	<Run Id="design_1_auto_ss_u_10_synth_1" LaunchDir="/home/alx/xil_proj/pdm_zynq_board/current/project_1.runs/design_1_auto_ss_u_10_synth_1" FlowId="Vivado_Synthesis" FromStepId="vivado" ToStepId="vivado"/>
+	<Run Id="design_1_auto_ss_slid_10_synth_1" LaunchDir="/home/alx/xil_proj/pdm_zynq_board/current/project_1.runs/design_1_auto_ss_slid_10_synth_1" FlowId="Vivado_Synthesis" FromStepId="vivado" ToStepId="vivado"/>
+	<Run Id="design_1_auto_ss_k_12_synth_1" LaunchDir="/home/alx/xil_proj/pdm_zynq_board/current/project_1.runs/design_1_auto_ss_k_12_synth_1" FlowId="Vivado_Synthesis" FromStepId="vivado" ToStepId="vivado"/>
+	<Run Id="design_1_auto_ss_slid_11_synth_1" LaunchDir="/home/alx/xil_proj/pdm_zynq_board/current/project_1.runs/design_1_auto_ss_slid_11_synth_1" FlowId="Vivado_Synthesis" FromStepId="vivado" ToStepId="vivado"/>
+	<Run Id="design_1_auto_ss_u_11_synth_1" LaunchDir="/home/alx/xil_proj/pdm_zynq_board/current/project_1.runs/design_1_auto_ss_u_11_synth_1" FlowId="Vivado_Synthesis" FromStepId="vivado" ToStepId="vivado"/>
+	<Run Id="design_1_auto_ss_k_11_synth_1" LaunchDir="/home/alx/xil_proj/pdm_zynq_board/current/project_1.runs/design_1_auto_ss_k_11_synth_1" FlowId="Vivado_Synthesis" FromStepId="vivado" ToStepId="vivado"/>
+	<Run Id="design_1_auto_ss_k_4_synth_1" LaunchDir="/home/alx/xil_proj/pdm_zynq_board/current/project_1.runs/design_1_auto_ss_k_4_synth_1" FlowId="Vivado_Synthesis" FromStepId="vivado" ToStepId="vivado"/>
+	<Run Id="design_1_auto_ss_u_2_synth_1" LaunchDir="/home/alx/xil_proj/pdm_zynq_board/current/project_1.runs/design_1_auto_ss_u_2_synth_1" FlowId="Vivado_Synthesis" FromStepId="vivado" ToStepId="vivado"/>
+	<Run Id="design_1_auto_ss_u_3_synth_1" LaunchDir="/home/alx/xil_proj/pdm_zynq_board/current/project_1.runs/design_1_auto_ss_u_3_synth_1" FlowId="Vivado_Synthesis" FromStepId="vivado" ToStepId="vivado"/>
+	<Run Id="design_1_auto_ss_k_3_synth_1" LaunchDir="/home/alx/xil_proj/pdm_zynq_board/current/project_1.runs/design_1_auto_ss_k_3_synth_1" FlowId="Vivado_Synthesis" FromStepId="vivado" ToStepId="vivado"/>
+	<Run Id="design_1_auto_ss_slid_1_synth_1" LaunchDir="/home/alx/xil_proj/pdm_zynq_board/current/project_1.runs/design_1_auto_ss_slid_1_synth_1" FlowId="Vivado_Synthesis" FromStepId="vivado" ToStepId="vivado"/>
+	<Run Id="design_1_auto_ss_slid_2_synth_1" LaunchDir="/home/alx/xil_proj/pdm_zynq_board/current/project_1.runs/design_1_auto_ss_slid_2_synth_1" FlowId="Vivado_Synthesis" FromStepId="vivado" ToStepId="vivado"/>
+	<Run Id="design_1_auto_ss_slid_0_synth_1" LaunchDir="/home/alx/xil_proj/pdm_zynq_board/current/project_1.runs/design_1_auto_ss_slid_0_synth_1" FlowId="Vivado_Synthesis" FromStepId="vivado" ToStepId="vivado"/>
+	<Run Id="design_1_auto_ss_u_1_synth_1" LaunchDir="/home/alx/xil_proj/pdm_zynq_board/current/project_1.runs/design_1_auto_ss_u_1_synth_1" FlowId="Vivado_Synthesis" FromStepId="vivado" ToStepId="vivado"/>
+	<Run Id="design_1_auto_ss_u_4_synth_1" LaunchDir="/home/alx/xil_proj/pdm_zynq_board/current/project_1.runs/design_1_auto_ss_u_4_synth_1" FlowId="Vivado_Synthesis" FromStepId="vivado" ToStepId="vivado"/>
+	<Run Id="design_1_auto_us_1_synth_1" LaunchDir="/home/alx/xil_proj/pdm_zynq_board/current/project_1.runs/design_1_auto_us_1_synth_1" FlowId="Vivado_Synthesis" FromStepId="vivado" ToStepId="vivado"/>
+	<Run Id="design_1_tier2_xbar_2_0_synth_1" LaunchDir="/home/alx/xil_proj/pdm_zynq_board/current/project_1.runs/design_1_tier2_xbar_2_0_synth_1" FlowId="Vivado_Synthesis" FromStepId="vivado" ToStepId="vivado"/>
+	<Run Id="design_1_auto_ss_slid_4_synth_1" LaunchDir="/home/alx/xil_proj/pdm_zynq_board/current/project_1.runs/design_1_auto_ss_slid_4_synth_1" FlowId="Vivado_Synthesis" FromStepId="vivado" ToStepId="vivado"/>
+	<Run Id="design_1_auto_ss_k_0_synth_1" LaunchDir="/home/alx/xil_proj/pdm_zynq_board/current/project_1.runs/design_1_auto_ss_k_0_synth_1" FlowId="Vivado_Synthesis" FromStepId="vivado" ToStepId="vivado"/>
+	<Run Id="design_1_auto_ss_k_1_synth_1" LaunchDir="/home/alx/xil_proj/pdm_zynq_board/current/project_1.runs/design_1_auto_ss_k_1_synth_1" FlowId="Vivado_Synthesis" FromStepId="vivado" ToStepId="vivado"/>
+	<Run Id="design_1_auto_ss_k_2_synth_1" LaunchDir="/home/alx/xil_proj/pdm_zynq_board/current/project_1.runs/design_1_auto_ss_k_2_synth_1" FlowId="Vivado_Synthesis" FromStepId="vivado" ToStepId="vivado"/>
+	<Run Id="design_1_auto_ss_u_0_synth_1" LaunchDir="/home/alx/xil_proj/pdm_zynq_board/current/project_1.runs/design_1_auto_ss_u_0_synth_1" FlowId="Vivado_Synthesis" FromStepId="vivado" ToStepId="vivado"/>
+	<Run Id="design_1_auto_ss_k_5_synth_1" LaunchDir="/home/alx/xil_proj/pdm_zynq_board/current/project_1.runs/design_1_auto_ss_k_5_synth_1" FlowId="Vivado_Synthesis" FromStepId="vivado" ToStepId="vivado"/>
+	<Run Id="design_1_auto_ss_slid_3_synth_1" LaunchDir="/home/alx/xil_proj/pdm_zynq_board/current/project_1.runs/design_1_auto_ss_slid_3_synth_1" FlowId="Vivado_Synthesis" FromStepId="vivado" ToStepId="vivado"/>
+	<Run Id="synth_1" LaunchDir="/home/alx/xil_proj/pdm_zynq_board/current/project_1.runs/synth_1" FlowId="Vivado_Synthesis" FromStepId="vivado" ToStepId="vivado">
+		<Parent Id="design_1_xbar_2_synth_1"/>
+		<Parent Id="design_1_axi_dma_0_0_synth_1"/>
+		<Parent Id="design_1_xbar_1_synth_1"/>
+		<Parent Id="design_1_xbar_0_synth_1"/>
+		<Parent Id="design_1_xbar_3_synth_1"/>
+		<Parent Id="design_1_auto_ss_u_8_synth_1"/>
+		<Parent Id="design_1_auto_ss_k_9_synth_1"/>
+		<Parent Id="design_1_auto_ss_u_7_synth_1"/>
+		<Parent Id="design_1_auto_ss_slid_7_synth_1"/>
+		<Parent Id="design_1_auto_ss_slid_8_synth_1"/>
+		<Parent Id="design_1_auto_us_0_synth_1"/>
+		<Parent Id="design_1_s_arb_req_suppress_concat_0_synth_1"/>
+		<Parent Id="design_1_auto_ss_k_6_synth_1"/>
+		<Parent Id="design_1_auto_ss_slid_5_synth_1"/>
+		<Parent Id="design_1_auto_ss_k_7_synth_1"/>
+		<Parent Id="design_1_auto_ss_slid_6_synth_1"/>
+		<Parent Id="design_1_auto_ss_u_5_synth_1"/>
+		<Parent Id="design_1_tier2_xbar_0_0_synth_1"/>
+		<Parent Id="design_1_auto_pc_4_synth_1"/>
+		<Parent Id="design_1_xlconstant_0_0_synth_1"/>
+		<Parent Id="design_1_auto_pc_0_synth_1"/>
+		<Parent Id="design_1_tier2_xbar_1_0_synth_1"/>
+		<Parent Id="design_1_auto_pc_3_synth_1"/>
+		<Parent Id="design_1_auto_pc_1_synth_1"/>
+		<Parent Id="design_1_auto_ss_u_6_synth_1"/>
+		<Parent Id="design_1_auto_ss_k_8_synth_1"/>
+		<Parent Id="design_1_auto_pc_2_synth_1"/>
+		<Parent Id="design_1_auto_ss_k_10_synth_1"/>
+		<Parent Id="design_1_auto_ss_slid_9_synth_1"/>
+		<Parent Id="design_1_auto_ss_u_9_synth_1"/>
+		<Parent Id="design_1_auto_ss_u_10_synth_1"/>
+		<Parent Id="design_1_auto_ss_slid_10_synth_1"/>
+		<Parent Id="design_1_auto_ss_k_12_synth_1"/>
+		<Parent Id="design_1_auto_ss_slid_11_synth_1"/>
+		<Parent Id="design_1_auto_ss_u_11_synth_1"/>
+		<Parent Id="design_1_auto_ss_k_11_synth_1"/>
+		<Parent Id="design_1_auto_ss_k_4_synth_1"/>
+		<Parent Id="design_1_auto_ss_u_2_synth_1"/>
+		<Parent Id="design_1_auto_ss_u_3_synth_1"/>
+		<Parent Id="design_1_auto_ss_k_3_synth_1"/>
+		<Parent Id="design_1_auto_ss_slid_1_synth_1"/>
+		<Parent Id="design_1_auto_ss_slid_2_synth_1"/>
+		<Parent Id="design_1_auto_ss_slid_0_synth_1"/>
+		<Parent Id="design_1_auto_ss_u_1_synth_1"/>
+		<Parent Id="design_1_auto_ss_u_4_synth_1"/>
+		<Parent Id="design_1_auto_us_1_synth_1"/>
+		<Parent Id="design_1_tier2_xbar_2_0_synth_1"/>
+		<Parent Id="design_1_auto_ss_slid_4_synth_1"/>
+		<Parent Id="design_1_auto_ss_k_0_synth_1"/>
+		<Parent Id="design_1_auto_ss_k_1_synth_1"/>
+		<Parent Id="design_1_auto_ss_k_2_synth_1"/>
+		<Parent Id="design_1_auto_ss_u_0_synth_1"/>
+		<Parent Id="design_1_auto_ss_k_5_synth_1"/>
+		<Parent Id="design_1_auto_ss_slid_3_synth_1"/>
+	</Run>
+	<Run Id="impl_1" LaunchDir="/home/alx/xil_proj/pdm_zynq_board/current/project_1.runs/impl_1" FlowId="Vivado_Implementation" FromStepId="init_design" ToStepId="write_bitstream">
+		<Parent Id="synth_1"/>
+		<Parent Id="design_1_xbar_2_synth_1"/>
+		<Parent Id="design_1_axi_dma_0_0_synth_1"/>
+		<Parent Id="design_1_xbar_1_synth_1"/>
+		<Parent Id="design_1_xbar_0_synth_1"/>
+		<Parent Id="design_1_xbar_3_synth_1"/>
+		<Parent Id="design_1_auto_ss_u_8_synth_1"/>
+		<Parent Id="design_1_auto_ss_k_9_synth_1"/>
+		<Parent Id="design_1_auto_ss_u_7_synth_1"/>
+		<Parent Id="design_1_auto_ss_slid_7_synth_1"/>
+		<Parent Id="design_1_auto_ss_slid_8_synth_1"/>
+		<Parent Id="design_1_auto_us_0_synth_1"/>
+		<Parent Id="design_1_s_arb_req_suppress_concat_0_synth_1"/>
+		<Parent Id="design_1_auto_ss_k_6_synth_1"/>
+		<Parent Id="design_1_auto_ss_slid_5_synth_1"/>
+		<Parent Id="design_1_auto_ss_k_7_synth_1"/>
+		<Parent Id="design_1_auto_ss_slid_6_synth_1"/>
+		<Parent Id="design_1_auto_ss_u_5_synth_1"/>
+		<Parent Id="design_1_tier2_xbar_0_0_synth_1"/>
+		<Parent Id="design_1_auto_pc_4_synth_1"/>
+		<Parent Id="design_1_xlconstant_0_0_synth_1"/>
+		<Parent Id="design_1_auto_pc_0_synth_1"/>
+		<Parent Id="design_1_tier2_xbar_1_0_synth_1"/>
+		<Parent Id="design_1_auto_pc_3_synth_1"/>
+		<Parent Id="design_1_auto_pc_1_synth_1"/>
+		<Parent Id="design_1_auto_ss_u_6_synth_1"/>
+		<Parent Id="design_1_auto_ss_k_8_synth_1"/>
+		<Parent Id="design_1_auto_pc_2_synth_1"/>
+		<Parent Id="design_1_auto_ss_k_10_synth_1"/>
+		<Parent Id="design_1_auto_ss_slid_9_synth_1"/>
+		<Parent Id="design_1_auto_ss_u_9_synth_1"/>
+		<Parent Id="design_1_auto_ss_u_10_synth_1"/>
+		<Parent Id="design_1_auto_ss_slid_10_synth_1"/>
+		<Parent Id="design_1_auto_ss_k_12_synth_1"/>
+		<Parent Id="design_1_auto_ss_slid_11_synth_1"/>
+		<Parent Id="design_1_auto_ss_u_11_synth_1"/>
+		<Parent Id="design_1_auto_ss_k_11_synth_1"/>
+		<Parent Id="design_1_auto_ss_k_4_synth_1"/>
+		<Parent Id="design_1_auto_ss_u_2_synth_1"/>
+		<Parent Id="design_1_auto_ss_u_3_synth_1"/>
+		<Parent Id="design_1_auto_ss_k_3_synth_1"/>
+		<Parent Id="design_1_auto_ss_slid_1_synth_1"/>
+		<Parent Id="design_1_auto_ss_slid_2_synth_1"/>
+		<Parent Id="design_1_auto_ss_slid_0_synth_1"/>
+		<Parent Id="design_1_auto_ss_u_1_synth_1"/>
+		<Parent Id="design_1_auto_ss_u_4_synth_1"/>
+		<Parent Id="design_1_auto_us_1_synth_1"/>
+		<Parent Id="design_1_tier2_xbar_2_0_synth_1"/>
+		<Parent Id="design_1_auto_ss_slid_4_synth_1"/>
+		<Parent Id="design_1_auto_ss_k_0_synth_1"/>
+		<Parent Id="design_1_auto_ss_k_1_synth_1"/>
+		<Parent Id="design_1_auto_ss_k_2_synth_1"/>
+		<Parent Id="design_1_auto_ss_u_0_synth_1"/>
+		<Parent Id="design_1_auto_ss_k_5_synth_1"/>
+		<Parent Id="design_1_auto_ss_slid_3_synth_1"/>
+	</Run>
+</Runs>
+

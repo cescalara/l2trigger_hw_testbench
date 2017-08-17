@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<wave_config>
+   <wave_state>
+   </wave_state>
+   <db_ref_list>
+      <db_ref path="/home/alexander/xil_proj/pdm_zynq_board/current/project_1.hw/hw_1/wave/hw_ila_data_4/hw_ila_data_4.wdb" id="1">
+         <top_modules>
+         </top_modules>
+      </db_ref>
+   </db_ref_list>
+   <zoom_setting>
+      <ZoomStartTime time="0fs"></ZoomStartTime>
+      <ZoomEndTime time="5471fs"></ZoomEndTime>
+      <Cursor1Time time="0fs"></Cursor1Time>
+   </zoom_setting>
+   <WVObjectSize size="3" />
+   <wvobject type="array" fp_name="design_1_i/data_provider_1/U0/inst_art0_cc_fifo/axis_rd_data_count">
+      <obj_property name="DisplayName">FullPathName</obj_property>
+      <obj_property name="Radix">HEXRADIX</obj_property>
+      <obj_property name="ElementShortName">design_1_i/data_provider_1/U0/inst_art0_cc_fifo/axis_rd_data_count[15:0]</obj_property>
+      <obj_property name="ObjectShortName">axis_rd_data_count[15:0]</obj_property>
+      <obj_property name="LABELRADIX">true</obj_property>
+   </wvobject>
+   <wvobject type="array" fp_name="design_1_i/data_provider_1/U0/inst_art1_cc_fifo/axis_rd_data_count">
+      <obj_property name="DisplayName">FullPathName</obj_property>
+      <obj_property name="Radix">HEXRADIX</obj_property>
+      <obj_property name="ElementShortName">design_1_i/data_provider_1/U0/inst_art1_cc_fifo/axis_rd_data_count[15:0]</obj_property>
+      <obj_property name="ObjectShortName">axis_rd_data_count[15:0]</obj_property>
+      <obj_property name="LABELRADIX">true</obj_property>
+   </wvobject>
+   <wvobject type="array" fp_name="design_1_i/data_provider_1/U0/inst_art2_cc_fifo/axis_rd_data_count">
+      <obj_property name="DisplayName">FullPathName</obj_property>
+      <obj_property name="Radix">HEXRADIX</obj_property>
+      <obj_property name="ElementShortName">design_1_i/data_provider_1/U0/inst_art2_cc_fifo/axis_rd_data_count[15:0]</obj_property>
+      <obj_property name="ObjectShortName">axis_rd_data_count[15:0]</obj_property>
+      <obj_property name="LABELRADIX">true</obj_property>
+   </wvobject>
+</wave_config>

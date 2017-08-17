@@ -1,0 +1,1 @@
+"xil_defaultlib.apatb_L2triggerv5_top" -prj "L2triggerv5.prj" --initfile "/opt/Xilinx/Vivado/2016.2/bin/../data/xsim/ip/xsim_ip.ini" --lib "ieee_proposed=./ieee_proposed" -s "L2triggerv5" -debug "wave" 

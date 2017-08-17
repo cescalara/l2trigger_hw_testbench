@@ -1,0 +1,633 @@
+#-----------------------------------------------------------
+# Vivado v2016.2 (64-bit)
+# SW Build 1577090 on Thu Jun  2 16:32:35 MDT 2016
+# IP Build 1577682 on Fri Jun  3 12:00:54 MDT 2016
+# Start of session at: Thu Jun  1 15:29:39 2017
+# Process ID: 13784
+# Current directory: /home/francesca/xil_proj/trig_testbench_F/project_1.runs/impl_1
+# Command line: vivado -log design_fc_wrapper.vdi -applog -messageDb vivado.pb -mode batch -source design_fc_wrapper.tcl -notrace
+# Log file: /home/francesca/xil_proj/trig_testbench_F/project_1.runs/impl_1/design_fc_wrapper.vdi
+# Journal file: /home/francesca/xil_proj/trig_testbench_F/project_1.runs/impl_1/vivado.jou
+#-----------------------------------------------------------
+source design_fc_wrapper.tcl -notrace
+Design is defaulting to srcset: sources_1
+Design is defaulting to constrset: constrs_1
+INFO: [Project 1-454] Reading design checkpoint '/home/francesca/xil_proj/trig_testbench_F/project_1.srcs/sources_1/bd/design_fc/ip/design_fc_axi_dma_0_1/design_fc_axi_dma_0_1.dcp' for cell 'design_fc_i/axi_dma_1'
+INFO: [Project 1-454] Reading design checkpoint '/home/francesca/xil_proj/trig_testbench_F/project_1.srcs/sources_1/bd/design_fc/ip/design_fc_axi_gpio_0_0/design_fc_axi_gpio_0_0.dcp' for cell 'design_fc_i/axi_gpio_0'
+INFO: [Project 1-454] Reading design checkpoint '/home/francesca/xil_proj/trig_testbench_F/project_1.srcs/sources_1/bd/design_fc/ip/design_fc_c_counter_binary_0_0/design_fc_c_counter_binary_0_0.dcp' for cell 'design_fc_i/c_counter_binary_0'
+INFO: [Project 1-454] Reading design checkpoint '/home/francesca/xil_proj/trig_testbench_F/project_1.srcs/sources_1/bd/design_fc/ip/design_fc_l2_trigger_0_0/design_fc_l2_trigger_0_0.dcp' for cell 'design_fc_i/l2_trigger_0'
+INFO: [Project 1-454] Reading design checkpoint '/home/francesca/xil_proj/trig_testbench_F/project_1.srcs/sources_1/bd/design_fc/ip/design_fc_processing_system7_0_0/design_fc_processing_system7_0_0.dcp' for cell 'design_fc_i/processing_system7_0'
+INFO: [Project 1-454] Reading design checkpoint '/home/francesca/xil_proj/trig_testbench_F/project_1.srcs/sources_1/bd/design_fc/ip/design_fc_rst_processing_system7_0_100M_0/design_fc_rst_processing_system7_0_100M_0.dcp' for cell 'design_fc_i/rst_processing_system7_0_100M'
+INFO: [Project 1-454] Reading design checkpoint '/home/francesca/xil_proj/trig_testbench_F/project_1.srcs/sources_1/bd/design_fc/ip/design_fc_util_vector_logic_0_0/design_fc_util_vector_logic_0_0.dcp' for cell 'design_fc_i/util_vector_logic_0'
+INFO: [Project 1-454] Reading design checkpoint '/home/francesca/xil_proj/trig_testbench_F/project_1.srcs/sources_1/bd/design_fc/ip/design_fc_xlslice_0_0/design_fc_xlslice_0_0.dcp' for cell 'design_fc_i/xlslice_0'
+INFO: [Project 1-454] Reading design checkpoint '/home/francesca/xil_proj/trig_testbench_F/project_1.srcs/sources_1/bd/design_fc/ip/design_fc_xbar_0/design_fc_xbar_0.dcp' for cell 'design_fc_i/axi_interconnect_0/xbar'
+INFO: [Project 1-454] Reading design checkpoint '/home/francesca/xil_proj/trig_testbench_F/project_1.srcs/sources_1/bd/design_fc/ip/design_fc_auto_pc_0/design_fc_auto_pc_0.dcp' for cell 'design_fc_i/axi_interconnect_0/s00_couplers/auto_pc'
+INFO: [Project 1-454] Reading design checkpoint '/home/francesca/xil_proj/trig_testbench_F/project_1.srcs/sources_1/bd/design_fc/ip/design_fc_xbar_1/design_fc_xbar_1.dcp' for cell 'design_fc_i/axi_interconnect_1/xbar'
+INFO: [Project 1-454] Reading design checkpoint '/home/francesca/xil_proj/trig_testbench_F/project_1.srcs/sources_1/bd/design_fc/ip/design_fc_auto_pc_1/design_fc_auto_pc_1.dcp' for cell 'design_fc_i/axi_interconnect_1/m00_couplers/auto_pc'
+INFO: [Project 1-454] Reading design checkpoint '/home/francesca/xil_proj/trig_testbench_F/project_1.srcs/sources_1/bd/design_fc/ip/design_fc_auto_us_0/design_fc_auto_us_0.dcp' for cell 'design_fc_i/axi_interconnect_1/s00_couplers/auto_us'
+INFO: [Netlist 29-17] Analyzing 1397 Unisim elements for replacement
+INFO: [Netlist 29-28] Unisim Transformation completed in 0 CPU seconds
+INFO: [Project 1-479] Netlist was created with Vivado 2016.2
+INFO: [Device 21-403] Loading part xc7z030ffg676-2
+INFO: [Project 1-570] Preparing netlist for logic optimization
+Parsing XDC File [/home/francesca/xil_proj/trig_testbench_F/project_1.srcs/sources_1/bd/design_fc/ip/design_fc_processing_system7_0_0/design_fc_processing_system7_0_0.xdc] for cell 'design_fc_i/processing_system7_0/inst'
+Finished Parsing XDC File [/home/francesca/xil_proj/trig_testbench_F/project_1.srcs/sources_1/bd/design_fc/ip/design_fc_processing_system7_0_0/design_fc_processing_system7_0_0.xdc] for cell 'design_fc_i/processing_system7_0/inst'
+Parsing XDC File [/home/francesca/xil_proj/trig_testbench_F/project_1.srcs/sources_1/bd/design_fc/ip/design_fc_rst_processing_system7_0_100M_0/design_fc_rst_processing_system7_0_100M_0_board.xdc] for cell 'design_fc_i/rst_processing_system7_0_100M/U0'
+Finished Parsing XDC File [/home/francesca/xil_proj/trig_testbench_F/project_1.srcs/sources_1/bd/design_fc/ip/design_fc_rst_processing_system7_0_100M_0/design_fc_rst_processing_system7_0_100M_0_board.xdc] for cell 'design_fc_i/rst_processing_system7_0_100M/U0'
+Parsing XDC File [/home/francesca/xil_proj/trig_testbench_F/project_1.srcs/sources_1/bd/design_fc/ip/design_fc_rst_processing_system7_0_100M_0/design_fc_rst_processing_system7_0_100M_0.xdc] for cell 'design_fc_i/rst_processing_system7_0_100M/U0'
+Finished Parsing XDC File [/home/francesca/xil_proj/trig_testbench_F/project_1.srcs/sources_1/bd/design_fc/ip/design_fc_rst_processing_system7_0_100M_0/design_fc_rst_processing_system7_0_100M_0.xdc] for cell 'design_fc_i/rst_processing_system7_0_100M/U0'
+Parsing XDC File [/home/francesca/xil_proj/trig_testbench_F/project_1.srcs/sources_1/bd/design_fc/ip/design_fc_axi_dma_0_1/design_fc_axi_dma_0_1.xdc] for cell 'design_fc_i/axi_dma_1/U0'
+Finished Parsing XDC File [/home/francesca/xil_proj/trig_testbench_F/project_1.srcs/sources_1/bd/design_fc/ip/design_fc_axi_dma_0_1/design_fc_axi_dma_0_1.xdc] for cell 'design_fc_i/axi_dma_1/U0'
+Parsing XDC File [/home/francesca/xil_proj/trig_testbench_F/project_1.srcs/sources_1/bd/design_fc/ip/design_fc_axi_gpio_0_0/design_fc_axi_gpio_0_0_board.xdc] for cell 'design_fc_i/axi_gpio_0/U0'
+Finished Parsing XDC File [/home/francesca/xil_proj/trig_testbench_F/project_1.srcs/sources_1/bd/design_fc/ip/design_fc_axi_gpio_0_0/design_fc_axi_gpio_0_0_board.xdc] for cell 'design_fc_i/axi_gpio_0/U0'
+Parsing XDC File [/home/francesca/xil_proj/trig_testbench_F/project_1.srcs/sources_1/bd/design_fc/ip/design_fc_axi_gpio_0_0/design_fc_axi_gpio_0_0.xdc] for cell 'design_fc_i/axi_gpio_0/U0'
+Finished Parsing XDC File [/home/francesca/xil_proj/trig_testbench_F/project_1.srcs/sources_1/bd/design_fc/ip/design_fc_axi_gpio_0_0/design_fc_axi_gpio_0_0.xdc] for cell 'design_fc_i/axi_gpio_0/U0'
+INFO: [Project 1-538] Using original IP XDC constraints instead of the XDC constraints in dcp '/home/francesca/xil_proj/trig_testbench_F/project_1.srcs/sources_1/bd/design_fc/ip/design_fc_processing_system7_0_0/design_fc_processing_system7_0_0.dcp'
+INFO: [Project 1-538] Using original IP XDC constraints instead of the XDC constraints in dcp '/home/francesca/xil_proj/trig_testbench_F/project_1.srcs/sources_1/bd/design_fc/ip/design_fc_xbar_0/design_fc_xbar_0.dcp'
+INFO: [Project 1-538] Using original IP XDC constraints instead of the XDC constraints in dcp '/home/francesca/xil_proj/trig_testbench_F/project_1.srcs/sources_1/bd/design_fc/ip/design_fc_xbar_1/design_fc_xbar_1.dcp'
+INFO: [Project 1-538] Using original IP XDC constraints instead of the XDC constraints in dcp '/home/francesca/xil_proj/trig_testbench_F/project_1.srcs/sources_1/bd/design_fc/ip/design_fc_rst_processing_system7_0_100M_0/design_fc_rst_processing_system7_0_100M_0.dcp'
+INFO: [Project 1-538] Using original IP XDC constraints instead of the XDC constraints in dcp '/home/francesca/xil_proj/trig_testbench_F/project_1.srcs/sources_1/bd/design_fc/ip/design_fc_axi_dma_0_1/design_fc_axi_dma_0_1.dcp'
+INFO: [Project 1-538] Using original IP XDC constraints instead of the XDC constraints in dcp '/home/francesca/xil_proj/trig_testbench_F/project_1.srcs/sources_1/bd/design_fc/ip/design_fc_c_counter_binary_0_0/design_fc_c_counter_binary_0_0.dcp'
+INFO: [Project 1-538] Using original IP XDC constraints instead of the XDC constraints in dcp '/home/francesca/xil_proj/trig_testbench_F/project_1.srcs/sources_1/bd/design_fc/ip/design_fc_axi_gpio_0_0/design_fc_axi_gpio_0_0.dcp'
+INFO: [Project 1-538] Using original IP XDC constraints instead of the XDC constraints in dcp '/home/francesca/xil_proj/trig_testbench_F/project_1.srcs/sources_1/bd/design_fc/ip/design_fc_l2_trigger_0_0/design_fc_l2_trigger_0_0.dcp'
+INFO: [Project 1-538] Using original IP XDC constraints instead of the XDC constraints in dcp '/home/francesca/xil_proj/trig_testbench_F/project_1.srcs/sources_1/bd/design_fc/ip/design_fc_auto_pc_0/design_fc_auto_pc_0.dcp'
+INFO: [Project 1-538] Using original IP XDC constraints instead of the XDC constraints in dcp '/home/francesca/xil_proj/trig_testbench_F/project_1.srcs/sources_1/bd/design_fc/ip/design_fc_auto_pc_1/design_fc_auto_pc_1.dcp'
+INFO: [Project 1-538] Using original IP XDC constraints instead of the XDC constraints in dcp '/home/francesca/xil_proj/trig_testbench_F/project_1.srcs/sources_1/bd/design_fc/ip/design_fc_auto_us_0/design_fc_auto_us_0.dcp'
+Parsing XDC File [/home/francesca/xil_proj/trig_testbench_F/project_1.srcs/sources_1/bd/design_fc/ip/design_fc_axi_dma_0_1/design_fc_axi_dma_0_1_clocks.xdc] for cell 'design_fc_i/axi_dma_1/U0'
+Finished Parsing XDC File [/home/francesca/xil_proj/trig_testbench_F/project_1.srcs/sources_1/bd/design_fc/ip/design_fc_axi_dma_0_1/design_fc_axi_dma_0_1_clocks.xdc] for cell 'design_fc_i/axi_dma_1/U0'
+Parsing XDC File [/home/francesca/xil_proj/trig_testbench_F/project_1.srcs/sources_1/bd/design_fc/ip/design_fc_auto_us_0/design_fc_auto_us_0_clocks.xdc] for cell 'design_fc_i/axi_interconnect_1/s00_couplers/auto_us/inst'
+Finished Parsing XDC File [/home/francesca/xil_proj/trig_testbench_F/project_1.srcs/sources_1/bd/design_fc/ip/design_fc_auto_us_0/design_fc_auto_us_0_clocks.xdc] for cell 'design_fc_i/axi_interconnect_1/s00_couplers/auto_us/inst'
+INFO: [Opt 31-138] Pushed 0 inverter(s) to 0 load pin(s).
+INFO: [Project 1-111] Unisim Transformation Summary:
+  A total of 5 instances were transformed.
+  RAM32M => RAM32M (RAMD32, RAMD32, RAMD32, RAMD32, RAMD32, RAMD32, RAMS32, RAMS32): 4 instances
+  RAM32X1D => RAM32X1D (RAMD32, RAMD32): 1 instances
+
+link_design: Time (s): cpu = 00:00:11 ; elapsed = 00:00:12 . Memory (MB): peak = 1326.836 ; gain = 362.031 ; free physical = 7492 ; free virtual = 15109
+CRITICAL WARNING: [Pfi 67-13] Hardware Handoff file design_fc_processing_system7_0_0.hwdef does not exist for instance design_fc_i/processing_system7_0/inst
+Command: opt_design
+Attempting to get a license for feature 'Implementation' and/or device 'xc7z030'
+INFO: [Common 17-349] Got license for feature 'Implementation' and/or device 'xc7z030'
+Running DRC as a precondition to command opt_design
+
+Starting DRC Task
+INFO: [DRC 23-27] Running DRC with 4 threads
+INFO: [Project 1-461] DRC finished with 0 Errors
+INFO: [Project 1-462] Please refer to the DRC report (report_drc) for more information.
+
+Time (s): cpu = 00:00:00.26 ; elapsed = 00:00:00.24 . Memory (MB): peak = 1360.852 ; gain = 34.008 ; free physical = 7490 ; free virtual = 15108
+INFO: [Timing 38-35] Done setting XDC timing constraints.
+
+Starting Logic Optimization Task
+Implement Debug Cores | Checksum: 159f20d96
+
+Phase 1 Retarget
+INFO: [Opt 31-138] Pushed 4 inverter(s) to 7 load pin(s).
+INFO: [Opt 31-49] Retargeted 0 cell(s).
+Phase 1 Retarget | Checksum: 187a3f42e
+
+Time (s): cpu = 00:00:02 ; elapsed = 00:00:02 . Memory (MB): peak = 1805.398 ; gain = 1.000 ; free physical = 7101 ; free virtual = 14733
+
+Phase 2 Constant Propagation
+INFO: [Opt 31-138] Pushed 0 inverter(s) to 0 load pin(s).
+INFO: [Opt 31-10] Eliminated 1296 cells.
+Phase 2 Constant Propagation | Checksum: 157d1b3ec
+
+Time (s): cpu = 00:00:05 ; elapsed = 00:00:05 . Memory (MB): peak = 1805.398 ; gain = 1.000 ; free physical = 7101 ; free virtual = 14733
+
+Phase 3 Sweep
+INFO: [Opt 31-12] Eliminated 7052 unconnected nets.
+INFO: [Opt 31-11] Eliminated 1125 unconnected cells.
+Phase 3 Sweep | Checksum: 1f76c9754
+
+Time (s): cpu = 00:00:08 ; elapsed = 00:00:08 . Memory (MB): peak = 1805.398 ; gain = 1.000 ; free physical = 7098 ; free virtual = 14731
+
+Starting Connectivity Check Task
+
+Time (s): cpu = 00:00:00.07 ; elapsed = 00:00:00.08 . Memory (MB): peak = 1805.398 ; gain = 0.000 ; free physical = 7099 ; free virtual = 14731
+Ending Logic Optimization Task | Checksum: 1f76c9754
+
+Time (s): cpu = 00:00:09 ; elapsed = 00:00:09 . Memory (MB): peak = 1805.398 ; gain = 1.000 ; free physical = 7099 ; free virtual = 14731
+
+Starting Power Optimization Task
+INFO: [Pwropt 34-132] Skipping clock gating for clocks with a period < 2.00 ns.
+INFO: [Timing 38-35] Done setting XDC timing constraints.
+INFO: [Pwropt 34-9] Applying IDT optimizations ...
+INFO: [Pwropt 34-10] Applying ODC optimizations ...
+Running Vector-less Activity Propagation...
+
+Finished Running Vector-less Activity Propagation
+
+
+Starting PowerOpt Patch Enables Task
+INFO: [Pwropt 34-162] WRITE_MODE attribute of 0 BRAM(s) out of a total of 33 has been updated to save power. Run report_power_opt to get a complete listing of the BRAMs updated.
+INFO: [Pwropt 34-201] Structural ODC has moved 0 WE to EN ports
+Number of BRAM Ports augmented: 4 newly gated: 0 Total Ports: 66
+Ending PowerOpt Patch Enables Task | Checksum: 17d75e2bc
+
+Time (s): cpu = 00:00:00.10 ; elapsed = 00:00:00.12 . Memory (MB): peak = 2112.664 ; gain = 0.000 ; free physical = 6840 ; free virtual = 14479
+Ending Power Optimization Task | Checksum: 17d75e2bc
+
+Time (s): cpu = 00:00:11 ; elapsed = 00:00:07 . Memory (MB): peak = 2112.664 ; gain = 307.266 ; free physical = 6840 ; free virtual = 14479
+INFO: [Common 17-83] Releasing license: Implementation
+49 Infos, 0 Warnings, 1 Critical Warnings and 0 Errors encountered.
+opt_design completed successfully
+opt_design: Time (s): cpu = 00:00:30 ; elapsed = 00:00:25 . Memory (MB): peak = 2112.664 ; gain = 785.820 ; free physical = 6840 ; free virtual = 14479
+Writing placer database...
+Writing XDEF routing.
+Writing XDEF routing logical nets.
+Writing XDEF routing special nets.
+Write XDEF Complete: Time (s): cpu = 00:00:00.13 ; elapsed = 00:00:00.06 . Memory (MB): peak = 2112.664 ; gain = 0.000 ; free physical = 6838 ; free virtual = 14479
+INFO: [DRC 23-27] Running DRC with 4 threads
+INFO: [Coretcl 2-168] The results of DRC are in file /home/francesca/xil_proj/trig_testbench_F/project_1.runs/impl_1/design_fc_wrapper_drc_opted.rpt.
+INFO: [Chipscope 16-241] No debug cores found in the current design.
+Before running the implement_debug_core command, either use the Set Up Debug wizard (GUI mode)
+or use the create_debug_core and connect_debug_core Tcl commands to insert debug cores into the design.
+Command: place_design
+Attempting to get a license for feature 'Implementation' and/or device 'xc7z030'
+INFO: [Common 17-349] Got license for feature 'Implementation' and/or device 'xc7z030'
+INFO: [DRC 23-27] Running DRC with 4 threads
+INFO: [Vivado_Tcl 4-198] DRC finished with 0 Errors
+INFO: [Vivado_Tcl 4-199] Please refer to the DRC report (report_drc) for more information.
+Running DRC as a precondition to command place_design
+INFO: [DRC 23-27] Running DRC with 4 threads
+INFO: [Vivado_Tcl 4-198] DRC finished with 0 Errors
+INFO: [Vivado_Tcl 4-199] Please refer to the DRC report (report_drc) for more information.
+
+Starting Placer Task
+INFO: [Place 30-611] Multithreading enabled for place_design using a maximum of 4 CPUs
+
+Phase 1 Placer Initialization
+Netlist sorting complete. Time (s): cpu = 00:00:00.07 ; elapsed = 00:00:00.07 . Memory (MB): peak = 2112.664 ; gain = 0.000 ; free physical = 6830 ; free virtual = 14478
+INFO: [Timing 38-35] Done setting XDC timing constraints.
+INFO: [Opt 31-138] Pushed 0 inverter(s) to 0 load pin(s).
+Netlist sorting complete. Time (s): cpu = 00:00:00.04 ; elapsed = 00:00:00.05 . Memory (MB): peak = 2112.664 ; gain = 0.000 ; free physical = 6828 ; free virtual = 14476
+
+Phase 1.1 IO Placement/ Clock Placement/ Build Placer Device
+
+Phase 1.1.1 ParallelPlaceIOClockAndInitTop
+
+Phase 1.1.1.1 Pre-Place Cells
+Phase 1.1.1.1 Pre-Place Cells | Checksum: 98566580
+
+Time (s): cpu = 00:00:03 ; elapsed = 00:00:02 . Memory (MB): peak = 2112.664 ; gain = 0.000 ; free physical = 6828 ; free virtual = 14476
+
+Phase 1.1.1.2 Constructing HAPIClkRuleMgr
+Phase 1.1.1.2 Constructing HAPIClkRuleMgr | Checksum: 98566580
+
+Time (s): cpu = 00:00:04 ; elapsed = 00:00:03 . Memory (MB): peak = 2112.664 ; gain = 0.000 ; free physical = 6828 ; free virtual = 14476
+INFO: [Timing 38-35] Done setting XDC timing constraints.
+
+Phase 1.1.1.3 IO and Clk Clean Up
+
+Phase 1.1.1.3.1 Constructing HAPIClkRuleMgr
+Phase 1.1.1.3.1 Constructing HAPIClkRuleMgr | Checksum: 98566580
+
+Time (s): cpu = 00:00:11 ; elapsed = 00:00:09 . Memory (MB): peak = 2112.664 ; gain = 0.000 ; free physical = 6829 ; free virtual = 14479
+Phase 1.1.1.3 IO and Clk Clean Up | Checksum: 98566580
+
+Time (s): cpu = 00:00:11 ; elapsed = 00:00:09 . Memory (MB): peak = 2112.664 ; gain = 0.000 ; free physical = 6829 ; free virtual = 14479
+
+Phase 1.1.1.4 Implementation Feasibility check On IDelay
+Phase 1.1.1.4 Implementation Feasibility check On IDelay | Checksum: 98566580
+
+Time (s): cpu = 00:00:11 ; elapsed = 00:00:09 . Memory (MB): peak = 2112.664 ; gain = 0.000 ; free physical = 6829 ; free virtual = 14479
+
+Phase 1.1.1.5 Commit IO Placement
+Phase 1.1.1.5 Commit IO Placement | Checksum: 15cdf3a3
+
+Time (s): cpu = 00:00:11 ; elapsed = 00:00:09 . Memory (MB): peak = 2112.664 ; gain = 0.000 ; free physical = 6829 ; free virtual = 14479
+Phase 1.1.1 ParallelPlaceIOClockAndInitTop | Checksum: 15cdf3a3
+
+Time (s): cpu = 00:00:11 ; elapsed = 00:00:09 . Memory (MB): peak = 2112.664 ; gain = 0.000 ; free physical = 6829 ; free virtual = 14479
+Phase 1.1 IO Placement/ Clock Placement/ Build Placer Device | Checksum: abf5916a
+
+Time (s): cpu = 00:00:11 ; elapsed = 00:00:09 . Memory (MB): peak = 2112.664 ; gain = 0.000 ; free physical = 6829 ; free virtual = 14479
+
+Phase 1.2 Build Placer Netlist Model
+
+Phase 1.2.1 Place Init Design
+
+Phase 1.2.1.1 Make Others
+Phase 1.2.1.1 Make Others | Checksum: 609da078
+
+Time (s): cpu = 00:00:12 ; elapsed = 00:00:10 . Memory (MB): peak = 2112.664 ; gain = 0.000 ; free physical = 6828 ; free virtual = 14480
+
+Phase 1.2.1.2 Init Lut Pin Assignment
+Phase 1.2.1.2 Init Lut Pin Assignment | Checksum: 609da078
+
+Time (s): cpu = 00:00:12 ; elapsed = 00:00:10 . Memory (MB): peak = 2112.664 ; gain = 0.000 ; free physical = 6826 ; free virtual = 14478
+Phase 1.2.1 Place Init Design | Checksum: a43c238d
+
+Time (s): cpu = 00:00:20 ; elapsed = 00:00:16 . Memory (MB): peak = 2112.664 ; gain = 0.000 ; free physical = 6824 ; free virtual = 14477
+Phase 1.2 Build Placer Netlist Model | Checksum: a43c238d
+
+Time (s): cpu = 00:00:20 ; elapsed = 00:00:16 . Memory (MB): peak = 2112.664 ; gain = 0.000 ; free physical = 6824 ; free virtual = 14477
+
+Phase 1.3 Constrain Clocks/Macros
+Phase 1.3 Constrain Clocks/Macros | Checksum: a43c238d
+
+Time (s): cpu = 00:00:20 ; elapsed = 00:00:16 . Memory (MB): peak = 2112.664 ; gain = 0.000 ; free physical = 6824 ; free virtual = 14477
+Phase 1 Placer Initialization | Checksum: a43c238d
+
+Time (s): cpu = 00:00:20 ; elapsed = 00:00:16 . Memory (MB): peak = 2112.664 ; gain = 0.000 ; free physical = 6824 ; free virtual = 14477
+
+Phase 2 Global Placement
+Phase 2 Global Placement | Checksum: 47adfa54
+
+Time (s): cpu = 00:00:50 ; elapsed = 00:00:33 . Memory (MB): peak = 2112.664 ; gain = 0.000 ; free physical = 6819 ; free virtual = 14474
+
+Phase 3 Detail Placement
+
+Phase 3.1 Commit Multi Column Macros
+Phase 3.1 Commit Multi Column Macros | Checksum: 47adfa54
+
+Time (s): cpu = 00:00:50 ; elapsed = 00:00:33 . Memory (MB): peak = 2112.664 ; gain = 0.000 ; free physical = 6820 ; free virtual = 14474
+
+Phase 3.2 Commit Most Macros & LUTRAMs
+Phase 3.2 Commit Most Macros & LUTRAMs | Checksum: 8a64c3b1
+
+Time (s): cpu = 00:00:55 ; elapsed = 00:00:37 . Memory (MB): peak = 2112.664 ; gain = 0.000 ; free physical = 6819 ; free virtual = 14473
+
+Phase 3.3 Area Swap Optimization
+Phase 3.3 Area Swap Optimization | Checksum: a73e555a
+
+Time (s): cpu = 00:00:56 ; elapsed = 00:00:38 . Memory (MB): peak = 2112.664 ; gain = 0.000 ; free physical = 6819 ; free virtual = 14474
+
+Phase 3.4 updateClock Trees: DP
+Phase 3.4 updateClock Trees: DP | Checksum: a73e555a
+
+Time (s): cpu = 00:00:56 ; elapsed = 00:00:38 . Memory (MB): peak = 2112.664 ; gain = 0.000 ; free physical = 6819 ; free virtual = 14473
+
+Phase 3.5 Timing Path Optimizer
+Phase 3.5 Timing Path Optimizer | Checksum: 100546838
+
+Time (s): cpu = 00:00:57 ; elapsed = 00:00:39 . Memory (MB): peak = 2112.664 ; gain = 0.000 ; free physical = 6820 ; free virtual = 14474
+
+Phase 3.6 Fast Optimization
+Phase 3.6 Fast Optimization | Checksum: 100546838
+
+Time (s): cpu = 00:00:58 ; elapsed = 00:00:39 . Memory (MB): peak = 2112.664 ; gain = 0.000 ; free physical = 6820 ; free virtual = 14474
+
+Phase 3.7 Small Shape Detail Placement
+Phase 3.7 Small Shape Detail Placement | Checksum: e338fe7a
+
+Time (s): cpu = 00:01:02 ; elapsed = 00:00:44 . Memory (MB): peak = 2112.664 ; gain = 0.000 ; free physical = 6818 ; free virtual = 14473
+
+Phase 3.8 Re-assign LUT pins
+Phase 3.8 Re-assign LUT pins | Checksum: 145b1a986
+
+Time (s): cpu = 00:01:03 ; elapsed = 00:00:45 . Memory (MB): peak = 2112.664 ; gain = 0.000 ; free physical = 6818 ; free virtual = 14473
+
+Phase 3.9 Pipeline Register Optimization
+Phase 3.9 Pipeline Register Optimization | Checksum: 145b1a986
+
+Time (s): cpu = 00:01:03 ; elapsed = 00:00:45 . Memory (MB): peak = 2112.664 ; gain = 0.000 ; free physical = 6818 ; free virtual = 14474
+
+Phase 3.10 Fast Optimization
+Phase 3.10 Fast Optimization | Checksum: 145b1a986
+
+Time (s): cpu = 00:01:05 ; elapsed = 00:00:46 . Memory (MB): peak = 2112.664 ; gain = 0.000 ; free physical = 6818 ; free virtual = 14473
+Phase 3 Detail Placement | Checksum: 145b1a986
+
+Time (s): cpu = 00:01:05 ; elapsed = 00:00:46 . Memory (MB): peak = 2112.664 ; gain = 0.000 ; free physical = 6818 ; free virtual = 14473
+
+Phase 4 Post Placement Optimization and Clean-Up
+
+Phase 4.1 Post Commit Optimization
+INFO: [Timing 38-35] Done setting XDC timing constraints.
+
+Phase 4.1.1 updateClock Trees: PCOPT
+Phase 4.1.1 updateClock Trees: PCOPT | Checksum: e31c099e
+
+Time (s): cpu = 00:01:12 ; elapsed = 00:00:50 . Memory (MB): peak = 2112.664 ; gain = 0.000 ; free physical = 6819 ; free virtual = 14474
+
+Phase 4.1.2 Post Placement Optimization
+INFO: [Place 30-746] Post Placement Timing Summary WNS=2.799. For the most accurate timing information please run report_timing.
+Phase 4.1.2 Post Placement Optimization | Checksum: 22d94c587
+
+Time (s): cpu = 00:01:12 ; elapsed = 00:00:51 . Memory (MB): peak = 2112.664 ; gain = 0.000 ; free physical = 6819 ; free virtual = 14474
+Phase 4.1 Post Commit Optimization | Checksum: 22d94c587
+
+Time (s): cpu = 00:01:12 ; elapsed = 00:00:51 . Memory (MB): peak = 2112.664 ; gain = 0.000 ; free physical = 6819 ; free virtual = 14474
+
+Phase 4.2 Sweep Clock Roots: Post-Placement
+Phase 4.2 Sweep Clock Roots: Post-Placement | Checksum: 22d94c587
+
+Time (s): cpu = 00:01:12 ; elapsed = 00:00:51 . Memory (MB): peak = 2112.664 ; gain = 0.000 ; free physical = 6818 ; free virtual = 14474
+
+Phase 4.3 Uram Pipeline Register Optimization
+Phase 4.3 Uram Pipeline Register Optimization | Checksum: 22d94c587
+
+Time (s): cpu = 00:01:12 ; elapsed = 00:00:51 . Memory (MB): peak = 2112.664 ; gain = 0.000 ; free physical = 6819 ; free virtual = 14474
+
+Phase 4.4 Post Placement Cleanup
+Phase 4.4 Post Placement Cleanup | Checksum: 22d94c587
+
+Time (s): cpu = 00:01:13 ; elapsed = 00:00:51 . Memory (MB): peak = 2112.664 ; gain = 0.000 ; free physical = 6818 ; free virtual = 14474
+
+Phase 4.5 Placer Reporting
+Phase 4.5 Placer Reporting | Checksum: 22d94c587
+
+Time (s): cpu = 00:01:13 ; elapsed = 00:00:52 . Memory (MB): peak = 2112.664 ; gain = 0.000 ; free physical = 6818 ; free virtual = 14474
+
+Phase 4.6 Final Placement Cleanup
+Phase 4.6 Final Placement Cleanup | Checksum: 263d098ff
+
+Time (s): cpu = 00:01:13 ; elapsed = 00:00:52 . Memory (MB): peak = 2112.664 ; gain = 0.000 ; free physical = 6818 ; free virtual = 14474
+Phase 4 Post Placement Optimization and Clean-Up | Checksum: 263d098ff
+
+Time (s): cpu = 00:01:13 ; elapsed = 00:00:52 . Memory (MB): peak = 2112.664 ; gain = 0.000 ; free physical = 6818 ; free virtual = 14474
+Ending Placer Task | Checksum: 17e4362ba
+
+Time (s): cpu = 00:01:13 ; elapsed = 00:00:52 . Memory (MB): peak = 2112.664 ; gain = 0.000 ; free physical = 6818 ; free virtual = 14474
+INFO: [Common 17-83] Releasing license: Implementation
+66 Infos, 0 Warnings, 1 Critical Warnings and 0 Errors encountered.
+place_design completed successfully
+place_design: Time (s): cpu = 00:01:16 ; elapsed = 00:00:54 . Memory (MB): peak = 2112.664 ; gain = 0.000 ; free physical = 6818 ; free virtual = 14474
+Writing placer database...
+Writing XDEF routing.
+Writing XDEF routing logical nets.
+Writing XDEF routing special nets.
+Write XDEF Complete: Time (s): cpu = 00:00:03 ; elapsed = 00:00:01 . Memory (MB): peak = 2112.664 ; gain = 0.000 ; free physical = 6788 ; free virtual = 14473
+report_io: Time (s): cpu = 00:00:00.15 ; elapsed = 00:00:00.21 . Memory (MB): peak = 2112.664 ; gain = 0.000 ; free physical = 6808 ; free virtual = 14472
+report_utilization: Time (s): cpu = 00:00:00.23 ; elapsed = 00:00:00.27 . Memory (MB): peak = 2112.664 ; gain = 0.000 ; free physical = 6808 ; free virtual = 14472
+report_control_sets: Time (s): cpu = 00:00:00.10 ; elapsed = 00:00:00.13 . Memory (MB): peak = 2112.664 ; gain = 0.000 ; free physical = 6808 ; free virtual = 14472
+Command: route_design
+Attempting to get a license for feature 'Implementation' and/or device 'xc7z030'
+INFO: [Common 17-349] Got license for feature 'Implementation' and/or device 'xc7z030'
+Running DRC as a precondition to command route_design
+INFO: [DRC 23-27] Running DRC with 4 threads
+INFO: [Vivado_Tcl 4-198] DRC finished with 0 Errors
+INFO: [Vivado_Tcl 4-199] Please refer to the DRC report (report_drc) for more information.
+
+
+Starting Routing Task
+INFO: [Route 35-254] Multithreading enabled for route_design using a maximum of 4 CPUs
+Checksum: PlaceDB: 8a5573cd ConstDB: 0 ShapeSum: f3edeeed RouteDB: 0
+
+Phase 1 Build RT Design
+Phase 1 Build RT Design | Checksum: a07e4587
+
+Time (s): cpu = 00:00:36 ; elapsed = 00:00:28 . Memory (MB): peak = 2112.664 ; gain = 0.000 ; free physical = 6767 ; free virtual = 14433
+
+Phase 2 Router Initialization
+
+Phase 2.1 Create Timer
+Phase 2.1 Create Timer | Checksum: a07e4587
+
+Time (s): cpu = 00:00:36 ; elapsed = 00:00:29 . Memory (MB): peak = 2112.664 ; gain = 0.000 ; free physical = 6766 ; free virtual = 14433
+
+Phase 2.2 Fix Topology Constraints
+Phase 2.2 Fix Topology Constraints | Checksum: a07e4587
+
+Time (s): cpu = 00:00:36 ; elapsed = 00:00:29 . Memory (MB): peak = 2112.664 ; gain = 0.000 ; free physical = 6764 ; free virtual = 14431
+
+Phase 2.3 Pre Route Cleanup
+Phase 2.3 Pre Route Cleanup | Checksum: a07e4587
+
+Time (s): cpu = 00:00:36 ; elapsed = 00:00:29 . Memory (MB): peak = 2112.664 ; gain = 0.000 ; free physical = 6764 ; free virtual = 14431
+ Number of Nodes with overlaps = 0
+
+Phase 2.4 Update Timing
+Phase 2.4 Update Timing | Checksum: 14d11bfea
+
+Time (s): cpu = 00:00:47 ; elapsed = 00:00:36 . Memory (MB): peak = 2112.664 ; gain = 0.000 ; free physical = 6736 ; free virtual = 14405
+INFO: [Route 35-416] Intermediate Timing Summary | WNS=2.713  | TNS=0.000  | WHS=-0.239 | THS=-292.073|
+
+Phase 2 Router Initialization | Checksum: 1d3aeb6ef
+
+Time (s): cpu = 00:00:52 ; elapsed = 00:00:39 . Memory (MB): peak = 2112.664 ; gain = 0.000 ; free physical = 6736 ; free virtual = 14404
+
+Phase 3 Initial Routing
+Phase 3 Initial Routing | Checksum: 2389e122f
+
+Time (s): cpu = 00:00:58 ; elapsed = 00:00:41 . Memory (MB): peak = 2112.664 ; gain = 0.000 ; free physical = 6733 ; free virtual = 14402
+
+Phase 4 Rip-up And Reroute
+
+Phase 4.1 Global Iteration 0
+ Number of Nodes with overlaps = 1094
+ Number of Nodes with overlaps = 64
+ Number of Nodes with overlaps = 0
+
+Phase 4.1.1 Update Timing
+Phase 4.1.1 Update Timing | Checksum: 172e513f5
+
+Time (s): cpu = 00:01:18 ; elapsed = 00:00:49 . Memory (MB): peak = 2112.664 ; gain = 0.000 ; free physical = 6733 ; free virtual = 14402
+INFO: [Route 35-416] Intermediate Timing Summary | WNS=2.445  | TNS=0.000  | WHS=N/A    | THS=N/A    |
+
+Phase 4.1 Global Iteration 0 | Checksum: 5a5d288e
+
+Time (s): cpu = 00:01:19 ; elapsed = 00:00:49 . Memory (MB): peak = 2112.664 ; gain = 0.000 ; free physical = 6733 ; free virtual = 14401
+Phase 4 Rip-up And Reroute | Checksum: 5a5d288e
+
+Time (s): cpu = 00:01:19 ; elapsed = 00:00:49 . Memory (MB): peak = 2112.664 ; gain = 0.000 ; free physical = 6733 ; free virtual = 14401
+
+Phase 5 Delay and Skew Optimization
+
+Phase 5.1 Delay CleanUp
+
+Phase 5.1.1 Update Timing
+Phase 5.1.1 Update Timing | Checksum: 12432e88d
+
+Time (s): cpu = 00:01:20 ; elapsed = 00:00:50 . Memory (MB): peak = 2112.664 ; gain = 0.000 ; free physical = 6733 ; free virtual = 14401
+INFO: [Route 35-416] Intermediate Timing Summary | WNS=2.552  | TNS=0.000  | WHS=N/A    | THS=N/A    |
+
+Phase 5.1 Delay CleanUp | Checksum: 12432e88d
+
+Time (s): cpu = 00:01:20 ; elapsed = 00:00:50 . Memory (MB): peak = 2112.664 ; gain = 0.000 ; free physical = 6733 ; free virtual = 14401
+
+Phase 5.2 Clock Skew Optimization
+Phase 5.2 Clock Skew Optimization | Checksum: 12432e88d
+
+Time (s): cpu = 00:01:20 ; elapsed = 00:00:50 . Memory (MB): peak = 2112.664 ; gain = 0.000 ; free physical = 6732 ; free virtual = 14401
+Phase 5 Delay and Skew Optimization | Checksum: 12432e88d
+
+Time (s): cpu = 00:01:20 ; elapsed = 00:00:50 . Memory (MB): peak = 2112.664 ; gain = 0.000 ; free physical = 6732 ; free virtual = 14401
+
+Phase 6 Post Hold Fix
+
+Phase 6.1 Hold Fix Iter
+
+Phase 6.1.1 Update Timing
+Phase 6.1.1 Update Timing | Checksum: 11f8edb8a
+
+Time (s): cpu = 00:01:22 ; elapsed = 00:00:51 . Memory (MB): peak = 2112.664 ; gain = 0.000 ; free physical = 6733 ; free virtual = 14401
+INFO: [Route 35-416] Intermediate Timing Summary | WNS=2.552  | TNS=0.000  | WHS=0.032  | THS=0.000  |
+
+Phase 6.1 Hold Fix Iter | Checksum: 88e68d1a
+
+Time (s): cpu = 00:01:22 ; elapsed = 00:00:52 . Memory (MB): peak = 2112.664 ; gain = 0.000 ; free physical = 6733 ; free virtual = 14401
+Phase 6 Post Hold Fix | Checksum: 88e68d1a
+
+Time (s): cpu = 00:01:22 ; elapsed = 00:00:52 . Memory (MB): peak = 2112.664 ; gain = 0.000 ; free physical = 6732 ; free virtual = 14401
+
+Phase 7 Route finalize
+
+Router Utilization Summary
+  Global Vertical Routing Utilization    = 1.80541 %
+  Global Horizontal Routing Utilization  = 2.51987 %
+  Routable Net Status*
+  *Does not include unroutable nets such as driverless and loadless.
+  Run report_route_status for detailed report.
+  Number of Failed Nets               = 0
+  Number of Unrouted Nets             = 0
+  Number of Partially Routed Nets     = 0
+  Number of Node Overlaps             = 0
+
+Phase 7 Route finalize | Checksum: 455960e8
+
+Time (s): cpu = 00:01:23 ; elapsed = 00:00:52 . Memory (MB): peak = 2112.664 ; gain = 0.000 ; free physical = 6732 ; free virtual = 14401
+
+Phase 8 Verifying routed nets
+
+ Verification completed successfully
+Phase 8 Verifying routed nets | Checksum: 455960e8
+
+Time (s): cpu = 00:01:23 ; elapsed = 00:00:52 . Memory (MB): peak = 2112.664 ; gain = 0.000 ; free physical = 6733 ; free virtual = 14401
+
+Phase 9 Depositing Routes
+Phase 9 Depositing Routes | Checksum: a4d27d8e
+
+Time (s): cpu = 00:01:25 ; elapsed = 00:00:53 . Memory (MB): peak = 2112.664 ; gain = 0.000 ; free physical = 6734 ; free virtual = 14402
+
+Phase 10 Post Router Timing
+INFO: [Route 35-57] Estimated Timing Summary | WNS=2.552  | TNS=0.000  | WHS=0.032  | THS=0.000  |
+
+INFO: [Route 35-327] The final timing numbers are based on the router estimated timing analysis. For a complete and accurate timing signoff, please run report_timing_summary.
+Phase 10 Post Router Timing | Checksum: a4d27d8e
+
+Time (s): cpu = 00:01:25 ; elapsed = 00:00:54 . Memory (MB): peak = 2112.664 ; gain = 0.000 ; free physical = 6734 ; free virtual = 14402
+INFO: [Route 35-16] Router Completed Successfully
+
+Time (s): cpu = 00:01:25 ; elapsed = 00:00:54 . Memory (MB): peak = 2112.664 ; gain = 0.000 ; free physical = 6734 ; free virtual = 14402
+
+Routing Is Done.
+INFO: [Common 17-83] Releasing license: Implementation
+79 Infos, 0 Warnings, 1 Critical Warnings and 0 Errors encountered.
+route_design completed successfully
+route_design: Time (s): cpu = 00:01:27 ; elapsed = 00:00:55 . Memory (MB): peak = 2112.664 ; gain = 0.000 ; free physical = 6734 ; free virtual = 14402
+Writing placer database...
+Writing XDEF routing.
+Writing XDEF routing logical nets.
+Writing XDEF routing special nets.
+Write XDEF Complete: Time (s): cpu = 00:00:05 ; elapsed = 00:00:02 . Memory (MB): peak = 2112.883 ; gain = 0.000 ; free physical = 6696 ; free virtual = 14400
+write_checkpoint: Time (s): cpu = 00:00:10 ; elapsed = 00:00:06 . Memory (MB): peak = 2112.887 ; gain = 0.223 ; free physical = 6722 ; free virtual = 14400
+INFO: [DRC 23-27] Running DRC with 4 threads
+INFO: [Coretcl 2-168] The results of DRC are in file /home/francesca/xil_proj/trig_testbench_F/project_1.runs/impl_1/design_fc_wrapper_drc_routed.rpt.
+INFO: [Timing 38-91] UpdateTimingParams: Speed grade: -2, Delay Type: min_max.
+INFO: [Timing 38-191] Multithreading enabled for timing update using a maximum of 4 CPUs
+report_timing_summary: Time (s): cpu = 00:00:09 ; elapsed = 00:00:05 . Memory (MB): peak = 2112.887 ; gain = 0.000 ; free physical = 6722 ; free virtual = 14400
+Running Vector-less Activity Propagation...
+
+Finished Running Vector-less Activity Propagation
+WARNING: [Power 33-332] Found switching activity that implies high-fanout reset nets being asserted for excessive periods of time which may result in inaccurate power analysis.
+Resolution: To review and fix problems, please run Power Constraints Advisor in the GUI from Tools > Power Constraints Advisor or run report_power with the -advisory option to generate a text report.
+Attempting to get a license for feature 'Implementation' and/or device 'xc7z030'
+INFO: [Common 17-349] Got license for feature 'Implementation' and/or device 'xc7z030'
+Running DRC as a precondition to command write_bitstream
+INFO: [DRC 23-27] Running DRC with 4 threads
+WARNING: [DRC 23-20] Rule violation (DPIP-1) Input pipelining - DSP design_fc_i/l2_trigger_0/U0/l2_trigger_dadd_64ns_64ns_64_5_full_dsp_U1/l2_trigger_ap_dadd_3_full_dsp_64_u/U0/i_synth/ADDSUB_OP.ADDSUB/SPEED_OP.LOGIC.OP/ALIGN_BLK/FRAC_ADDSUB/DSP_ADD.FRAC_ADDSUB/DSP48E1_ADD.DSP48E1_ADD/DSP input design_fc_i/l2_trigger_0/U0/l2_trigger_dadd_64ns_64ns_64_5_full_dsp_U1/l2_trigger_ap_dadd_3_full_dsp_64_u/U0/i_synth/ADDSUB_OP.ADDSUB/SPEED_OP.LOGIC.OP/ALIGN_BLK/FRAC_ADDSUB/DSP_ADD.FRAC_ADDSUB/DSP48E1_ADD.DSP48E1_ADD/DSP/A[29:0] is not pipelined. Pipelining DSP48 input will improve performance.
+WARNING: [DRC 23-20] Rule violation (DPIP-1) Input pipelining - DSP design_fc_i/l2_trigger_0/U0/l2_trigger_dadd_64ns_64ns_64_5_full_dsp_U1/l2_trigger_ap_dadd_3_full_dsp_64_u/U0/i_synth/ADDSUB_OP.ADDSUB/SPEED_OP.LOGIC.OP/ALIGN_BLK/FRAC_ADDSUB/DSP_ADD.FRAC_ADDSUB/DSP48E1_ADD.DSP48E1_ADD/DSP input design_fc_i/l2_trigger_0/U0/l2_trigger_dadd_64ns_64ns_64_5_full_dsp_U1/l2_trigger_ap_dadd_3_full_dsp_64_u/U0/i_synth/ADDSUB_OP.ADDSUB/SPEED_OP.LOGIC.OP/ALIGN_BLK/FRAC_ADDSUB/DSP_ADD.FRAC_ADDSUB/DSP48E1_ADD.DSP48E1_ADD/DSP/B[17:0] is not pipelined. Pipelining DSP48 input will improve performance.
+WARNING: [DRC 23-20] Rule violation (DPIP-1) Input pipelining - DSP design_fc_i/l2_trigger_0/U0/l2_trigger_dadd_64ns_64ns_64_5_full_dsp_U1/l2_trigger_ap_dadd_3_full_dsp_64_u/U0/i_synth/ADDSUB_OP.ADDSUB/SPEED_OP.LOGIC.OP/ALIGN_BLK/FRAC_ADDSUB/DSP_ADD.FRAC_ADDSUB/DSP48E1_ADD.DSP48E1_ADD/DSP input design_fc_i/l2_trigger_0/U0/l2_trigger_dadd_64ns_64ns_64_5_full_dsp_U1/l2_trigger_ap_dadd_3_full_dsp_64_u/U0/i_synth/ADDSUB_OP.ADDSUB/SPEED_OP.LOGIC.OP/ALIGN_BLK/FRAC_ADDSUB/DSP_ADD.FRAC_ADDSUB/DSP48E1_ADD.DSP48E1_ADD/DSP/C[47:0] is not pipelined. Pipelining DSP48 input will improve performance.
+WARNING: [DRC 23-20] Rule violation (DPIP-1) Input pipelining - DSP design_fc_i/l2_trigger_0/U0/l2_trigger_dadd_64ns_64ns_64_5_full_dsp_U1/l2_trigger_ap_dadd_3_full_dsp_64_u/U0/i_synth/ADDSUB_OP.ADDSUB/SPEED_OP.LOGIC.OP/ALIGN_BLK/FRAC_ADDSUB/DSP_ADD.FRAC_ADDSUB/DSP48E1_GEN.DSP48E1_DEL/DSP input design_fc_i/l2_trigger_0/U0/l2_trigger_dadd_64ns_64ns_64_5_full_dsp_U1/l2_trigger_ap_dadd_3_full_dsp_64_u/U0/i_synth/ADDSUB_OP.ADDSUB/SPEED_OP.LOGIC.OP/ALIGN_BLK/FRAC_ADDSUB/DSP_ADD.FRAC_ADDSUB/DSP48E1_GEN.DSP48E1_DEL/DSP/A[29:0] is not pipelined. Pipelining DSP48 input will improve performance.
+WARNING: [DRC 23-20] Rule violation (DPIP-1) Input pipelining - DSP design_fc_i/l2_trigger_0/U0/l2_trigger_dadd_64ns_64ns_64_5_full_dsp_U1/l2_trigger_ap_dadd_3_full_dsp_64_u/U0/i_synth/ADDSUB_OP.ADDSUB/SPEED_OP.LOGIC.OP/ALIGN_BLK/FRAC_ADDSUB/DSP_ADD.FRAC_ADDSUB/DSP48E1_GEN.DSP48E1_DEL/DSP input design_fc_i/l2_trigger_0/U0/l2_trigger_dadd_64ns_64ns_64_5_full_dsp_U1/l2_trigger_ap_dadd_3_full_dsp_64_u/U0/i_synth/ADDSUB_OP.ADDSUB/SPEED_OP.LOGIC.OP/ALIGN_BLK/FRAC_ADDSUB/DSP_ADD.FRAC_ADDSUB/DSP48E1_GEN.DSP48E1_DEL/DSP/B[17:0] is not pipelined. Pipelining DSP48 input will improve performance.
+WARNING: [DRC 23-20] Rule violation (DPIP-1) Input pipelining - DSP design_fc_i/l2_trigger_0/U0/l2_trigger_dadd_64ns_64ns_64_5_full_dsp_U1/l2_trigger_ap_dadd_3_full_dsp_64_u/U0/i_synth/ADDSUB_OP.ADDSUB/SPEED_OP.LOGIC.OP/NORM/ROUND/DSP48_E1.DSP48E1_ADD.DSP48E1_ADD/DSP input design_fc_i/l2_trigger_0/U0/l2_trigger_dadd_64ns_64ns_64_5_full_dsp_U1/l2_trigger_ap_dadd_3_full_dsp_64_u/U0/i_synth/ADDSUB_OP.ADDSUB/SPEED_OP.LOGIC.OP/NORM/ROUND/DSP48_E1.DSP48E1_ADD.DSP48E1_ADD/DSP/B[17:0] is not pipelined. Pipelining DSP48 input will improve performance.
+WARNING: [DRC 23-20] Rule violation (DPIP-1) Input pipelining - DSP design_fc_i/l2_trigger_0/U0/l2_trigger_dadd_64ns_64ns_64_5_full_dsp_U1/l2_trigger_ap_dadd_3_full_dsp_64_u/U0/i_synth/ADDSUB_OP.ADDSUB/SPEED_OP.LOGIC.OP/NORM/ROUND/DSP48_E1.DSP48E1_ADD.DSP48E1_ADD/DSP input design_fc_i/l2_trigger_0/U0/l2_trigger_dadd_64ns_64ns_64_5_full_dsp_U1/l2_trigger_ap_dadd_3_full_dsp_64_u/U0/i_synth/ADDSUB_OP.ADDSUB/SPEED_OP.LOGIC.OP/NORM/ROUND/DSP48_E1.DSP48E1_ADD.DSP48E1_ADD/DSP/C[47:0] is not pipelined. Pipelining DSP48 input will improve performance.
+WARNING: [DRC 23-20] Rule violation (DPIP-1) Input pipelining - DSP design_fc_i/l2_trigger_0/U0/l2_trigger_dadd_64ns_64ns_64_5_full_dsp_U2/l2_trigger_ap_dadd_3_full_dsp_64_u/U0/i_synth/ADDSUB_OP.ADDSUB/SPEED_OP.LOGIC.OP/ALIGN_BLK/FRAC_ADDSUB/DSP_ADD.FRAC_ADDSUB/DSP48E1_ADD.DSP48E1_ADD/DSP input design_fc_i/l2_trigger_0/U0/l2_trigger_dadd_64ns_64ns_64_5_full_dsp_U2/l2_trigger_ap_dadd_3_full_dsp_64_u/U0/i_synth/ADDSUB_OP.ADDSUB/SPEED_OP.LOGIC.OP/ALIGN_BLK/FRAC_ADDSUB/DSP_ADD.FRAC_ADDSUB/DSP48E1_ADD.DSP48E1_ADD/DSP/A[29:0] is not pipelined. Pipelining DSP48 input will improve performance.
+WARNING: [DRC 23-20] Rule violation (DPIP-1) Input pipelining - DSP design_fc_i/l2_trigger_0/U0/l2_trigger_dadd_64ns_64ns_64_5_full_dsp_U2/l2_trigger_ap_dadd_3_full_dsp_64_u/U0/i_synth/ADDSUB_OP.ADDSUB/SPEED_OP.LOGIC.OP/ALIGN_BLK/FRAC_ADDSUB/DSP_ADD.FRAC_ADDSUB/DSP48E1_ADD.DSP48E1_ADD/DSP input design_fc_i/l2_trigger_0/U0/l2_trigger_dadd_64ns_64ns_64_5_full_dsp_U2/l2_trigger_ap_dadd_3_full_dsp_64_u/U0/i_synth/ADDSUB_OP.ADDSUB/SPEED_OP.LOGIC.OP/ALIGN_BLK/FRAC_ADDSUB/DSP_ADD.FRAC_ADDSUB/DSP48E1_ADD.DSP48E1_ADD/DSP/B[17:0] is not pipelined. Pipelining DSP48 input will improve performance.
+WARNING: [DRC 23-20] Rule violation (DPIP-1) Input pipelining - DSP design_fc_i/l2_trigger_0/U0/l2_trigger_dadd_64ns_64ns_64_5_full_dsp_U2/l2_trigger_ap_dadd_3_full_dsp_64_u/U0/i_synth/ADDSUB_OP.ADDSUB/SPEED_OP.LOGIC.OP/ALIGN_BLK/FRAC_ADDSUB/DSP_ADD.FRAC_ADDSUB/DSP48E1_ADD.DSP48E1_ADD/DSP input design_fc_i/l2_trigger_0/U0/l2_trigger_dadd_64ns_64ns_64_5_full_dsp_U2/l2_trigger_ap_dadd_3_full_dsp_64_u/U0/i_synth/ADDSUB_OP.ADDSUB/SPEED_OP.LOGIC.OP/ALIGN_BLK/FRAC_ADDSUB/DSP_ADD.FRAC_ADDSUB/DSP48E1_ADD.DSP48E1_ADD/DSP/C[47:0] is not pipelined. Pipelining DSP48 input will improve performance.
+WARNING: [DRC 23-20] Rule violation (DPIP-1) Input pipelining - DSP design_fc_i/l2_trigger_0/U0/l2_trigger_dadd_64ns_64ns_64_5_full_dsp_U2/l2_trigger_ap_dadd_3_full_dsp_64_u/U0/i_synth/ADDSUB_OP.ADDSUB/SPEED_OP.LOGIC.OP/ALIGN_BLK/FRAC_ADDSUB/DSP_ADD.FRAC_ADDSUB/DSP48E1_GEN.DSP48E1_DEL/DSP input design_fc_i/l2_trigger_0/U0/l2_trigger_dadd_64ns_64ns_64_5_full_dsp_U2/l2_trigger_ap_dadd_3_full_dsp_64_u/U0/i_synth/ADDSUB_OP.ADDSUB/SPEED_OP.LOGIC.OP/ALIGN_BLK/FRAC_ADDSUB/DSP_ADD.FRAC_ADDSUB/DSP48E1_GEN.DSP48E1_DEL/DSP/A[29:0] is not pipelined. Pipelining DSP48 input will improve performance.
+WARNING: [DRC 23-20] Rule violation (DPIP-1) Input pipelining - DSP design_fc_i/l2_trigger_0/U0/l2_trigger_dadd_64ns_64ns_64_5_full_dsp_U2/l2_trigger_ap_dadd_3_full_dsp_64_u/U0/i_synth/ADDSUB_OP.ADDSUB/SPEED_OP.LOGIC.OP/ALIGN_BLK/FRAC_ADDSUB/DSP_ADD.FRAC_ADDSUB/DSP48E1_GEN.DSP48E1_DEL/DSP input design_fc_i/l2_trigger_0/U0/l2_trigger_dadd_64ns_64ns_64_5_full_dsp_U2/l2_trigger_ap_dadd_3_full_dsp_64_u/U0/i_synth/ADDSUB_OP.ADDSUB/SPEED_OP.LOGIC.OP/ALIGN_BLK/FRAC_ADDSUB/DSP_ADD.FRAC_ADDSUB/DSP48E1_GEN.DSP48E1_DEL/DSP/B[17:0] is not pipelined. Pipelining DSP48 input will improve performance.
+WARNING: [DRC 23-20] Rule violation (DPIP-1) Input pipelining - DSP design_fc_i/l2_trigger_0/U0/l2_trigger_dadd_64ns_64ns_64_5_full_dsp_U2/l2_trigger_ap_dadd_3_full_dsp_64_u/U0/i_synth/ADDSUB_OP.ADDSUB/SPEED_OP.LOGIC.OP/NORM/ROUND/DSP48_E1.DSP48E1_ADD.DSP48E1_ADD/DSP input design_fc_i/l2_trigger_0/U0/l2_trigger_dadd_64ns_64ns_64_5_full_dsp_U2/l2_trigger_ap_dadd_3_full_dsp_64_u/U0/i_synth/ADDSUB_OP.ADDSUB/SPEED_OP.LOGIC.OP/NORM/ROUND/DSP48_E1.DSP48E1_ADD.DSP48E1_ADD/DSP/B[17:0] is not pipelined. Pipelining DSP48 input will improve performance.
+WARNING: [DRC 23-20] Rule violation (DPIP-1) Input pipelining - DSP design_fc_i/l2_trigger_0/U0/l2_trigger_dadd_64ns_64ns_64_5_full_dsp_U2/l2_trigger_ap_dadd_3_full_dsp_64_u/U0/i_synth/ADDSUB_OP.ADDSUB/SPEED_OP.LOGIC.OP/NORM/ROUND/DSP48_E1.DSP48E1_ADD.DSP48E1_ADD/DSP input design_fc_i/l2_trigger_0/U0/l2_trigger_dadd_64ns_64ns_64_5_full_dsp_U2/l2_trigger_ap_dadd_3_full_dsp_64_u/U0/i_synth/ADDSUB_OP.ADDSUB/SPEED_OP.LOGIC.OP/NORM/ROUND/DSP48_E1.DSP48E1_ADD.DSP48E1_ADD/DSP/C[47:0] is not pipelined. Pipelining DSP48 input will improve performance.
+WARNING: [DRC 23-20] Rule violation (DPIP-1) Input pipelining - DSP design_fc_i/l2_trigger_0/U0/l2_trigger_dmul_64ns_64ns_64_5_max_dsp_U3/l2_trigger_ap_dmul_3_max_dsp_64_u/U0/i_synth/MULT.OP/MULT/DSP48E1_SPD_DBL_VARIANT.FIX_MULT/DSP0/DSP input design_fc_i/l2_trigger_0/U0/l2_trigger_dmul_64ns_64ns_64_5_max_dsp_U3/l2_trigger_ap_dmul_3_max_dsp_64_u/U0/i_synth/MULT.OP/MULT/DSP48E1_SPD_DBL_VARIANT.FIX_MULT/DSP0/DSP/A[29:0] is not pipelined. Pipelining DSP48 input will improve performance.
+WARNING: [DRC 23-20] Rule violation (DPIP-1) Input pipelining - DSP design_fc_i/l2_trigger_0/U0/l2_trigger_dmul_64ns_64ns_64_5_max_dsp_U3/l2_trigger_ap_dmul_3_max_dsp_64_u/U0/i_synth/MULT.OP/MULT/DSP48E1_SPD_DBL_VARIANT.FIX_MULT/DSP1/DSP input design_fc_i/l2_trigger_0/U0/l2_trigger_dmul_64ns_64ns_64_5_max_dsp_U3/l2_trigger_ap_dmul_3_max_dsp_64_u/U0/i_synth/MULT.OP/MULT/DSP48E1_SPD_DBL_VARIANT.FIX_MULT/DSP1/DSP/A[29:0] is not pipelined. Pipelining DSP48 input will improve performance.
+WARNING: [DRC 23-20] Rule violation (DPIP-1) Input pipelining - DSP design_fc_i/l2_trigger_0/U0/l2_trigger_dmul_64ns_64ns_64_5_max_dsp_U3/l2_trigger_ap_dmul_3_max_dsp_64_u/U0/i_synth/MULT.OP/MULT/DSP48E1_SPD_DBL_VARIANT.FIX_MULT/DSP2/DSP input design_fc_i/l2_trigger_0/U0/l2_trigger_dmul_64ns_64ns_64_5_max_dsp_U3/l2_trigger_ap_dmul_3_max_dsp_64_u/U0/i_synth/MULT.OP/MULT/DSP48E1_SPD_DBL_VARIANT.FIX_MULT/DSP2/DSP/A[29:0] is not pipelined. Pipelining DSP48 input will improve performance.
+WARNING: [DRC 23-20] Rule violation (DPIP-1) Input pipelining - DSP design_fc_i/l2_trigger_0/U0/l2_trigger_dmul_64ns_64ns_64_5_max_dsp_U3/l2_trigger_ap_dmul_3_max_dsp_64_u/U0/i_synth/MULT.OP/MULT/DSP48E1_SPD_DBL_VARIANT.FIX_MULT/DSP3/DSP input design_fc_i/l2_trigger_0/U0/l2_trigger_dmul_64ns_64ns_64_5_max_dsp_U3/l2_trigger_ap_dmul_3_max_dsp_64_u/U0/i_synth/MULT.OP/MULT/DSP48E1_SPD_DBL_VARIANT.FIX_MULT/DSP3/DSP/A[29:0] is not pipelined. Pipelining DSP48 input will improve performance.
+WARNING: [DRC 23-20] Rule violation (DPIP-1) Input pipelining - DSP design_fc_i/l2_trigger_0/U0/l2_trigger_dmul_64ns_64ns_64_5_max_dsp_U3/l2_trigger_ap_dmul_3_max_dsp_64_u/U0/i_synth/MULT.OP/MULT/DSP48E1_SPD_DBL_VARIANT.FIX_MULT/DSP4/DSP input design_fc_i/l2_trigger_0/U0/l2_trigger_dmul_64ns_64ns_64_5_max_dsp_U3/l2_trigger_ap_dmul_3_max_dsp_64_u/U0/i_synth/MULT.OP/MULT/DSP48E1_SPD_DBL_VARIANT.FIX_MULT/DSP4/DSP/A[29:0] is not pipelined. Pipelining DSP48 input will improve performance.
+WARNING: [DRC 23-20] Rule violation (DPIP-1) Input pipelining - DSP design_fc_i/l2_trigger_0/U0/l2_trigger_dmul_64ns_64ns_64_5_max_dsp_U3/l2_trigger_ap_dmul_3_max_dsp_64_u/U0/i_synth/MULT.OP/R_AND_R/LOGIC.R_AND_R/DSP48_E1.DSP48E1_ADD.DSP48E1_ADD/DSP input design_fc_i/l2_trigger_0/U0/l2_trigger_dmul_64ns_64ns_64_5_max_dsp_U3/l2_trigger_ap_dmul_3_max_dsp_64_u/U0/i_synth/MULT.OP/R_AND_R/LOGIC.R_AND_R/DSP48_E1.DSP48E1_ADD.DSP48E1_ADD/DSP/B[17:0] is not pipelined. Pipelining DSP48 input will improve performance.
+WARNING: [DRC 23-20] Rule violation (DPIP-1) Input pipelining - DSP design_fc_i/l2_trigger_0/U0/l2_trigger_dmul_64ns_64ns_64_5_max_dsp_U3/l2_trigger_ap_dmul_3_max_dsp_64_u/U0/i_synth/MULT.OP/R_AND_R/LOGIC.R_AND_R/DSP48_E1.DSP48E1_ADD.DSP48E1_ADD/DSP input design_fc_i/l2_trigger_0/U0/l2_trigger_dmul_64ns_64ns_64_5_max_dsp_U3/l2_trigger_ap_dmul_3_max_dsp_64_u/U0/i_synth/MULT.OP/R_AND_R/LOGIC.R_AND_R/DSP48_E1.DSP48E1_ADD.DSP48E1_ADD/DSP/C[47:0] is not pipelined. Pipelining DSP48 input will improve performance.
+WARNING: [DRC 23-20] Rule violation (DPIP-1) Input pipelining - DSP design_fc_i/l2_trigger_0/U0/l2_trigger_dmul_64ns_64ns_64_5_max_dsp_U4/l2_trigger_ap_dmul_3_max_dsp_64_u/U0/i_synth/MULT.OP/MULT/DSP48E1_SPD_DBL_VARIANT.FIX_MULT/DSP0/DSP input design_fc_i/l2_trigger_0/U0/l2_trigger_dmul_64ns_64ns_64_5_max_dsp_U4/l2_trigger_ap_dmul_3_max_dsp_64_u/U0/i_synth/MULT.OP/MULT/DSP48E1_SPD_DBL_VARIANT.FIX_MULT/DSP0/DSP/A[29:0] is not pipelined. Pipelining DSP48 input will improve performance.
+WARNING: [DRC 23-20] Rule violation (DPIP-1) Input pipelining - DSP design_fc_i/l2_trigger_0/U0/l2_trigger_dmul_64ns_64ns_64_5_max_dsp_U4/l2_trigger_ap_dmul_3_max_dsp_64_u/U0/i_synth/MULT.OP/MULT/DSP48E1_SPD_DBL_VARIANT.FIX_MULT/DSP1/DSP input design_fc_i/l2_trigger_0/U0/l2_trigger_dmul_64ns_64ns_64_5_max_dsp_U4/l2_trigger_ap_dmul_3_max_dsp_64_u/U0/i_synth/MULT.OP/MULT/DSP48E1_SPD_DBL_VARIANT.FIX_MULT/DSP1/DSP/A[29:0] is not pipelined. Pipelining DSP48 input will improve performance.
+WARNING: [DRC 23-20] Rule violation (DPIP-1) Input pipelining - DSP design_fc_i/l2_trigger_0/U0/l2_trigger_dmul_64ns_64ns_64_5_max_dsp_U4/l2_trigger_ap_dmul_3_max_dsp_64_u/U0/i_synth/MULT.OP/MULT/DSP48E1_SPD_DBL_VARIANT.FIX_MULT/DSP2/DSP input design_fc_i/l2_trigger_0/U0/l2_trigger_dmul_64ns_64ns_64_5_max_dsp_U4/l2_trigger_ap_dmul_3_max_dsp_64_u/U0/i_synth/MULT.OP/MULT/DSP48E1_SPD_DBL_VARIANT.FIX_MULT/DSP2/DSP/A[29:0] is not pipelined. Pipelining DSP48 input will improve performance.
+WARNING: [DRC 23-20] Rule violation (DPIP-1) Input pipelining - DSP design_fc_i/l2_trigger_0/U0/l2_trigger_dmul_64ns_64ns_64_5_max_dsp_U4/l2_trigger_ap_dmul_3_max_dsp_64_u/U0/i_synth/MULT.OP/MULT/DSP48E1_SPD_DBL_VARIANT.FIX_MULT/DSP3/DSP input design_fc_i/l2_trigger_0/U0/l2_trigger_dmul_64ns_64ns_64_5_max_dsp_U4/l2_trigger_ap_dmul_3_max_dsp_64_u/U0/i_synth/MULT.OP/MULT/DSP48E1_SPD_DBL_VARIANT.FIX_MULT/DSP3/DSP/A[29:0] is not pipelined. Pipelining DSP48 input will improve performance.
+WARNING: [DRC 23-20] Rule violation (DPIP-1) Input pipelining - DSP design_fc_i/l2_trigger_0/U0/l2_trigger_dmul_64ns_64ns_64_5_max_dsp_U4/l2_trigger_ap_dmul_3_max_dsp_64_u/U0/i_synth/MULT.OP/MULT/DSP48E1_SPD_DBL_VARIANT.FIX_MULT/DSP4/DSP input design_fc_i/l2_trigger_0/U0/l2_trigger_dmul_64ns_64ns_64_5_max_dsp_U4/l2_trigger_ap_dmul_3_max_dsp_64_u/U0/i_synth/MULT.OP/MULT/DSP48E1_SPD_DBL_VARIANT.FIX_MULT/DSP4/DSP/A[29:0] is not pipelined. Pipelining DSP48 input will improve performance.
+WARNING: [DRC 23-20] Rule violation (DPIP-1) Input pipelining - DSP design_fc_i/l2_trigger_0/U0/l2_trigger_dmul_64ns_64ns_64_5_max_dsp_U4/l2_trigger_ap_dmul_3_max_dsp_64_u/U0/i_synth/MULT.OP/R_AND_R/LOGIC.R_AND_R/DSP48_E1.DSP48E1_ADD.DSP48E1_ADD/DSP input design_fc_i/l2_trigger_0/U0/l2_trigger_dmul_64ns_64ns_64_5_max_dsp_U4/l2_trigger_ap_dmul_3_max_dsp_64_u/U0/i_synth/MULT.OP/R_AND_R/LOGIC.R_AND_R/DSP48_E1.DSP48E1_ADD.DSP48E1_ADD/DSP/B[17:0] is not pipelined. Pipelining DSP48 input will improve performance.
+WARNING: [DRC 23-20] Rule violation (DPIP-1) Input pipelining - DSP design_fc_i/l2_trigger_0/U0/l2_trigger_dmul_64ns_64ns_64_5_max_dsp_U4/l2_trigger_ap_dmul_3_max_dsp_64_u/U0/i_synth/MULT.OP/R_AND_R/LOGIC.R_AND_R/DSP48_E1.DSP48E1_ADD.DSP48E1_ADD/DSP input design_fc_i/l2_trigger_0/U0/l2_trigger_dmul_64ns_64ns_64_5_max_dsp_U4/l2_trigger_ap_dmul_3_max_dsp_64_u/U0/i_synth/MULT.OP/R_AND_R/LOGIC.R_AND_R/DSP48_E1.DSP48E1_ADD.DSP48E1_ADD/DSP/C[47:0] is not pipelined. Pipelining DSP48 input will improve performance.
+WARNING: [DRC 23-20] Rule violation (DPOP-1) PREG Output pipelining - DSP design_fc_i/l2_trigger_0/U0/l2_trigger_dadd_64ns_64ns_64_5_full_dsp_U1/l2_trigger_ap_dadd_3_full_dsp_64_u/U0/i_synth/ADDSUB_OP.ADDSUB/SPEED_OP.LOGIC.OP/NORM/ROUND/DSP48_E1.DSP48E1_ADD.DSP48E1_ADD/DSP output design_fc_i/l2_trigger_0/U0/l2_trigger_dadd_64ns_64ns_64_5_full_dsp_U1/l2_trigger_ap_dadd_3_full_dsp_64_u/U0/i_synth/ADDSUB_OP.ADDSUB/SPEED_OP.LOGIC.OP/NORM/ROUND/DSP48_E1.DSP48E1_ADD.DSP48E1_ADD/DSP/P[47:0] is not pipelined (PREG=0). Pipelining the DSP48 output will improve performance and often saves power so it is suggested whenever possible to fully pipeline this function.  If this DSP48 function was inferred, it is suggested to describe an additional register stage after this function.  If the DSP48 was instantiated in the design, it is suggested to set the PREG attribute to 1.
+WARNING: [DRC 23-20] Rule violation (DPOP-1) PREG Output pipelining - DSP design_fc_i/l2_trigger_0/U0/l2_trigger_dadd_64ns_64ns_64_5_full_dsp_U2/l2_trigger_ap_dadd_3_full_dsp_64_u/U0/i_synth/ADDSUB_OP.ADDSUB/SPEED_OP.LOGIC.OP/NORM/ROUND/DSP48_E1.DSP48E1_ADD.DSP48E1_ADD/DSP output design_fc_i/l2_trigger_0/U0/l2_trigger_dadd_64ns_64ns_64_5_full_dsp_U2/l2_trigger_ap_dadd_3_full_dsp_64_u/U0/i_synth/ADDSUB_OP.ADDSUB/SPEED_OP.LOGIC.OP/NORM/ROUND/DSP48_E1.DSP48E1_ADD.DSP48E1_ADD/DSP/P[47:0] is not pipelined (PREG=0). Pipelining the DSP48 output will improve performance and often saves power so it is suggested whenever possible to fully pipeline this function.  If this DSP48 function was inferred, it is suggested to describe an additional register stage after this function.  If the DSP48 was instantiated in the design, it is suggested to set the PREG attribute to 1.
+WARNING: [DRC 23-20] Rule violation (DPOP-1) PREG Output pipelining - DSP design_fc_i/l2_trigger_0/U0/l2_trigger_dmul_64ns_64ns_64_5_max_dsp_U3/l2_trigger_ap_dmul_3_max_dsp_64_u/U0/i_synth/MULT.OP/MULT/DSP48E1_SPD_DBL_VARIANT.FIX_MULT/DSP0/DSP output design_fc_i/l2_trigger_0/U0/l2_trigger_dmul_64ns_64ns_64_5_max_dsp_U3/l2_trigger_ap_dmul_3_max_dsp_64_u/U0/i_synth/MULT.OP/MULT/DSP48E1_SPD_DBL_VARIANT.FIX_MULT/DSP0/DSP/PATTERNDETECT is not pipelined (PREG=0). Pipelining the DSP48 output will improve performance and often saves power so it is suggested whenever possible to fully pipeline this function.  If this DSP48 function was inferred, it is suggested to describe an additional register stage after this function.  If the DSP48 was instantiated in the design, it is suggested to set the PREG attribute to 1.
+WARNING: [DRC 23-20] Rule violation (DPOP-1) PREG Output pipelining - DSP design_fc_i/l2_trigger_0/U0/l2_trigger_dmul_64ns_64ns_64_5_max_dsp_U3/l2_trigger_ap_dmul_3_max_dsp_64_u/U0/i_synth/MULT.OP/MULT/DSP48E1_SPD_DBL_VARIANT.FIX_MULT/DSP2/DSP output design_fc_i/l2_trigger_0/U0/l2_trigger_dmul_64ns_64ns_64_5_max_dsp_U3/l2_trigger_ap_dmul_3_max_dsp_64_u/U0/i_synth/MULT.OP/MULT/DSP48E1_SPD_DBL_VARIANT.FIX_MULT/DSP2/DSP/PATTERNDETECT is not pipelined (PREG=0). Pipelining the DSP48 output will improve performance and often saves power so it is suggested whenever possible to fully pipeline this function.  If this DSP48 function was inferred, it is suggested to describe an additional register stage after this function.  If the DSP48 was instantiated in the design, it is suggested to set the PREG attribute to 1.
+WARNING: [DRC 23-20] Rule violation (DPOP-1) PREG Output pipelining - DSP design_fc_i/l2_trigger_0/U0/l2_trigger_dmul_64ns_64ns_64_5_max_dsp_U3/l2_trigger_ap_dmul_3_max_dsp_64_u/U0/i_synth/MULT.OP/MULT/DSP48E1_SPD_DBL_VARIANT.FIX_MULT/DSP5/DSP output design_fc_i/l2_trigger_0/U0/l2_trigger_dmul_64ns_64ns_64_5_max_dsp_U3/l2_trigger_ap_dmul_3_max_dsp_64_u/U0/i_synth/MULT.OP/MULT/DSP48E1_SPD_DBL_VARIANT.FIX_MULT/DSP5/DSP/PATTERNDETECT is not pipelined (PREG=0). Pipelining the DSP48 output will improve performance and often saves power so it is suggested whenever possible to fully pipeline this function.  If this DSP48 function was inferred, it is suggested to describe an additional register stage after this function.  If the DSP48 was instantiated in the design, it is suggested to set the PREG attribute to 1.
+WARNING: [DRC 23-20] Rule violation (DPOP-1) PREG Output pipelining - DSP design_fc_i/l2_trigger_0/U0/l2_trigger_dmul_64ns_64ns_64_5_max_dsp_U3/l2_trigger_ap_dmul_3_max_dsp_64_u/U0/i_synth/MULT.OP/MULT/DSP48E1_SPD_DBL_VARIANT.FIX_MULT/DSP7/DSP output design_fc_i/l2_trigger_0/U0/l2_trigger_dmul_64ns_64ns_64_5_max_dsp_U3/l2_trigger_ap_dmul_3_max_dsp_64_u/U0/i_synth/MULT.OP/MULT/DSP48E1_SPD_DBL_VARIANT.FIX_MULT/DSP7/DSP/P[47:0] is not pipelined (PREG=0). Pipelining the DSP48 output will improve performance and often saves power so it is suggested whenever possible to fully pipeline this function.  If this DSP48 function was inferred, it is suggested to describe an additional register stage after this function.  If the DSP48 was instantiated in the design, it is suggested to set the PREG attribute to 1.
+WARNING: [DRC 23-20] Rule violation (DPOP-1) PREG Output pipelining - DSP design_fc_i/l2_trigger_0/U0/l2_trigger_dmul_64ns_64ns_64_5_max_dsp_U3/l2_trigger_ap_dmul_3_max_dsp_64_u/U0/i_synth/MULT.OP/MULT/DSP48E1_SPD_DBL_VARIANT.FIX_MULT/FULL_MAX_USAGE.DSP9/DSP output design_fc_i/l2_trigger_0/U0/l2_trigger_dmul_64ns_64ns_64_5_max_dsp_U3/l2_trigger_ap_dmul_3_max_dsp_64_u/U0/i_synth/MULT.OP/MULT/DSP48E1_SPD_DBL_VARIANT.FIX_MULT/FULL_MAX_USAGE.DSP9/DSP/P[47:0] is not pipelined (PREG=0). Pipelining the DSP48 output will improve performance and often saves power so it is suggested whenever possible to fully pipeline this function.  If this DSP48 function was inferred, it is suggested to describe an additional register stage after this function.  If the DSP48 was instantiated in the design, it is suggested to set the PREG attribute to 1.
+WARNING: [DRC 23-20] Rule violation (DPOP-1) PREG Output pipelining - DSP design_fc_i/l2_trigger_0/U0/l2_trigger_dmul_64ns_64ns_64_5_max_dsp_U3/l2_trigger_ap_dmul_3_max_dsp_64_u/U0/i_synth/MULT.OP/R_AND_R/LOGIC.R_AND_R/DSP48_E1.DSP48E1_ADD.DSP48E1_ADD/DSP output design_fc_i/l2_trigger_0/U0/l2_trigger_dmul_64ns_64ns_64_5_max_dsp_U3/l2_trigger_ap_dmul_3_max_dsp_64_u/U0/i_synth/MULT.OP/R_AND_R/LOGIC.R_AND_R/DSP48_E1.DSP48E1_ADD.DSP48E1_ADD/DSP/P[47:0] is not pipelined (PREG=0). Pipelining the DSP48 output will improve performance and often saves power so it is suggested whenever possible to fully pipeline this function.  If this DSP48 function was inferred, it is suggested to describe an additional register stage after this function.  If the DSP48 was instantiated in the design, it is suggested to set the PREG attribute to 1.
+WARNING: [DRC 23-20] Rule violation (DPOP-1) PREG Output pipelining - DSP design_fc_i/l2_trigger_0/U0/l2_trigger_dmul_64ns_64ns_64_5_max_dsp_U4/l2_trigger_ap_dmul_3_max_dsp_64_u/U0/i_synth/MULT.OP/MULT/DSP48E1_SPD_DBL_VARIANT.FIX_MULT/DSP0/DSP output design_fc_i/l2_trigger_0/U0/l2_trigger_dmul_64ns_64ns_64_5_max_dsp_U4/l2_trigger_ap_dmul_3_max_dsp_64_u/U0/i_synth/MULT.OP/MULT/DSP48E1_SPD_DBL_VARIANT.FIX_MULT/DSP0/DSP/PATTERNDETECT is not pipelined (PREG=0). Pipelining the DSP48 output will improve performance and often saves power so it is suggested whenever possible to fully pipeline this function.  If this DSP48 function was inferred, it is suggested to describe an additional register stage after this function.  If the DSP48 was instantiated in the design, it is suggested to set the PREG attribute to 1.
+WARNING: [DRC 23-20] Rule violation (DPOP-1) PREG Output pipelining - DSP design_fc_i/l2_trigger_0/U0/l2_trigger_dmul_64ns_64ns_64_5_max_dsp_U4/l2_trigger_ap_dmul_3_max_dsp_64_u/U0/i_synth/MULT.OP/MULT/DSP48E1_SPD_DBL_VARIANT.FIX_MULT/DSP2/DSP output design_fc_i/l2_trigger_0/U0/l2_trigger_dmul_64ns_64ns_64_5_max_dsp_U4/l2_trigger_ap_dmul_3_max_dsp_64_u/U0/i_synth/MULT.OP/MULT/DSP48E1_SPD_DBL_VARIANT.FIX_MULT/DSP2/DSP/PATTERNDETECT is not pipelined (PREG=0). Pipelining the DSP48 output will improve performance and often saves power so it is suggested whenever possible to fully pipeline this function.  If this DSP48 function was inferred, it is suggested to describe an additional register stage after this function.  If the DSP48 was instantiated in the design, it is suggested to set the PREG attribute to 1.
+WARNING: [DRC 23-20] Rule violation (DPOP-1) PREG Output pipelining - DSP design_fc_i/l2_trigger_0/U0/l2_trigger_dmul_64ns_64ns_64_5_max_dsp_U4/l2_trigger_ap_dmul_3_max_dsp_64_u/U0/i_synth/MULT.OP/MULT/DSP48E1_SPD_DBL_VARIANT.FIX_MULT/DSP5/DSP output design_fc_i/l2_trigger_0/U0/l2_trigger_dmul_64ns_64ns_64_5_max_dsp_U4/l2_trigger_ap_dmul_3_max_dsp_64_u/U0/i_synth/MULT.OP/MULT/DSP48E1_SPD_DBL_VARIANT.FIX_MULT/DSP5/DSP/PATTERNDETECT is not pipelined (PREG=0). Pipelining the DSP48 output will improve performance and often saves power so it is suggested whenever possible to fully pipeline this function.  If this DSP48 function was inferred, it is suggested to describe an additional register stage after this function.  If the DSP48 was instantiated in the design, it is suggested to set the PREG attribute to 1.
+WARNING: [DRC 23-20] Rule violation (DPOP-1) PREG Output pipelining - DSP design_fc_i/l2_trigger_0/U0/l2_trigger_dmul_64ns_64ns_64_5_max_dsp_U4/l2_trigger_ap_dmul_3_max_dsp_64_u/U0/i_synth/MULT.OP/MULT/DSP48E1_SPD_DBL_VARIANT.FIX_MULT/DSP7/DSP output design_fc_i/l2_trigger_0/U0/l2_trigger_dmul_64ns_64ns_64_5_max_dsp_U4/l2_trigger_ap_dmul_3_max_dsp_64_u/U0/i_synth/MULT.OP/MULT/DSP48E1_SPD_DBL_VARIANT.FIX_MULT/DSP7/DSP/P[47:0] is not pipelined (PREG=0). Pipelining the DSP48 output will improve performance and often saves power so it is suggested whenever possible to fully pipeline this function.  If this DSP48 function was inferred, it is suggested to describe an additional register stage after this function.  If the DSP48 was instantiated in the design, it is suggested to set the PREG attribute to 1.
+WARNING: [DRC 23-20] Rule violation (DPOP-1) PREG Output pipelining - DSP design_fc_i/l2_trigger_0/U0/l2_trigger_dmul_64ns_64ns_64_5_max_dsp_U4/l2_trigger_ap_dmul_3_max_dsp_64_u/U0/i_synth/MULT.OP/MULT/DSP48E1_SPD_DBL_VARIANT.FIX_MULT/FULL_MAX_USAGE.DSP9/DSP output design_fc_i/l2_trigger_0/U0/l2_trigger_dmul_64ns_64ns_64_5_max_dsp_U4/l2_trigger_ap_dmul_3_max_dsp_64_u/U0/i_synth/MULT.OP/MULT/DSP48E1_SPD_DBL_VARIANT.FIX_MULT/FULL_MAX_USAGE.DSP9/DSP/P[47:0] is not pipelined (PREG=0). Pipelining the DSP48 output will improve performance and often saves power so it is suggested whenever possible to fully pipeline this function.  If this DSP48 function was inferred, it is suggested to describe an additional register stage after this function.  If the DSP48 was instantiated in the design, it is suggested to set the PREG attribute to 1.
+WARNING: [DRC 23-20] Rule violation (DPOP-1) PREG Output pipelining - DSP design_fc_i/l2_trigger_0/U0/l2_trigger_dmul_64ns_64ns_64_5_max_dsp_U4/l2_trigger_ap_dmul_3_max_dsp_64_u/U0/i_synth/MULT.OP/R_AND_R/LOGIC.R_AND_R/DSP48_E1.DSP48E1_ADD.DSP48E1_ADD/DSP output design_fc_i/l2_trigger_0/U0/l2_trigger_dmul_64ns_64ns_64_5_max_dsp_U4/l2_trigger_ap_dmul_3_max_dsp_64_u/U0/i_synth/MULT.OP/R_AND_R/LOGIC.R_AND_R/DSP48_E1.DSP48E1_ADD.DSP48E1_ADD/DSP/P[47:0] is not pipelined (PREG=0). Pipelining the DSP48 output will improve performance and often saves power so it is suggested whenever possible to fully pipeline this function.  If this DSP48 function was inferred, it is suggested to describe an additional register stage after this function.  If the DSP48 was instantiated in the design, it is suggested to set the PREG attribute to 1.
+WARNING: [DRC 23-20] Rule violation (DPOP-2) MREG Output pipelining - DSP design_fc_i/l2_trigger_0/U0/l2_trigger_dmul_64ns_64ns_64_5_max_dsp_U3/l2_trigger_ap_dmul_3_max_dsp_64_u/U0/i_synth/MULT.OP/MULT/DSP48E1_SPD_DBL_VARIANT.FIX_MULT/DSP0/DSP multiplier stage design_fc_i/l2_trigger_0/U0/l2_trigger_dmul_64ns_64ns_64_5_max_dsp_U3/l2_trigger_ap_dmul_3_max_dsp_64_u/U0/i_synth/MULT.OP/MULT/DSP48E1_SPD_DBL_VARIANT.FIX_MULT/DSP0/DSP/PATTERNDETECT is not pipelined (MREG=0). Pipelining the multiplier function will improve performance and will save significant power so it is suggested whenever possible to fully pipeline this function.  If this multiplier was inferred, it is suggested to describe an additional register stage after this function.  If there is no registered adder/accumulator following the multiply function, two pipeline stages are suggested to allow both the MREG and PREG registers to be used.  If the DSP48 was instantiated in the design, it is suggested to set both the MREG and PREG attributes to 1 when performing multiply functions.
+WARNING: [DRC 23-20] Rule violation (DPOP-2) MREG Output pipelining - DSP design_fc_i/l2_trigger_0/U0/l2_trigger_dmul_64ns_64ns_64_5_max_dsp_U3/l2_trigger_ap_dmul_3_max_dsp_64_u/U0/i_synth/MULT.OP/MULT/DSP48E1_SPD_DBL_VARIANT.FIX_MULT/DSP2/DSP multiplier stage design_fc_i/l2_trigger_0/U0/l2_trigger_dmul_64ns_64ns_64_5_max_dsp_U3/l2_trigger_ap_dmul_3_max_dsp_64_u/U0/i_synth/MULT.OP/MULT/DSP48E1_SPD_DBL_VARIANT.FIX_MULT/DSP2/DSP/PATTERNDETECT is not pipelined (MREG=0). Pipelining the multiplier function will improve performance and will save significant power so it is suggested whenever possible to fully pipeline this function.  If this multiplier was inferred, it is suggested to describe an additional register stage after this function.  If there is no registered adder/accumulator following the multiply function, two pipeline stages are suggested to allow both the MREG and PREG registers to be used.  If the DSP48 was instantiated in the design, it is suggested to set both the MREG and PREG attributes to 1 when performing multiply functions.
+WARNING: [DRC 23-20] Rule violation (DPOP-2) MREG Output pipelining - DSP design_fc_i/l2_trigger_0/U0/l2_trigger_dmul_64ns_64ns_64_5_max_dsp_U3/l2_trigger_ap_dmul_3_max_dsp_64_u/U0/i_synth/MULT.OP/MULT/DSP48E1_SPD_DBL_VARIANT.FIX_MULT/DSP5/DSP multiplier stage design_fc_i/l2_trigger_0/U0/l2_trigger_dmul_64ns_64ns_64_5_max_dsp_U3/l2_trigger_ap_dmul_3_max_dsp_64_u/U0/i_synth/MULT.OP/MULT/DSP48E1_SPD_DBL_VARIANT.FIX_MULT/DSP5/DSP/PATTERNDETECT is not pipelined (MREG=0). Pipelining the multiplier function will improve performance and will save significant power so it is suggested whenever possible to fully pipeline this function.  If this multiplier was inferred, it is suggested to describe an additional register stage after this function.  If there is no registered adder/accumulator following the multiply function, two pipeline stages are suggested to allow both the MREG and PREG registers to be used.  If the DSP48 was instantiated in the design, it is suggested to set both the MREG and PREG attributes to 1 when performing multiply functions.
+WARNING: [DRC 23-20] Rule violation (DPOP-2) MREG Output pipelining - DSP design_fc_i/l2_trigger_0/U0/l2_trigger_dmul_64ns_64ns_64_5_max_dsp_U3/l2_trigger_ap_dmul_3_max_dsp_64_u/U0/i_synth/MULT.OP/MULT/DSP48E1_SPD_DBL_VARIANT.FIX_MULT/DSP7/DSP multiplier stage design_fc_i/l2_trigger_0/U0/l2_trigger_dmul_64ns_64ns_64_5_max_dsp_U3/l2_trigger_ap_dmul_3_max_dsp_64_u/U0/i_synth/MULT.OP/MULT/DSP48E1_SPD_DBL_VARIANT.FIX_MULT/DSP7/DSP/P[47:0] is not pipelined (MREG=0). Pipelining the multiplier function will improve performance and will save significant power so it is suggested whenever possible to fully pipeline this function.  If this multiplier was inferred, it is suggested to describe an additional register stage after this function.  If there is no registered adder/accumulator following the multiply function, two pipeline stages are suggested to allow both the MREG and PREG registers to be used.  If the DSP48 was instantiated in the design, it is suggested to set both the MREG and PREG attributes to 1 when performing multiply functions.
+WARNING: [DRC 23-20] Rule violation (DPOP-2) MREG Output pipelining - DSP design_fc_i/l2_trigger_0/U0/l2_trigger_dmul_64ns_64ns_64_5_max_dsp_U3/l2_trigger_ap_dmul_3_max_dsp_64_u/U0/i_synth/MULT.OP/MULT/DSP48E1_SPD_DBL_VARIANT.FIX_MULT/DSP8/DSP multiplier stage design_fc_i/l2_trigger_0/U0/l2_trigger_dmul_64ns_64ns_64_5_max_dsp_U3/l2_trigger_ap_dmul_3_max_dsp_64_u/U0/i_synth/MULT.OP/MULT/DSP48E1_SPD_DBL_VARIANT.FIX_MULT/DSP8/DSP/P[47:0] is not pipelined (MREG=0). Pipelining the multiplier function will improve performance and will save significant power so it is suggested whenever possible to fully pipeline this function.  If this multiplier was inferred, it is suggested to describe an additional register stage after this function.  If there is no registered adder/accumulator following the multiply function, two pipeline stages are suggested to allow both the MREG and PREG registers to be used.  If the DSP48 was instantiated in the design, it is suggested to set both the MREG and PREG attributes to 1 when performing multiply functions.
+WARNING: [DRC 23-20] Rule violation (DPOP-2) MREG Output pipelining - DSP design_fc_i/l2_trigger_0/U0/l2_trigger_dmul_64ns_64ns_64_5_max_dsp_U4/l2_trigger_ap_dmul_3_max_dsp_64_u/U0/i_synth/MULT.OP/MULT/DSP48E1_SPD_DBL_VARIANT.FIX_MULT/DSP0/DSP multiplier stage design_fc_i/l2_trigger_0/U0/l2_trigger_dmul_64ns_64ns_64_5_max_dsp_U4/l2_trigger_ap_dmul_3_max_dsp_64_u/U0/i_synth/MULT.OP/MULT/DSP48E1_SPD_DBL_VARIANT.FIX_MULT/DSP0/DSP/PATTERNDETECT is not pipelined (MREG=0). Pipelining the multiplier function will improve performance and will save significant power so it is suggested whenever possible to fully pipeline this function.  If this multiplier was inferred, it is suggested to describe an additional register stage after this function.  If there is no registered adder/accumulator following the multiply function, two pipeline stages are suggested to allow both the MREG and PREG registers to be used.  If the DSP48 was instantiated in the design, it is suggested to set both the MREG and PREG attributes to 1 when performing multiply functions.
+WARNING: [DRC 23-20] Rule violation (DPOP-2) MREG Output pipelining - DSP design_fc_i/l2_trigger_0/U0/l2_trigger_dmul_64ns_64ns_64_5_max_dsp_U4/l2_trigger_ap_dmul_3_max_dsp_64_u/U0/i_synth/MULT.OP/MULT/DSP48E1_SPD_DBL_VARIANT.FIX_MULT/DSP2/DSP multiplier stage design_fc_i/l2_trigger_0/U0/l2_trigger_dmul_64ns_64ns_64_5_max_dsp_U4/l2_trigger_ap_dmul_3_max_dsp_64_u/U0/i_synth/MULT.OP/MULT/DSP48E1_SPD_DBL_VARIANT.FIX_MULT/DSP2/DSP/PATTERNDETECT is not pipelined (MREG=0). Pipelining the multiplier function will improve performance and will save significant power so it is suggested whenever possible to fully pipeline this function.  If this multiplier was inferred, it is suggested to describe an additional register stage after this function.  If there is no registered adder/accumulator following the multiply function, two pipeline stages are suggested to allow both the MREG and PREG registers to be used.  If the DSP48 was instantiated in the design, it is suggested to set both the MREG and PREG attributes to 1 when performing multiply functions.
+WARNING: [DRC 23-20] Rule violation (DPOP-2) MREG Output pipelining - DSP design_fc_i/l2_trigger_0/U0/l2_trigger_dmul_64ns_64ns_64_5_max_dsp_U4/l2_trigger_ap_dmul_3_max_dsp_64_u/U0/i_synth/MULT.OP/MULT/DSP48E1_SPD_DBL_VARIANT.FIX_MULT/DSP5/DSP multiplier stage design_fc_i/l2_trigger_0/U0/l2_trigger_dmul_64ns_64ns_64_5_max_dsp_U4/l2_trigger_ap_dmul_3_max_dsp_64_u/U0/i_synth/MULT.OP/MULT/DSP48E1_SPD_DBL_VARIANT.FIX_MULT/DSP5/DSP/PATTERNDETECT is not pipelined (MREG=0). Pipelining the multiplier function will improve performance and will save significant power so it is suggested whenever possible to fully pipeline this function.  If this multiplier was inferred, it is suggested to describe an additional register stage after this function.  If there is no registered adder/accumulator following the multiply function, two pipeline stages are suggested to allow both the MREG and PREG registers to be used.  If the DSP48 was instantiated in the design, it is suggested to set both the MREG and PREG attributes to 1 when performing multiply functions.
+WARNING: [DRC 23-20] Rule violation (DPOP-2) MREG Output pipelining - DSP design_fc_i/l2_trigger_0/U0/l2_trigger_dmul_64ns_64ns_64_5_max_dsp_U4/l2_trigger_ap_dmul_3_max_dsp_64_u/U0/i_synth/MULT.OP/MULT/DSP48E1_SPD_DBL_VARIANT.FIX_MULT/DSP7/DSP multiplier stage design_fc_i/l2_trigger_0/U0/l2_trigger_dmul_64ns_64ns_64_5_max_dsp_U4/l2_trigger_ap_dmul_3_max_dsp_64_u/U0/i_synth/MULT.OP/MULT/DSP48E1_SPD_DBL_VARIANT.FIX_MULT/DSP7/DSP/P[47:0] is not pipelined (MREG=0). Pipelining the multiplier function will improve performance and will save significant power so it is suggested whenever possible to fully pipeline this function.  If this multiplier was inferred, it is suggested to describe an additional register stage after this function.  If there is no registered adder/accumulator following the multiply function, two pipeline stages are suggested to allow both the MREG and PREG registers to be used.  If the DSP48 was instantiated in the design, it is suggested to set both the MREG and PREG attributes to 1 when performing multiply functions.
+WARNING: [DRC 23-20] Rule violation (DPOP-2) MREG Output pipelining - DSP design_fc_i/l2_trigger_0/U0/l2_trigger_dmul_64ns_64ns_64_5_max_dsp_U4/l2_trigger_ap_dmul_3_max_dsp_64_u/U0/i_synth/MULT.OP/MULT/DSP48E1_SPD_DBL_VARIANT.FIX_MULT/DSP8/DSP multiplier stage design_fc_i/l2_trigger_0/U0/l2_trigger_dmul_64ns_64ns_64_5_max_dsp_U4/l2_trigger_ap_dmul_3_max_dsp_64_u/U0/i_synth/MULT.OP/MULT/DSP48E1_SPD_DBL_VARIANT.FIX_MULT/DSP8/DSP/P[47:0] is not pipelined (MREG=0). Pipelining the multiplier function will improve performance and will save significant power so it is suggested whenever possible to fully pipeline this function.  If this multiplier was inferred, it is suggested to describe an additional register stage after this function.  If there is no registered adder/accumulator following the multiply function, two pipeline stages are suggested to allow both the MREG and PREG registers to be used.  If the DSP48 was instantiated in the design, it is suggested to set both the MREG and PREG attributes to 1 when performing multiply functions.
+INFO: [DRC 23-20] Rule violation (AVAL-4) enum_USE_DPORT_FALSE_enum_DREG_ADREG_0_connects_CED_CEAD_RSTD_GND - design_fc_i/l2_trigger_0/U0/l2_trigger_dadd_64ns_64ns_64_5_full_dsp_U1/l2_trigger_ap_dadd_3_full_dsp_64_u/U0/i_synth/ADDSUB_OP.ADDSUB/SPEED_OP.LOGIC.OP/ALIGN_BLK/FRAC_ADDSUB/DSP_ADD.FRAC_ADDSUB/DSP48E1_ADD.DSP48E1_ADD/DSP: DSP48E1 is not using the D port (USE_DPORT = FALSE). For improved power characteristics, set DREG and ADREG to '1', tie CED, CEAD, and RSTD to logic '0'.
+INFO: [DRC 23-20] Rule violation (AVAL-4) enum_USE_DPORT_FALSE_enum_DREG_ADREG_0_connects_CED_CEAD_RSTD_GND - design_fc_i/l2_trigger_0/U0/l2_trigger_dadd_64ns_64ns_64_5_full_dsp_U1/l2_trigger_ap_dadd_3_full_dsp_64_u/U0/i_synth/ADDSUB_OP.ADDSUB/SPEED_OP.LOGIC.OP/ALIGN_BLK/FRAC_ADDSUB/DSP_ADD.FRAC_ADDSUB/DSP48E1_GEN.DSP48E1_DEL/DSP: DSP48E1 is not using the D port (USE_DPORT = FALSE). For improved power characteristics, set DREG and ADREG to '1', tie CED, CEAD, and RSTD to logic '0'.
+INFO: [DRC 23-20] Rule violation (AVAL-4) enum_USE_DPORT_FALSE_enum_DREG_ADREG_0_connects_CED_CEAD_RSTD_GND - design_fc_i/l2_trigger_0/U0/l2_trigger_dadd_64ns_64ns_64_5_full_dsp_U1/l2_trigger_ap_dadd_3_full_dsp_64_u/U0/i_synth/ADDSUB_OP.ADDSUB/SPEED_OP.LOGIC.OP/NORM/ROUND/DSP48_E1.DSP48E1_ADD.DSP48E1_ADD/DSP: DSP48E1 is not using the D port (USE_DPORT = FALSE). For improved power characteristics, set DREG and ADREG to '1', tie CED, CEAD, and RSTD to logic '0'.
+INFO: [DRC 23-20] Rule violation (AVAL-4) enum_USE_DPORT_FALSE_enum_DREG_ADREG_0_connects_CED_CEAD_RSTD_GND - design_fc_i/l2_trigger_0/U0/l2_trigger_dadd_64ns_64ns_64_5_full_dsp_U2/l2_trigger_ap_dadd_3_full_dsp_64_u/U0/i_synth/ADDSUB_OP.ADDSUB/SPEED_OP.LOGIC.OP/ALIGN_BLK/FRAC_ADDSUB/DSP_ADD.FRAC_ADDSUB/DSP48E1_ADD.DSP48E1_ADD/DSP: DSP48E1 is not using the D port (USE_DPORT = FALSE). For improved power characteristics, set DREG and ADREG to '1', tie CED, CEAD, and RSTD to logic '0'.
+INFO: [DRC 23-20] Rule violation (AVAL-4) enum_USE_DPORT_FALSE_enum_DREG_ADREG_0_connects_CED_CEAD_RSTD_GND - design_fc_i/l2_trigger_0/U0/l2_trigger_dadd_64ns_64ns_64_5_full_dsp_U2/l2_trigger_ap_dadd_3_full_dsp_64_u/U0/i_synth/ADDSUB_OP.ADDSUB/SPEED_OP.LOGIC.OP/ALIGN_BLK/FRAC_ADDSUB/DSP_ADD.FRAC_ADDSUB/DSP48E1_GEN.DSP48E1_DEL/DSP: DSP48E1 is not using the D port (USE_DPORT = FALSE). For improved power characteristics, set DREG and ADREG to '1', tie CED, CEAD, and RSTD to logic '0'.
+INFO: [DRC 23-20] Rule violation (AVAL-4) enum_USE_DPORT_FALSE_enum_DREG_ADREG_0_connects_CED_CEAD_RSTD_GND - design_fc_i/l2_trigger_0/U0/l2_trigger_dadd_64ns_64ns_64_5_full_dsp_U2/l2_trigger_ap_dadd_3_full_dsp_64_u/U0/i_synth/ADDSUB_OP.ADDSUB/SPEED_OP.LOGIC.OP/NORM/ROUND/DSP48_E1.DSP48E1_ADD.DSP48E1_ADD/DSP: DSP48E1 is not using the D port (USE_DPORT = FALSE). For improved power characteristics, set DREG and ADREG to '1', tie CED, CEAD, and RSTD to logic '0'.
+INFO: [DRC 23-20] Rule violation (AVAL-4) enum_USE_DPORT_FALSE_enum_DREG_ADREG_0_connects_CED_CEAD_RSTD_GND - design_fc_i/l2_trigger_0/U0/l2_trigger_dmul_64ns_64ns_64_5_max_dsp_U3/l2_trigger_ap_dmul_3_max_dsp_64_u/U0/i_synth/MULT.OP/MULT/DSP48E1_SPD_DBL_VARIANT.FIX_MULT/DSP0/DSP: DSP48E1 is not using the D port (USE_DPORT = FALSE). For improved power characteristics, set DREG and ADREG to '1', tie CED, CEAD, and RSTD to logic '0'.
+INFO: [DRC 23-20] Rule violation (AVAL-4) enum_USE_DPORT_FALSE_enum_DREG_ADREG_0_connects_CED_CEAD_RSTD_GND - design_fc_i/l2_trigger_0/U0/l2_trigger_dmul_64ns_64ns_64_5_max_dsp_U3/l2_trigger_ap_dmul_3_max_dsp_64_u/U0/i_synth/MULT.OP/MULT/DSP48E1_SPD_DBL_VARIANT.FIX_MULT/DSP1/DSP: DSP48E1 is not using the D port (USE_DPORT = FALSE). For improved power characteristics, set DREG and ADREG to '1', tie CED, CEAD, and RSTD to logic '0'.
+INFO: [DRC 23-20] Rule violation (AVAL-4) enum_USE_DPORT_FALSE_enum_DREG_ADREG_0_connects_CED_CEAD_RSTD_GND - design_fc_i/l2_trigger_0/U0/l2_trigger_dmul_64ns_64ns_64_5_max_dsp_U3/l2_trigger_ap_dmul_3_max_dsp_64_u/U0/i_synth/MULT.OP/MULT/DSP48E1_SPD_DBL_VARIANT.FIX_MULT/DSP2/DSP: DSP48E1 is not using the D port (USE_DPORT = FALSE). For improved power characteristics, set DREG and ADREG to '1', tie CED, CEAD, and RSTD to logic '0'.
+INFO: [DRC 23-20] Rule violation (AVAL-4) enum_USE_DPORT_FALSE_enum_DREG_ADREG_0_connects_CED_CEAD_RSTD_GND - design_fc_i/l2_trigger_0/U0/l2_trigger_dmul_64ns_64ns_64_5_max_dsp_U3/l2_trigger_ap_dmul_3_max_dsp_64_u/U0/i_synth/MULT.OP/MULT/DSP48E1_SPD_DBL_VARIANT.FIX_MULT/DSP3/DSP: DSP48E1 is not using the D port (USE_DPORT = FALSE). For improved power characteristics, set DREG and ADREG to '1', tie CED, CEAD, and RSTD to logic '0'.
+INFO: [DRC 23-20] Rule violation (AVAL-4) enum_USE_DPORT_FALSE_enum_DREG_ADREG_0_connects_CED_CEAD_RSTD_GND - design_fc_i/l2_trigger_0/U0/l2_trigger_dmul_64ns_64ns_64_5_max_dsp_U3/l2_trigger_ap_dmul_3_max_dsp_64_u/U0/i_synth/MULT.OP/MULT/DSP48E1_SPD_DBL_VARIANT.FIX_MULT/DSP4/DSP: DSP48E1 is not using the D port (USE_DPORT = FALSE). For improved power characteristics, set DREG and ADREG to '1', tie CED, CEAD, and RSTD to logic '0'.
+INFO: [DRC 23-20] Rule violation (AVAL-4) enum_USE_DPORT_FALSE_enum_DREG_ADREG_0_connects_CED_CEAD_RSTD_GND - design_fc_i/l2_trigger_0/U0/l2_trigger_dmul_64ns_64ns_64_5_max_dsp_U3/l2_trigger_ap_dmul_3_max_dsp_64_u/U0/i_synth/MULT.OP/MULT/DSP48E1_SPD_DBL_VARIANT.FIX_MULT/DSP5/DSP: DSP48E1 is not using the D port (USE_DPORT = FALSE). For improved power characteristics, set DREG and ADREG to '1', tie CED, CEAD, and RSTD to logic '0'.
+INFO: [DRC 23-20] Rule violation (AVAL-4) enum_USE_DPORT_FALSE_enum_DREG_ADREG_0_connects_CED_CEAD_RSTD_GND - design_fc_i/l2_trigger_0/U0/l2_trigger_dmul_64ns_64ns_64_5_max_dsp_U3/l2_trigger_ap_dmul_3_max_dsp_64_u/U0/i_synth/MULT.OP/MULT/DSP48E1_SPD_DBL_VARIANT.FIX_MULT/DSP6/DSP: DSP48E1 is not using the D port (USE_DPORT = FALSE). For improved power characteristics, set DREG and ADREG to '1', tie CED, CEAD, and RSTD to logic '0'.
+INFO: [DRC 23-20] Rule violation (AVAL-4) enum_USE_DPORT_FALSE_enum_DREG_ADREG_0_connects_CED_CEAD_RSTD_GND - design_fc_i/l2_trigger_0/U0/l2_trigger_dmul_64ns_64ns_64_5_max_dsp_U3/l2_trigger_ap_dmul_3_max_dsp_64_u/U0/i_synth/MULT.OP/MULT/DSP48E1_SPD_DBL_VARIANT.FIX_MULT/DSP7/DSP: DSP48E1 is not using the D port (USE_DPORT = FALSE). For improved power characteristics, set DREG and ADREG to '1', tie CED, CEAD, and RSTD to logic '0'.
+INFO: [DRC 23-20] Rule violation (AVAL-4) enum_USE_DPORT_FALSE_enum_DREG_ADREG_0_connects_CED_CEAD_RSTD_GND - design_fc_i/l2_trigger_0/U0/l2_trigger_dmul_64ns_64ns_64_5_max_dsp_U3/l2_trigger_ap_dmul_3_max_dsp_64_u/U0/i_synth/MULT.OP/MULT/DSP48E1_SPD_DBL_VARIANT.FIX_MULT/DSP8/DSP: DSP48E1 is not using the D port (USE_DPORT = FALSE). For improved power characteristics, set DREG and ADREG to '1', tie CED, CEAD, and RSTD to logic '0'.
+INFO: [DRC 23-20] Rule violation (AVAL-4) enum_USE_DPORT_FALSE_enum_DREG_ADREG_0_connects_CED_CEAD_RSTD_GND - design_fc_i/l2_trigger_0/U0/l2_trigger_dmul_64ns_64ns_64_5_max_dsp_U3/l2_trigger_ap_dmul_3_max_dsp_64_u/U0/i_synth/MULT.OP/MULT/DSP48E1_SPD_DBL_VARIANT.FIX_MULT/FULL_MAX_USAGE.DSP9/DSP: DSP48E1 is not using the D port (USE_DPORT = FALSE). For improved power characteristics, set DREG and ADREG to '1', tie CED, CEAD, and RSTD to logic '0'.
+INFO: [DRC 23-20] Rule violation (AVAL-4) enum_USE_DPORT_FALSE_enum_DREG_ADREG_0_connects_CED_CEAD_RSTD_GND - design_fc_i/l2_trigger_0/U0/l2_trigger_dmul_64ns_64ns_64_5_max_dsp_U3/l2_trigger_ap_dmul_3_max_dsp_64_u/U0/i_synth/MULT.OP/R_AND_R/LOGIC.R_AND_R/DSP48_E1.DSP48E1_ADD.DSP48E1_ADD/DSP: DSP48E1 is not using the D port (USE_DPORT = FALSE). For improved power characteristics, set DREG and ADREG to '1', tie CED, CEAD, and RSTD to logic '0'.
+INFO: [DRC 23-20] Rule violation (AVAL-4) enum_USE_DPORT_FALSE_enum_DREG_ADREG_0_connects_CED_CEAD_RSTD_GND - design_fc_i/l2_trigger_0/U0/l2_trigger_dmul_64ns_64ns_64_5_max_dsp_U4/l2_trigger_ap_dmul_3_max_dsp_64_u/U0/i_synth/MULT.OP/MULT/DSP48E1_SPD_DBL_VARIANT.FIX_MULT/DSP0/DSP: DSP48E1 is not using the D port (USE_DPORT = FALSE). For improved power characteristics, set DREG and ADREG to '1', tie CED, CEAD, and RSTD to logic '0'.
+INFO: [DRC 23-20] Rule violation (AVAL-4) enum_USE_DPORT_FALSE_enum_DREG_ADREG_0_connects_CED_CEAD_RSTD_GND - design_fc_i/l2_trigger_0/U0/l2_trigger_dmul_64ns_64ns_64_5_max_dsp_U4/l2_trigger_ap_dmul_3_max_dsp_64_u/U0/i_synth/MULT.OP/MULT/DSP48E1_SPD_DBL_VARIANT.FIX_MULT/DSP1/DSP: DSP48E1 is not using the D port (USE_DPORT = FALSE). For improved power characteristics, set DREG and ADREG to '1', tie CED, CEAD, and RSTD to logic '0'.
+INFO: [DRC 23-20] Rule violation (AVAL-4) enum_USE_DPORT_FALSE_enum_DREG_ADREG_0_connects_CED_CEAD_RSTD_GND - design_fc_i/l2_trigger_0/U0/l2_trigger_dmul_64ns_64ns_64_5_max_dsp_U4/l2_trigger_ap_dmul_3_max_dsp_64_u/U0/i_synth/MULT.OP/MULT/DSP48E1_SPD_DBL_VARIANT.FIX_MULT/DSP2/DSP: DSP48E1 is not using the D port (USE_DPORT = FALSE). For improved power characteristics, set DREG and ADREG to '1', tie CED, CEAD, and RSTD to logic '0'.
+INFO: [DRC 23-20] Rule violation (AVAL-4) enum_USE_DPORT_FALSE_enum_DREG_ADREG_0_connects_CED_CEAD_RSTD_GND - design_fc_i/l2_trigger_0/U0/l2_trigger_dmul_64ns_64ns_64_5_max_dsp_U4/l2_trigger_ap_dmul_3_max_dsp_64_u/U0/i_synth/MULT.OP/MULT/DSP48E1_SPD_DBL_VARIANT.FIX_MULT/DSP3/DSP: DSP48E1 is not using the D port (USE_DPORT = FALSE). For improved power characteristics, set DREG and ADREG to '1', tie CED, CEAD, and RSTD to logic '0'.
+INFO: [DRC 23-20] Rule violation (AVAL-4) enum_USE_DPORT_FALSE_enum_DREG_ADREG_0_connects_CED_CEAD_RSTD_GND - design_fc_i/l2_trigger_0/U0/l2_trigger_dmul_64ns_64ns_64_5_max_dsp_U4/l2_trigger_ap_dmul_3_max_dsp_64_u/U0/i_synth/MULT.OP/MULT/DSP48E1_SPD_DBL_VARIANT.FIX_MULT/DSP4/DSP: DSP48E1 is not using the D port (USE_DPORT = FALSE). For improved power characteristics, set DREG and ADREG to '1', tie CED, CEAD, and RSTD to logic '0'.
+INFO: [DRC 23-20] Rule violation (AVAL-4) enum_USE_DPORT_FALSE_enum_DREG_ADREG_0_connects_CED_CEAD_RSTD_GND - design_fc_i/l2_trigger_0/U0/l2_trigger_dmul_64ns_64ns_64_5_max_dsp_U4/l2_trigger_ap_dmul_3_max_dsp_64_u/U0/i_synth/MULT.OP/MULT/DSP48E1_SPD_DBL_VARIANT.FIX_MULT/DSP5/DSP: DSP48E1 is not using the D port (USE_DPORT = FALSE). For improved power characteristics, set DREG and ADREG to '1', tie CED, CEAD, and RSTD to logic '0'.
+INFO: [DRC 23-20] Rule violation (AVAL-4) enum_USE_DPORT_FALSE_enum_DREG_ADREG_0_connects_CED_CEAD_RSTD_GND - design_fc_i/l2_trigger_0/U0/l2_trigger_dmul_64ns_64ns_64_5_max_dsp_U4/l2_trigger_ap_dmul_3_max_dsp_64_u/U0/i_synth/MULT.OP/MULT/DSP48E1_SPD_DBL_VARIANT.FIX_MULT/DSP6/DSP: DSP48E1 is not using the D port (USE_DPORT = FALSE). For improved power characteristics, set DREG and ADREG to '1', tie CED, CEAD, and RSTD to logic '0'.
+INFO: [DRC 23-20] Rule violation (AVAL-4) enum_USE_DPORT_FALSE_enum_DREG_ADREG_0_connects_CED_CEAD_RSTD_GND - design_fc_i/l2_trigger_0/U0/l2_trigger_dmul_64ns_64ns_64_5_max_dsp_U4/l2_trigger_ap_dmul_3_max_dsp_64_u/U0/i_synth/MULT.OP/MULT/DSP48E1_SPD_DBL_VARIANT.FIX_MULT/DSP7/DSP: DSP48E1 is not using the D port (USE_DPORT = FALSE). For improved power characteristics, set DREG and ADREG to '1', tie CED, CEAD, and RSTD to logic '0'.
+INFO: [DRC 23-20] Rule violation (AVAL-4) enum_USE_DPORT_FALSE_enum_DREG_ADREG_0_connects_CED_CEAD_RSTD_GND - design_fc_i/l2_trigger_0/U0/l2_trigger_dmul_64ns_64ns_64_5_max_dsp_U4/l2_trigger_ap_dmul_3_max_dsp_64_u/U0/i_synth/MULT.OP/MULT/DSP48E1_SPD_DBL_VARIANT.FIX_MULT/DSP8/DSP: DSP48E1 is not using the D port (USE_DPORT = FALSE). For improved power characteristics, set DREG and ADREG to '1', tie CED, CEAD, and RSTD to logic '0'.
+INFO: [DRC 23-20] Rule violation (AVAL-4) enum_USE_DPORT_FALSE_enum_DREG_ADREG_0_connects_CED_CEAD_RSTD_GND - design_fc_i/l2_trigger_0/U0/l2_trigger_dmul_64ns_64ns_64_5_max_dsp_U4/l2_trigger_ap_dmul_3_max_dsp_64_u/U0/i_synth/MULT.OP/MULT/DSP48E1_SPD_DBL_VARIANT.FIX_MULT/FULL_MAX_USAGE.DSP9/DSP: DSP48E1 is not using the D port (USE_DPORT = FALSE). For improved power characteristics, set DREG and ADREG to '1', tie CED, CEAD, and RSTD to logic '0'.
+INFO: [DRC 23-20] Rule violation (AVAL-4) enum_USE_DPORT_FALSE_enum_DREG_ADREG_0_connects_CED_CEAD_RSTD_GND - design_fc_i/l2_trigger_0/U0/l2_trigger_dmul_64ns_64ns_64_5_max_dsp_U4/l2_trigger_ap_dmul_3_max_dsp_64_u/U0/i_synth/MULT.OP/R_AND_R/LOGIC.R_AND_R/DSP48_E1.DSP48E1_ADD.DSP48E1_ADD/DSP: DSP48E1 is not using the D port (USE_DPORT = FALSE). For improved power characteristics, set DREG and ADREG to '1', tie CED, CEAD, and RSTD to logic '0'.
+INFO: [DRC 23-20] Rule violation (AVAL-5) enum_USE_MULT_NONE_enum_DREG_ADREG_0_connects_CED_CEAD_RSTD_GND - design_fc_i/l2_trigger_0/U0/l2_trigger_dadd_64ns_64ns_64_5_full_dsp_U1/l2_trigger_ap_dadd_3_full_dsp_64_u/U0/i_synth/ADDSUB_OP.ADDSUB/SPEED_OP.LOGIC.OP/ALIGN_BLK/FRAC_ADDSUB/DSP_ADD.FRAC_ADDSUB/DSP48E1_ADD.DSP48E1_ADD/DSP: DSP48E1 is not using the Multiplier (USE_MULT = NONE). For improved power characteristics, set DREG and ADREG to '1', tie CED, CEAD, and RSTD to logic '0'.
+INFO: [DRC 23-20] Rule violation (AVAL-5) enum_USE_MULT_NONE_enum_DREG_ADREG_0_connects_CED_CEAD_RSTD_GND - design_fc_i/l2_trigger_0/U0/l2_trigger_dadd_64ns_64ns_64_5_full_dsp_U1/l2_trigger_ap_dadd_3_full_dsp_64_u/U0/i_synth/ADDSUB_OP.ADDSUB/SPEED_OP.LOGIC.OP/ALIGN_BLK/FRAC_ADDSUB/DSP_ADD.FRAC_ADDSUB/DSP48E1_GEN.DSP48E1_DEL/DSP: DSP48E1 is not using the Multiplier (USE_MULT = NONE). For improved power characteristics, set DREG and ADREG to '1', tie CED, CEAD, and RSTD to logic '0'.
+INFO: [DRC 23-20] Rule violation (AVAL-5) enum_USE_MULT_NONE_enum_DREG_ADREG_0_connects_CED_CEAD_RSTD_GND - design_fc_i/l2_trigger_0/U0/l2_trigger_dadd_64ns_64ns_64_5_full_dsp_U1/l2_trigger_ap_dadd_3_full_dsp_64_u/U0/i_synth/ADDSUB_OP.ADDSUB/SPEED_OP.LOGIC.OP/NORM/ROUND/DSP48_E1.DSP48E1_ADD.DSP48E1_ADD/DSP: DSP48E1 is not using the Multiplier (USE_MULT = NONE). For improved power characteristics, set DREG and ADREG to '1', tie CED, CEAD, and RSTD to logic '0'.
+INFO: [DRC 23-20] Rule violation (AVAL-5) enum_USE_MULT_NONE_enum_DREG_ADREG_0_connects_CED_CEAD_RSTD_GND - design_fc_i/l2_trigger_0/U0/l2_trigger_dadd_64ns_64ns_64_5_full_dsp_U2/l2_trigger_ap_dadd_3_full_dsp_64_u/U0/i_synth/ADDSUB_OP.ADDSUB/SPEED_OP.LOGIC.OP/ALIGN_BLK/FRAC_ADDSUB/DSP_ADD.FRAC_ADDSUB/DSP48E1_ADD.DSP48E1_ADD/DSP: DSP48E1 is not using the Multiplier (USE_MULT = NONE). For improved power characteristics, set DREG and ADREG to '1', tie CED, CEAD, and RSTD to logic '0'.
+INFO: [DRC 23-20] Rule violation (AVAL-5) enum_USE_MULT_NONE_enum_DREG_ADREG_0_connects_CED_CEAD_RSTD_GND - design_fc_i/l2_trigger_0/U0/l2_trigger_dadd_64ns_64ns_64_5_full_dsp_U2/l2_trigger_ap_dadd_3_full_dsp_64_u/U0/i_synth/ADDSUB_OP.ADDSUB/SPEED_OP.LOGIC.OP/ALIGN_BLK/FRAC_ADDSUB/DSP_ADD.FRAC_ADDSUB/DSP48E1_GEN.DSP48E1_DEL/DSP: DSP48E1 is not using the Multiplier (USE_MULT = NONE). For improved power characteristics, set DREG and ADREG to '1', tie CED, CEAD, and RSTD to logic '0'.
+INFO: [DRC 23-20] Rule violation (AVAL-5) enum_USE_MULT_NONE_enum_DREG_ADREG_0_connects_CED_CEAD_RSTD_GND - design_fc_i/l2_trigger_0/U0/l2_trigger_dadd_64ns_64ns_64_5_full_dsp_U2/l2_trigger_ap_dadd_3_full_dsp_64_u/U0/i_synth/ADDSUB_OP.ADDSUB/SPEED_OP.LOGIC.OP/NORM/ROUND/DSP48_E1.DSP48E1_ADD.DSP48E1_ADD/DSP: DSP48E1 is not using the Multiplier (USE_MULT = NONE). For improved power characteristics, set DREG and ADREG to '1', tie CED, CEAD, and RSTD to logic '0'.
+INFO: [DRC 23-20] Rule violation (AVAL-5) enum_USE_MULT_NONE_enum_DREG_ADREG_0_connects_CED_CEAD_RSTD_GND - design_fc_i/l2_trigger_0/U0/l2_trigger_dmul_64ns_64ns_64_5_max_dsp_U3/l2_trigger_ap_dmul_3_max_dsp_64_u/U0/i_synth/MULT.OP/R_AND_R/LOGIC.R_AND_R/DSP48_E1.DSP48E1_ADD.DSP48E1_ADD/DSP: DSP48E1 is not using the Multiplier (USE_MULT = NONE). For improved power characteristics, set DREG and ADREG to '1', tie CED, CEAD, and RSTD to logic '0'.
+INFO: [DRC 23-20] Rule violation (AVAL-5) enum_USE_MULT_NONE_enum_DREG_ADREG_0_connects_CED_CEAD_RSTD_GND - design_fc_i/l2_trigger_0/U0/l2_trigger_dmul_64ns_64ns_64_5_max_dsp_U4/l2_trigger_ap_dmul_3_max_dsp_64_u/U0/i_synth/MULT.OP/R_AND_R/LOGIC.R_AND_R/DSP48_E1.DSP48E1_ADD.DSP48E1_ADD/DSP: DSP48E1 is not using the Multiplier (USE_MULT = NONE). For improved power characteristics, set DREG and ADREG to '1', tie CED, CEAD, and RSTD to logic '0'.
+INFO: [Vivado 12-3199] DRC finished with 0 Errors, 52 Warnings, 36 Advisories
+INFO: [Vivado 12-3200] Please refer to the DRC report (report_drc) for more information.
+INFO: [Designutils 20-2272] Running write_bitstream with 4 threads.
+Loading data files...
+Loading site data...
+Loading route data...
+Processing options...
+Creating bitmap...
+Creating bitstream...
+Writing bitstream ./design_fc_wrapper.bit...
+INFO: [Vivado 12-1842] Bitgen Completed Successfully.
+INFO: [Project 1-120] WebTalk data collection is mandatory when using a WebPACK part without a full Vivado license. To see the specific WebTalk data collected for your design, open the usage_statistics_webtalk.html or usage_statistics_webtalk.xml file in the implementation directory.
+INFO: [Common 17-83] Releasing license: Implementation
+write_bitstream: Time (s): cpu = 00:00:34 ; elapsed = 00:00:30 . Memory (MB): peak = 2516.816 ; gain = 355.895 ; free physical = 5839 ; free virtual = 13555
+INFO: [Common 17-206] Exiting Vivado at Thu Jun  1 15:33:14 2017...

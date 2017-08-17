@@ -1,0 +1,96 @@
+<?xml version="1.0"?>
+<Runs Version="1" Minor="0">
+	<Run Id="design_1_processing_system7_0_0_synth_1" LaunchDir="/home/alexander/xil_proj/pdm_zynq_board/current/project_1.runs/design_1_processing_system7_0_0_synth_1" FlowId="Vivado_Synthesis" FromStepId="vivado" ToStepId="vivado"/>
+	<Run Id="design_1_axi_spaciroc_core_v1_0_0_0_synth_1" LaunchDir="/home/alexander/xil_proj/pdm_zynq_board/current/project_1.runs/design_1_axi_spaciroc_core_v1_0_0_0_synth_1" FlowId="Vivado_Synthesis" FromStepId="vivado" ToStepId="vivado"/>
+	<Run Id="design_1_axi_artix_conf_v1_0_0_0_synth_1" LaunchDir="/home/alexander/xil_proj/pdm_zynq_board/current/project_1.runs/design_1_axi_artix_conf_v1_0_0_0_synth_1" FlowId="Vivado_Synthesis" FromStepId="vivado" ToStepId="vivado"/>
+	<Run Id="design_1_xlconcat_0_0_synth_1" LaunchDir="/home/alexander/xil_proj/pdm_zynq_board/current/project_1.runs/design_1_xlconcat_0_0_synth_1" FlowId="Vivado_Synthesis" FromStepId="vivado" ToStepId="vivado"/>
+	<Run Id="design_1_xlconstant_1_0_synth_1" LaunchDir="/home/alexander/xil_proj/pdm_zynq_board/current/project_1.runs/design_1_xlconstant_1_0_synth_1" FlowId="Vivado_Synthesis" FromStepId="vivado" ToStepId="vivado"/>
+	<Run Id="design_1_xlconstant_0_0_synth_1" LaunchDir="/home/alexander/xil_proj/pdm_zynq_board/current/project_1.runs/design_1_xlconstant_0_0_synth_1" FlowId="Vivado_Synthesis" FromStepId="vivado" ToStepId="vivado"/>
+	<Run Id="design_1_xlslice_0_0_synth_1" LaunchDir="/home/alexander/xil_proj/pdm_zynq_board/current/project_1.runs/design_1_xlslice_0_0_synth_1" FlowId="Vivado_Synthesis" FromStepId="vivado" ToStepId="vivado"/>
+	<Run Id="design_1_xlslice_1_0_synth_1" LaunchDir="/home/alexander/xil_proj/pdm_zynq_board/current/project_1.runs/design_1_xlslice_1_0_synth_1" FlowId="Vivado_Synthesis" FromStepId="vivado" ToStepId="vivado"/>
+	<Run Id="design_1_axi_fifo_mm_s_0_0_synth_1" LaunchDir="/home/alexander/xil_proj/pdm_zynq_board/current/project_1.runs/design_1_axi_fifo_mm_s_0_0_synth_1" FlowId="Vivado_Synthesis" FromStepId="vivado" ToStepId="vivado"/>
+	<Run Id="design_1_axi_gpio_0_0_synth_1" LaunchDir="/home/alexander/xil_proj/pdm_zynq_board/current/project_1.runs/design_1_axi_gpio_0_0_synth_1" FlowId="Vivado_Synthesis" FromStepId="vivado" ToStepId="vivado"/>
+	<Run Id="design_1_clk_wiz_0_2_synth_1" LaunchDir="/home/alexander/xil_proj/pdm_zynq_board/current/project_1.runs/design_1_clk_wiz_0_2_synth_1" FlowId="Vivado_Synthesis" FromStepId="vivado" ToStepId="vivado"/>
+	<Run Id="design_1_clk_wiz_0_1_synth_1" LaunchDir="/home/alexander/xil_proj/pdm_zynq_board/current/project_1.runs/design_1_clk_wiz_0_1_synth_1" FlowId="Vivado_Synthesis" FromStepId="vivado" ToStepId="vivado"/>
+	<Run Id="design_1_clk_wiz_0_0_synth_1" LaunchDir="/home/alexander/xil_proj/pdm_zynq_board/current/project_1.runs/design_1_clk_wiz_0_0_synth_1" FlowId="Vivado_Synthesis" FromStepId="vivado" ToStepId="vivado"/>
+	<Run Id="design_1_axi_quad_spi_0_0_synth_1" LaunchDir="/home/alexander/xil_proj/pdm_zynq_board/current/project_1.runs/design_1_axi_quad_spi_0_0_synth_1" FlowId="Vivado_Synthesis" FromStepId="vivado" ToStepId="vivado"/>
+	<Run Id="design_1_rst_processing_system7_0_50M_0_synth_1" LaunchDir="/home/alexander/xil_proj/pdm_zynq_board/current/project_1.runs/design_1_rst_processing_system7_0_50M_0_synth_1" FlowId="Vivado_Synthesis" FromStepId="vivado" ToStepId="vivado"/>
+	<Run Id="design_1_xlconstant_2_0_synth_1" LaunchDir="/home/alexander/xil_proj/pdm_zynq_board/current/project_1.runs/design_1_xlconstant_2_0_synth_1" FlowId="Vivado_Synthesis" FromStepId="vivado" ToStepId="vivado"/>
+	<Run Id="design_1_ALGO_B_0_0_synth_1" LaunchDir="/home/alexander/xil_proj/pdm_zynq_board/current/project_1.runs/design_1_ALGO_B_0_0_synth_1" FlowId="Vivado_Synthesis" FromStepId="vivado" ToStepId="vivado"/>
+	<Run Id="design_1_xbar_0_synth_1" LaunchDir="/home/alexander/xil_proj/pdm_zynq_board/current/project_1.runs/design_1_xbar_0_synth_1" FlowId="Vivado_Synthesis" FromStepId="vivado" ToStepId="vivado"/>
+	<Run Id="design_1_xlslice_2_0_synth_1" LaunchDir="/home/alexander/xil_proj/pdm_zynq_board/current/project_1.runs/design_1_xlslice_2_0_synth_1" FlowId="Vivado_Synthesis" FromStepId="vivado" ToStepId="vivado"/>
+	<Run Id="design_1_xlslice_3_0_synth_1" LaunchDir="/home/alexander/xil_proj/pdm_zynq_board/current/project_1.runs/design_1_xlslice_3_0_synth_1" FlowId="Vivado_Synthesis" FromStepId="vivado" ToStepId="vivado"/>
+	<Run Id="design_1_xlslice_4_0_synth_1" LaunchDir="/home/alexander/xil_proj/pdm_zynq_board/current/project_1.runs/design_1_xlslice_4_0_synth_1" FlowId="Vivado_Synthesis" FromStepId="vivado" ToStepId="vivado"/>
+	<Run Id="design_1_util_vector_logic_0_0_synth_1" LaunchDir="/home/alexander/xil_proj/pdm_zynq_board/current/project_1.runs/design_1_util_vector_logic_0_0_synth_1" FlowId="Vivado_Synthesis" FromStepId="vivado" ToStepId="vivado"/>
+	<Run Id="design_1_xlslice_5_0_synth_1" LaunchDir="/home/alexander/xil_proj/pdm_zynq_board/current/project_1.runs/design_1_xlslice_5_0_synth_1" FlowId="Vivado_Synthesis" FromStepId="vivado" ToStepId="vivado"/>
+	<Run Id="design_1_data_provider_0_0_synth_1" LaunchDir="/home/alexander/xil_proj/pdm_zynq_board/current/project_1.runs/design_1_data_provider_0_0_synth_1" FlowId="Vivado_Synthesis" FromStepId="vivado" ToStepId="vivado"/>
+	<Run Id="design_1_HV_AERA_IP_0_0_synth_1" LaunchDir="/home/alexander/xil_proj/pdm_zynq_board/current/project_1.runs/design_1_HV_AERA_IP_0_0_synth_1" FlowId="Vivado_Synthesis" FromStepId="vivado" ToStepId="vivado"/>
+	<Run Id="design_1_axis_dwidth_converter_1_0_synth_1" LaunchDir="/home/alexander/xil_proj/pdm_zynq_board/current/project_1.runs/design_1_axis_dwidth_converter_1_0_synth_1" FlowId="Vivado_Synthesis" FromStepId="vivado" ToStepId="vivado"/>
+	<Run Id="design_1_axi_fifo_mm_s_1_0_synth_1" LaunchDir="/home/alexander/xil_proj/pdm_zynq_board/current/project_1.runs/design_1_axi_fifo_mm_s_1_0_synth_1" FlowId="Vivado_Synthesis" FromStepId="vivado" ToStepId="vivado"/>
+	<Run Id="design_1_spaciroc3_sc_0_0_synth_1" LaunchDir="/home/alexander/xil_proj/pdm_zynq_board/current/project_1.runs/design_1_spaciroc3_sc_0_0_synth_1" FlowId="Vivado_Synthesis" FromStepId="vivado" ToStepId="vivado"/>
+	<Run Id="design_1_auto_pc_0_synth_1" LaunchDir="/home/alexander/xil_proj/pdm_zynq_board/current/project_1.runs/design_1_auto_pc_0_synth_1" FlowId="Vivado_Synthesis" FromStepId="vivado" ToStepId="vivado"/>
+	<Run Id="synth_1" LaunchDir="/home/alexander/xil_proj/pdm_zynq_board/current/project_1.runs/synth_1" FlowId="Vivado_Synthesis" FromStepId="vivado" ToStepId="vivado">
+		<Parent Id="design_1_processing_system7_0_0_synth_1"/>
+		<Parent Id="design_1_axi_spaciroc_core_v1_0_0_0_synth_1"/>
+		<Parent Id="design_1_axi_artix_conf_v1_0_0_0_synth_1"/>
+		<Parent Id="design_1_xlconcat_0_0_synth_1"/>
+		<Parent Id="design_1_xlconstant_1_0_synth_1"/>
+		<Parent Id="design_1_xlconstant_0_0_synth_1"/>
+		<Parent Id="design_1_xlslice_0_0_synth_1"/>
+		<Parent Id="design_1_xlslice_1_0_synth_1"/>
+		<Parent Id="design_1_axi_fifo_mm_s_0_0_synth_1"/>
+		<Parent Id="design_1_axi_gpio_0_0_synth_1"/>
+		<Parent Id="design_1_clk_wiz_0_2_synth_1"/>
+		<Parent Id="design_1_clk_wiz_0_1_synth_1"/>
+		<Parent Id="design_1_clk_wiz_0_0_synth_1"/>
+		<Parent Id="design_1_axi_quad_spi_0_0_synth_1"/>
+		<Parent Id="design_1_rst_processing_system7_0_50M_0_synth_1"/>
+		<Parent Id="design_1_xlconstant_2_0_synth_1"/>
+		<Parent Id="design_1_ALGO_B_0_0_synth_1"/>
+		<Parent Id="design_1_xbar_0_synth_1"/>
+		<Parent Id="design_1_xlslice_2_0_synth_1"/>
+		<Parent Id="design_1_xlslice_3_0_synth_1"/>
+		<Parent Id="design_1_xlslice_4_0_synth_1"/>
+		<Parent Id="design_1_util_vector_logic_0_0_synth_1"/>
+		<Parent Id="design_1_xlslice_5_0_synth_1"/>
+		<Parent Id="design_1_data_provider_0_0_synth_1"/>
+		<Parent Id="design_1_HV_AERA_IP_0_0_synth_1"/>
+		<Parent Id="design_1_axis_dwidth_converter_1_0_synth_1"/>
+		<Parent Id="design_1_axi_fifo_mm_s_1_0_synth_1"/>
+		<Parent Id="design_1_spaciroc3_sc_0_0_synth_1"/>
+		<Parent Id="design_1_auto_pc_0_synth_1"/>
+	</Run>
+	<Run Id="impl_1" LaunchDir="/home/alexander/xil_proj/pdm_zynq_board/current/project_1.runs/impl_1" FlowId="Vivado_Implementation" FromStepId="init_design" ToStepId="write_bitstream">
+		<Parent Id="synth_1"/>
+		<Parent Id="design_1_processing_system7_0_0_synth_1"/>
+		<Parent Id="design_1_axi_spaciroc_core_v1_0_0_0_synth_1"/>
+		<Parent Id="design_1_axi_artix_conf_v1_0_0_0_synth_1"/>
+		<Parent Id="design_1_xlconcat_0_0_synth_1"/>
+		<Parent Id="design_1_xlconstant_1_0_synth_1"/>
+		<Parent Id="design_1_xlconstant_0_0_synth_1"/>
+		<Parent Id="design_1_xlslice_0_0_synth_1"/>
+		<Parent Id="design_1_xlslice_1_0_synth_1"/>
+		<Parent Id="design_1_axi_fifo_mm_s_0_0_synth_1"/>
+		<Parent Id="design_1_axi_gpio_0_0_synth_1"/>
+		<Parent Id="design_1_clk_wiz_0_2_synth_1"/>
+		<Parent Id="design_1_clk_wiz_0_1_synth_1"/>
+		<Parent Id="design_1_clk_wiz_0_0_synth_1"/>
+		<Parent Id="design_1_axi_quad_spi_0_0_synth_1"/>
+		<Parent Id="design_1_rst_processing_system7_0_50M_0_synth_1"/>
+		<Parent Id="design_1_xlconstant_2_0_synth_1"/>
+		<Parent Id="design_1_ALGO_B_0_0_synth_1"/>
+		<Parent Id="design_1_xbar_0_synth_1"/>
+		<Parent Id="design_1_xlslice_2_0_synth_1"/>
+		<Parent Id="design_1_xlslice_3_0_synth_1"/>
+		<Parent Id="design_1_xlslice_4_0_synth_1"/>
+		<Parent Id="design_1_util_vector_logic_0_0_synth_1"/>
+		<Parent Id="design_1_xlslice_5_0_synth_1"/>
+		<Parent Id="design_1_data_provider_0_0_synth_1"/>
+		<Parent Id="design_1_HV_AERA_IP_0_0_synth_1"/>
+		<Parent Id="design_1_axis_dwidth_converter_1_0_synth_1"/>
+		<Parent Id="design_1_axi_fifo_mm_s_1_0_synth_1"/>
+		<Parent Id="design_1_spaciroc3_sc_0_0_synth_1"/>
+		<Parent Id="design_1_auto_pc_0_synth_1"/>
+	</Run>
+</Runs>
+
