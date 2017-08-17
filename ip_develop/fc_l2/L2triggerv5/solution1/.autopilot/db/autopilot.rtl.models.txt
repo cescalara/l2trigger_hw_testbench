@@ -1,8 +1,0 @@
-L2triggerv5_dadd_64ns_64ns_64_9_full_dsp
-L2triggerv5_dmul_64ns_64ns_64_10_max_dsp
-L2triggerv5_uitodp_32ns_64_8
-L2triggerv5_dsqrt_64ns_64ns_64_59
-L2triggerv5_sum_overP1
-L2triggerv5_data_shift1
-L2triggerv5_CTRL_BUS_s_axi
-L2triggerv5
