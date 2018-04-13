@@ -3,7 +3,7 @@
 <!--                                                         -->
 <!-- Copyright 1986-2016 Xilinx, Inc. All Rights Reserved.   -->
 
-<Project Version="7" Minor="14" Path="/home/francesca/xil_proj/trig_testbench_F/project_1.xpr">
+<Project Version="7" Minor="14" Path="/home/francesca/xil_proj/l2trigger_hw_testbench/project_1.xpr">
   <DefaultLaunch Dir="$PRUNDIR"/>
   <Configuration>
     <Option Name="Id" Val="c9b7a2d05ef04b44936c96c8e916fb81"/>
@@ -20,7 +20,7 @@
     <Option Name="BoardPart" Val=""/>
     <Option Name="ActiveSimSet" Val="sim_1"/>
     <Option Name="DefaultLib" Val="xil_defaultlib"/>
-    <Option Name="IPRepoPath" Val="$PPRDIR/ip_develop/fc_l2/L2triggerv5/solution1/impl"/>
+    <Option Name="IPRepoPath" Val="$PPRDIR/../trig_testbench_F/ip_develop/fc_l2/L2triggerv5/solution1/impl"/>
     <Option Name="IPRepoPath" Val="$PPRDIR/../l2_trigger/solution1/impl"/>
     <Option Name="EnableCoreContainer" Val="TRUE"/>
     <Option Name="XPMLibraries" Val="XPM_CDC"/>
@@ -53,44 +53,44 @@
           <Attr Name="UsedIn" Val="implementation"/>
           <Attr Name="UsedIn" Val="simulation"/>
         </FileInfo>
-        <CompFileExtendedInfo CompFileName="design_fc.bd" FileRelPathName="ip/design_fc_auto_us_0/design_fc_auto_us_0.xci">
-          <Proxy FileSetName="design_fc_auto_us_0"/>
-        </CompFileExtendedInfo>
-        <CompFileExtendedInfo CompFileName="design_fc.bd" FileRelPathName="ip/design_fc_auto_pc_1/design_fc_auto_pc_1.xci">
-          <Proxy FileSetName="design_fc_auto_pc_1"/>
-        </CompFileExtendedInfo>
-        <CompFileExtendedInfo CompFileName="design_fc.bd" FileRelPathName="ip/design_fc_auto_pc_0/design_fc_auto_pc_0.xci">
-          <Proxy FileSetName="design_fc_auto_pc_0"/>
-        </CompFileExtendedInfo>
-        <CompFileExtendedInfo CompFileName="design_fc.bd" FileRelPathName="ip/design_fc_l2_trigger_0_0/design_fc_l2_trigger_0_0.xci">
-          <Proxy FileSetName="design_fc_l2_trigger_0_0"/>
-        </CompFileExtendedInfo>
-        <CompFileExtendedInfo CompFileName="design_fc.bd" FileRelPathName="ip/design_fc_axi_gpio_0_0/design_fc_axi_gpio_0_0.xci">
-          <Proxy FileSetName="design_fc_axi_gpio_0_0"/>
+        <CompFileExtendedInfo CompFileName="design_fc.bd" FileRelPathName="ip/design_fc_xlslice_0_0/design_fc_xlslice_0_0.xci">
+          <Proxy FileSetName="design_fc_xlslice_0_0"/>
         </CompFileExtendedInfo>
         <CompFileExtendedInfo CompFileName="design_fc.bd" FileRelPathName="ip/design_fc_util_vector_logic_0_0/design_fc_util_vector_logic_0_0.xci">
           <Proxy FileSetName="design_fc_util_vector_logic_0_0"/>
         </CompFileExtendedInfo>
-        <CompFileExtendedInfo CompFileName="design_fc.bd" FileRelPathName="ip/design_fc_xlslice_0_0/design_fc_xlslice_0_0.xci">
-          <Proxy FileSetName="design_fc_xlslice_0_0"/>
+        <CompFileExtendedInfo CompFileName="design_fc.bd" FileRelPathName="ip/design_fc_axi_gpio_0_0/design_fc_axi_gpio_0_0.xci">
+          <Proxy FileSetName="design_fc_axi_gpio_0_0"/>
         </CompFileExtendedInfo>
-        <CompFileExtendedInfo CompFileName="design_fc.bd" FileRelPathName="ip/design_fc_c_counter_binary_0_0/design_fc_c_counter_binary_0_0.xci">
-          <Proxy FileSetName="design_fc_c_counter_binary_0_0"/>
+        <CompFileExtendedInfo CompFileName="design_fc.bd" FileRelPathName="ip/design_fc_l2_trigger_0_0/design_fc_l2_trigger_0_0.xci">
+          <Proxy FileSetName="design_fc_l2_trigger_0_0"/>
         </CompFileExtendedInfo>
-        <CompFileExtendedInfo CompFileName="design_fc.bd" FileRelPathName="ip/design_fc_axi_dma_0_1/design_fc_axi_dma_0_1.xci">
-          <Proxy FileSetName="design_fc_axi_dma_0_1"/>
+        <CompFileExtendedInfo CompFileName="design_fc.bd" FileRelPathName="ip/design_fc_auto_pc_0/design_fc_auto_pc_0.xci">
+          <Proxy FileSetName="design_fc_auto_pc_0"/>
         </CompFileExtendedInfo>
-        <CompFileExtendedInfo CompFileName="design_fc.bd" FileRelPathName="ip/design_fc_rst_processing_system7_0_100M_0/design_fc_rst_processing_system7_0_100M_0.xci">
-          <Proxy FileSetName="design_fc_rst_processing_system7_0_100M_0"/>
+        <CompFileExtendedInfo CompFileName="design_fc.bd" FileRelPathName="ip/design_fc_auto_pc_1/design_fc_auto_pc_1.xci">
+          <Proxy FileSetName="design_fc_auto_pc_1"/>
         </CompFileExtendedInfo>
-        <CompFileExtendedInfo CompFileName="design_fc.bd" FileRelPathName="ip/design_fc_xbar_1/design_fc_xbar_1.xci">
-          <Proxy FileSetName="design_fc_xbar_1"/>
+        <CompFileExtendedInfo CompFileName="design_fc.bd" FileRelPathName="ip/design_fc_auto_us_0/design_fc_auto_us_0.xci">
+          <Proxy FileSetName="design_fc_auto_us_0"/>
+        </CompFileExtendedInfo>
+        <CompFileExtendedInfo CompFileName="design_fc.bd" FileRelPathName="ip/design_fc_processing_system7_0_0/design_fc_processing_system7_0_0.xci">
+          <Proxy FileSetName="design_fc_processing_system7_0_0"/>
         </CompFileExtendedInfo>
         <CompFileExtendedInfo CompFileName="design_fc.bd" FileRelPathName="ip/design_fc_xbar_0/design_fc_xbar_0.xci">
           <Proxy FileSetName="design_fc_xbar_0"/>
         </CompFileExtendedInfo>
-        <CompFileExtendedInfo CompFileName="design_fc.bd" FileRelPathName="ip/design_fc_processing_system7_0_0/design_fc_processing_system7_0_0.xci">
-          <Proxy FileSetName="design_fc_processing_system7_0_0"/>
+        <CompFileExtendedInfo CompFileName="design_fc.bd" FileRelPathName="ip/design_fc_xbar_1/design_fc_xbar_1.xci">
+          <Proxy FileSetName="design_fc_xbar_1"/>
+        </CompFileExtendedInfo>
+        <CompFileExtendedInfo CompFileName="design_fc.bd" FileRelPathName="ip/design_fc_rst_processing_system7_0_100M_0/design_fc_rst_processing_system7_0_100M_0.xci">
+          <Proxy FileSetName="design_fc_rst_processing_system7_0_100M_0"/>
+        </CompFileExtendedInfo>
+        <CompFileExtendedInfo CompFileName="design_fc.bd" FileRelPathName="ip/design_fc_axi_dma_0_1/design_fc_axi_dma_0_1.xci">
+          <Proxy FileSetName="design_fc_axi_dma_0_1"/>
+        </CompFileExtendedInfo>
+        <CompFileExtendedInfo CompFileName="design_fc.bd" FileRelPathName="ip/design_fc_c_counter_binary_0_0/design_fc_c_counter_binary_0_0.xci">
+          <Proxy FileSetName="design_fc_c_counter_binary_0_0"/>
         </CompFileExtendedInfo>
       </File>
       <File Path="$PSRCDIR/sources_1/bd/design_fc/hdl/design_fc_wrapper.vhd">

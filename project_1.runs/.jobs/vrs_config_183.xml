@@ -1,6 +1,0 @@
-<?xml version="1.0"?>
-<Runs Version="1" Minor="0">
-	<Run Id="design_1_data_provider_1_0_synth_1" LaunchDir="/home/alexander/xil_proj/pdm_zynq_board/current/project_1.runs/design_1_data_provider_1_0_synth_1" FlowId="Vivado_Synthesis" FromStepId="vivado" ToStepId="vivado"/>
-	<Run Id="design_1_auto_pc_0_synth_1" LaunchDir="/home/alexander/xil_proj/pdm_zynq_board/current/project_1.runs/design_1_auto_pc_0_synth_1" FlowId="Vivado_Synthesis" FromStepId="vivado" ToStepId="vivado"/>
-</Runs>
-
