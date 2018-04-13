@@ -13,6 +13,6 @@ the block diagram is shown here:
 ![The L2 trigger testbench](https://github.com/cescalara/l2trigger_hw_testbench/blob/master/images/block_diagram.png)
 
 The software is used to set up the L2 trigger IP and initialise it, then to send data and check outputs. The trigger behaviour 
-is also checked using the built-in ChipScope Integrate Logic Analyzer (ILA).
+is also checked using the built-in ChipScope Integrated Logic Analyzer (ILA).
 
 
