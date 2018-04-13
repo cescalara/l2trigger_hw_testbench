@@ -86,3 +86,6 @@
 !*.bmm
 !*.xmp
 !*.cpp
+
+# images
+!block_diagram.png
